@@ -19,7 +19,7 @@
         <parameter key="type" value="include attributes"/>
         <parameter key="attribute_filter_type" value="a subset"/>
         <parameter key="select_attribute" value=""/>
-        <parameter key="select_subset" value="Amarillas␞Asistencias␞Goles␞Goles en contra␞Goles en PP␞Partidos␞Penaltis cometidos␞Penaltis provocados␞Puntos␞Remates␞Rojas␞Tiros␞Asistencias sin Gol␞Centros␞Despejes␞Minutos␞Paradas␞Penaltis fallados␞Penaltis parados␞Perdidas␞Recuperaciones␞Seguna Amarilla"/>
+        <parameter key="select_subset" value="Amarillas␞Asistencias␞Asistencias sin Gol␞Centros␞Despejes␞Goles␞Goles en contra␞Goles en PP␞Minutos␞Paradas␞Partidos␞Penaltis cometidos␞Penaltis fallados␞Penaltis parados␞Penaltis provocados␞Perdidas␞Puntos␞Recuperaciones␞Remates␞Rojas␞Seguna Amarilla␞Tiros"/>
         <parameter key="also_apply_to_special_attributes_(id,_label..)" value="false"/>
       </operator>
       <operator activated="true" class="blending:set_role" compatibility="10.3.000" expanded="true" height="82" name="Set Role" width="90" x="514" y="85">
@@ -36,7 +36,7 @@
         <parameter key="local_random_seed" value="1992"/>
         <parameter key="enable_parallel_execution" value="true"/>
         <process expanded="true">
-          <operator activated="true" class="neural_net" compatibility="10.3.000" expanded="true" height="82" name="Neural Net (2)" width="90" x="112" y="34">
+          <operator activated="true" class="neural_net" compatibility="10.3.000" expanded="true" height="82" name="Neural Net" width="90" x="179" y="85">
             <list key="hidden_layers"/>
             <parameter key="training_cycles" value="200"/>
             <parameter key="learning_rate" value="0.01"/>
@@ -48,9 +48,9 @@
             <parameter key="use_local_random_seed" value="false"/>
             <parameter key="local_random_seed" value="1992"/>
           </operator>
-          <connect from_port="training set" to_op="Neural Net (2)" to_port="training set"/>
-          <connect from_op="Neural Net (2)" from_port="model" to_port="model"/>
-          <connect from_op="Neural Net (2)" from_port="exampleSet" to_port="through 1"/>
+          <connect from_port="training set" to_op="Neural Net" to_port="training set"/>
+          <connect from_op="Neural Net" from_port="model" to_port="model"/>
+          <connect from_op="Neural Net" from_port="exampleSet" to_port="through 1"/>
           <portSpacing port="source_training set" spacing="0"/>
           <portSpacing port="sink_model" spacing="0"/>
           <portSpacing port="sink_through 1" spacing="0"/>
