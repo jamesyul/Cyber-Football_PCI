@@ -103,7 +103,7 @@ class LoginWindow(QWidget):
         # Crear tabla team_table
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
-        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+        self.team_table.setHorizontalHeaderLabels(['Nombre', 'precio'])
         
         self.setLayout(layout)
         
@@ -119,7 +119,7 @@ class LoginWindow(QWidget):
             # Crear la tabla team_table antes de acceder a ella
             self.team_table = QTableWidget()
             self.team_table.setColumnCount(2)
-            self.team_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+            self.team_table.setHorizontalHeaderLabels(['Nombre', 'precio'])
 
             # Limpiar la primera tabla
             self.team_table.setRowCount(0)
@@ -173,14 +173,14 @@ class MainWindow(QWidget):
 
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
-        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+        self.team_table.setHorizontalHeaderLabels(['Nombre', 'precio'])
         
         # Call a method to populate the team_table with data from 'jugadores.csv'
         self.populate_team_table()
 
         self.suggestion_table = QTableWidget()
         self.suggestion_table.setColumnCount(2)
-        self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+        self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'precio'])
 
         # Add widgets to the layouts
         top_layout.addStretch()
@@ -220,7 +220,6 @@ class MainWindow(QWidget):
     def sugerirEquipo(self):
         # Obtener la opción seleccionada en el QComboBox
         selected_model = self.model_combo.currentText()
-<<<<<<< HEAD
 
         # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
         if selected_model == 'Random Forest(Recomendado)':
@@ -254,94 +253,17 @@ class MainWindow(QWidget):
         # Leer el archivo CSV y mostrar los resultados en la tabla
         try:
             sugerencia_df = pd.read_csv(csv_path)
+            # Imprimir los nombres de las columnas en el DataFrame
+            print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
             for row_index, row_data in sugerencia_df.iterrows():
                 self.suggestion_table.insertRow(row_index)
                 self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
-                #self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Posición'])))
-
-        except Exception as e:
-            print(f"Error al leer el archivo CSV de sugerencias: {e}")
-=======
->>>>>>> a53c626a82aff1cad43cd26d1016a8498c74ae95
-
-        # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
-        if selected_model == 'Random Forest(Recomendado)':
-            # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/RandomForest.ipynb'
-
-            # Ejecutar el archivo .ipynb
-            try:
-                with open(notebook_path, 'r') as f:
-                    notebook = nbformat.read(f, as_version=4)
-
-                # Configurar el ejecutor
-                executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
-
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/'}})
-
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/sugerencia.csv'
-
-                # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
-                self.mostrarResultadosEnTabla(resultado_csv)
-
-            except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
-        
-        elif selected_model == 'Red Neuronal':
-            # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/ML_Redes Neuronales.ipynb'
-
-            # Ejecutar el archivo .ipynb
-            try:
-                with open(notebook_path, 'r') as f:
-                    notebook = nbformat.read(f, as_version=4)
-
-                # Configurar el ejecutor
-                executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
-
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/'}})
-
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/predicciones.csv'
-
-                # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
-                self.mostrarResultadosEnTabla(resultado_csv)
-
-            except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
-
-    def mostrarResultadosEnTabla(self, csv_path):
-        # Limpiar la tabla de sugerencias
-        self.suggestion_table.setRowCount(0)
-
-        # Leer el archivo CSV y mostrar los resultados en la tabla
-        try:
-            sugerencia_df = pd.read_csv(csv_path)
-            
-            # Imprimir los nombres de las columnas en el DataFrame
-            print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
-            
-            # Verificar si las columnas 'Nombre' y 'Precio' están presentes en el DataFrame
-            if 'Nombre' in sugerencia_df.columns and 'Predicciones_Precio' in sugerencia_df.columns:
-                for row_index, row_data in sugerencia_df[['Nombre', 'Predicciones_Precio']].iterrows():
-                    self.suggestion_table.insertRow(row_index)
-                    self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
-                    self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Predicciones_Precio'])))
-            else:
-                print("Las columnas 'Nombre' y 'Predicciones_Precio' no están presentes en el DataFrame.")
+                self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Precio'])))
 
         except Exception as e:
             print(f"Error al leer el archivo CSV de sugerencias: {e}")
 
-<<<<<<< Updated upstream
-if _name_ == '_main_':
-=======
-
-if __name__ == '__main__':
->>>>>>> Stashed changes
+if __name__ == '_main_':
     app = QApplication(sys.argv)
     window = LoginWindow()
     window.show()
