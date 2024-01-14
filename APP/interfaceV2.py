@@ -1,9 +1,12 @@
 import sys
 from PyQt5.QtWidgets import (QApplication, QWidget, QLineEdit, QLabel, QPushButton, QComboBox, 
                              QTableWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QFileDialog,
-                             QMessageBox, QGridLayout, QSizePolicy, )
+                             QMessageBox, QGridLayout, QSizePolicy, QTableWidgetItem)
 from PyQt5.QtGui import QFont, QPixmap, QImageReader
 from PyQt5.QtCore import Qt
+import subprocess
+import pandas as pd
+import csv
 
 class LoginWindow(QWidget):
     def __init__(self):
@@ -102,7 +105,23 @@ class LoginWindow(QWidget):
         print('Hacer login con:', self.email_entry.text(), self.password_entry.text())
         
         # Aquí iría la lógica para validar los datos
-        
+
+        try:
+            # Leer el archivo CSV
+            equipo_df = pd.read_csv("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
+
+            # Limpiar la primera tabla
+            self.team_table.setRowCount(0)
+
+            # Mostrar los nombres y posiciones en la primera tabla
+            for row_index, row_data in equipo_df.iterrows():
+                self.team_table.insertRow(row_index)
+                self.team_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
+                self.team_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['posicion'])))
+
+        except Exception as e:
+            print(f"Error al cargar el archivo CSV: {e}")
+    
         self.window2 = MainWindow() 
         self.close()
         self.window2.show()
@@ -123,52 +142,68 @@ class MainWindow(QWidget):
         super().__init__()
         self.setWindowTitle('Mi Aplicación')
         self.setFixedSize(600, 400)
-        
-        # Crear layouts
+
+        # Create layouts
         layout = QVBoxLayout()
         top_layout = QHBoxLayout()
         mid_layout = QHBoxLayout()
         bot_layout = QHBoxLayout()
-        
-        # Crear widgets
+
+        # Create widgets
         self.model_combo = QComboBox()
         self.model_combo.addItems(['Random Forest(Recomendado)', 'Regresión Lineal', 'Red Neuronal'])
-        
+
         self.position_combo = QComboBox()
         self.position_combo.addItems(['General', 'Delantero', 'Mediocentro', 'Portero', 'Defensa'])
-        
+
         self.suggest_button = QPushButton('Sugerir')
-        
+
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
-        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Posición']) 
-        self.team_table.setRowCount(3)
+        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
         
+        # Call a method to populate the team_table with data from 'jugadores.csv'
+        self.populate_team_table()
+
         self.suggestion_table = QTableWidget()
         self.suggestion_table.setColumnCount(2)
         self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
-        
-        # Añadir widgets a los layouts
+
+        # Add widgets to the layouts
         top_layout.addStretch()
         top_layout.addWidget(self.model_combo)
         top_layout.addWidget(self.position_combo)
         top_layout.addWidget(self.suggest_button)
-        
+
         mid_layout.addWidget(self.team_table)
         mid_layout.addWidget(self.suggestion_table)
-        
+
         bot_layout.addStretch()
-        suggest_button = QPushButton('Sugerir Equipo')
-        suggest_button.setFont(QFont('Arial', 15)) 
-        bot_layout.addWidget(suggest_button)
-        
-        # Añadir layouts al main layout
+        #suggest_button = QPushButton('Sugerir Equipo')
+        #suggest_button.setFont(QFont('Arial', 15))
+        #bot_layout.addWidget(suggest_button)
+
+        # Add layouts to the main layout
         layout.addLayout(top_layout)
         layout.addLayout(mid_layout)
         layout.addLayout(bot_layout)
-        
+
         self.setLayout(layout)
-        
+
+    def populate_team_table(self):
+        with open('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
+            csv_reader = csv.reader(csvfile)
+            header = next(csv_reader)  # Skip the header row
+            row_count = 0
+            for row in csv_reader:
+                if row_count < 12:  # Display the first 5 rows
+                    nombre = row[0]
+                    posicion = row[4]
+                    self.team_table.insertRow(row_count)
+                    self.team_table.setItem(row_count, 0, QTableWidgetItem(nombre))
+                    self.team_table.setItem(row_count, 1, QTableWidgetItem(posicion))
+                    row_count += 1
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = LoginWindow()
