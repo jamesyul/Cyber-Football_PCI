@@ -7,12 +7,10 @@ from PyQt5.QtCore import Qt
 import subprocess
 import pandas as pd
 import csv
-import nbformat
-from nbconvert.preprocessors import ExecutePreprocessor
 
 class LoginWindow(QWidget):
-    def __init__(self):
-        super().__init__()
+    def _init_(self):
+        super()._init_()
         self.setWindowTitle('Cyber Football - Login')
         self.setFixedSize(1000, 500)
         self.setStyleSheet("background-color: dark;")
@@ -100,10 +98,6 @@ class LoginWindow(QWidget):
         button_info.clicked.connect(self.mostrarInstrucciones)
         layout.addWidget(button_info)
 
-        # Crear tabla team_table
-        self.team_table = QTableWidget()
-        self.team_table.setColumnCount(2)
-        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
         
         self.setLayout(layout)
         
@@ -115,11 +109,6 @@ class LoginWindow(QWidget):
         try:
             # Leer el archivo CSV
             equipo_df = pd.read_csv("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
-
-            # Crear la tabla team_table antes de acceder a ella
-            self.team_table = QTableWidget()
-            self.team_table.setColumnCount(2)
-            self.team_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
 
             # Limpiar la primera tabla
             self.team_table.setRowCount(0)
@@ -149,10 +138,10 @@ class LoginWindow(QWidget):
         mensaje.exec_() 
 
 class MainWindow(QWidget):
-    def __init__(self):
-        super().__init__()
+    def _init_(self):
+        super()._init_()
         self.setWindowTitle('Mi Aplicación')
-        self.setFixedSize(800, 400)
+        self.setFixedSize(600, 400)
 
         # Create layouts
         layout = QVBoxLayout()
@@ -164,12 +153,10 @@ class MainWindow(QWidget):
         self.model_combo = QComboBox()
         self.model_combo.addItems(['Random Forest(Recomendado)', 'Regresión Lineal', 'Red Neuronal'])
 
-
         self.position_combo = QComboBox()
         self.position_combo.addItems(['General', 'Delantero', 'Mediocentro', 'Portero', 'Defensa'])
 
         self.suggest_button = QPushButton('Sugerir')
-        self.suggest_button.clicked.connect(self.sugerirEquipo)
 
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
@@ -216,65 +203,36 @@ class MainWindow(QWidget):
                     self.team_table.setItem(row_count, 0, QTableWidgetItem(nombre))
                     self.team_table.setItem(row_count, 1, QTableWidgetItem(posicion))
                     row_count += 1
-    
-    def sugerirEquipo(self):
-        # Obtener la opción seleccionada en el QComboBox
-        selected_model = self.model_combo.currentText()
 
-        # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
-        if selected_model == 'Random Forest(Recomendado)':
-            # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/RandomForest.ipynb'
 
-            # Ejecutar el archivo .ipynb
-            try:
-                with open(notebook_path, 'r') as f:
-                    notebook = nbformat.read(f, as_version=4)
+    def on_model_change(self, text):
+        if text == "Random Forest(Recomendado)":
+            self.run_random_forest_and_update_table()
 
-                # Configurar el ejecutor
-                executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
+    def run_random_forest_and_update_table(self):
+        # Ejecutar el notebook de Jupyter
+        notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/RandomForest.ipynb'
+        subprocess.run(["jupyter", "nbconvert", "--to", "notebook", "--execute", notebook_path])
 
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/'}})
+        # Cargar los resultados del CSV en la tabla
+        csv_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/sugerencia.csv' # Asegúrate de cambiar esto a la ruta correcta
+        self.load_csv_to_table(csv_path)
 
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/sugerencia.csv'
-
-                # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
-                self.mostrarResultadosEnTabla(resultado_csv)
-
-            except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
-
-    def mostrarResultadosEnTabla(self, csv_path):
-        # Limpiar la tabla de sugerencias
-        self.suggestion_table.setRowCount(0)
-
-        # Leer el archivo CSV y mostrar los resultados en la tabla
+    def load_csv_to_table(self, csv_path):
         try:
-            sugerencia_df = pd.read_csv(csv_path)
-            for row_index, row_data in sugerencia_df.iterrows():
-                self.suggestion_table.insertRow(row_index)
-                self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
-                #self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Posición'])))
-
+            with open(csv_path, 'r') as csvfile:
+                csv_reader = csv.reader(csvfile)
+                self.suggestion_table.setRowCount(0) # Limpiar tabla actual
+                for row_index, row in enumerate(csv_reader):
+                    self.suggestion_table.insertRow(row_index)
+                    for col_index, data in enumerate(row):
+                        self.suggestion_table.setItem(row_index, col_index, QTableWidgetItem(data))
         except Exception as e:
-            print(f"Error al leer el archivo CSV de sugerencias: {e}")
+            print(f"Error al cargar el archivo CSV: {e}")
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = LoginWindow()
     window.show()
     sys.exit(app.exec())
-
-
-
-
-
-
-
-
-
-
-
-   
