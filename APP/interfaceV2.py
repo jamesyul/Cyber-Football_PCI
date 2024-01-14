@@ -10,7 +10,7 @@ import csv
 
 class LoginWindow(QWidget):
     def __init__(self):
-        super().__init__()
+        super().__init__() 
         self.setWindowTitle('Cyber Football - Login')
         self.setFixedSize(1000, 500)
         self.setStyleSheet("background-color: dark;")
@@ -29,7 +29,7 @@ class LoginWindow(QWidget):
         self.label_imagen.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
         # Cargar imagen
-        imagen_path = "/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/cyber_football.jpeg"
+        imagen_path = "../APP/cyber_football.jpeg"
         if QImageReader(imagen_path).size().isValid():
             self.imagen = QPixmap(imagen_path)
             self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
@@ -56,7 +56,7 @@ class LoginWindow(QWidget):
 
         self.label_imagen=QLabel(self)
         self.label_imagen.setAlignment(Qt.AlignCenter)
-        self.imagen = QPixmap("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/Profile-PNG-Images.png")
+        self.imagen = QPixmap("../APP/Profile-PNG-Images.png")
         self.btn_seleccionar=QPushButton('V')  
         self.btn_seleccionar.clicked.connect(self.seleccionarImagen)
         
@@ -108,7 +108,7 @@ class LoginWindow(QWidget):
 
         try:
             # Leer el archivo CSV
-            equipo_df = pd.read_csv("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
+            equipo_df = pd.read_csv("D:/Users/Babag/trabajos/PC1/repositorio/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
 
             # Limpiar la primera tabla
             self.team_table.setRowCount(0)
@@ -151,6 +151,7 @@ class MainWindow(QWidget):
 
         # Create widgets
         self.model_combo = QComboBox()
+        self.model_combo.currentTextChanged.connect(self.on_model_change)
         self.model_combo.addItems(['Random Forest(Recomendado)', 'Regresión Lineal', 'Red Neuronal'])
 
         self.position_combo = QComboBox()
@@ -191,7 +192,7 @@ class MainWindow(QWidget):
         self.setLayout(layout)
 
     def populate_team_table(self):
-        with open('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
+        with open('../ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
             header = next(csv_reader)  # Skip the header row
             row_count = 0
@@ -204,20 +205,36 @@ class MainWindow(QWidget):
                     self.team_table.setItem(row_count, 1, QTableWidgetItem(posicion))
                     row_count += 1
 
+
+    def on_model_change(self, text):
+        if text == "Random Forest(Recomendado)":
+            self.run_random_forest_and_update_table()
+
+    def run_random_forest_and_update_table(self):
+        # Ejecutar el notebook de Jupyter
+        notebook_path = r'D:\Users\Babag\trabajos\PC1\repositorio\Cyber-Football_PCI\ML\Random Forest\RandomForest.ipynb'
+        subprocess.run(["jupyter", "nbconvert", "--to", "notebook", "--execute", notebook_path])
+
+        # Cargar los resultados del CSV en la tabla
+        csv_path = r'D:\Users\Babag\trabajos\PC1\repositorio\Cyber-Football_PCI\ML\Random Forest\sugerencia.csv'
+
+        self.load_csv_to_table(csv_path)
+
+    def load_csv_to_table(self, csv_path):
+        try:
+            with open(csv_path, 'r') as csvfile:
+                csv_reader = csv.reader(csvfile)
+                self.suggestion_table.setRowCount(0) # Limpiar tabla actual
+                for row_index, row in enumerate(csv_reader):
+                    self.suggestion_table.insertRow(row_index)
+                    for col_index, data in enumerate(row):
+                        self.suggestion_table.setItem(row_index, col_index, QTableWidgetItem(data))
+        except Exception as e:
+            print(f"Error al cargar el archivo CSV: {e}")
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = LoginWindow()
     window.show()
     sys.exit(app.exec())
-
-
-
-
-
-
-
-
-
-
-
-   
