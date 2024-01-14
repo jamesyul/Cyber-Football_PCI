@@ -20,11 +20,13 @@ class LoginWindow(QWidget):
 
         # Sección izquierda
         self.label_imagen = QLabel()
+        self.label_imagen.setFixedSize(500, 500)  # ancho, alto fijo
         self.imagen = QPixmap("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/cyber_football.jpeg")
-        self.label_imagen.setFixedSize(500, 500) # ancho, alto
-        layout.addWidget(self.label_imagen, 0, 0)
+        self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.label_imagen.setPixmap(self.imagen)
+
         layout.addWidget(self.label_imagen, 0, 0, 2, 1)
+
 
         # Sección derecha 
         layout_form = QFormLayout()
