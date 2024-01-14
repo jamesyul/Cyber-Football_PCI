@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import (QApplication, QWidget, QLineEdit, QLabel, QPushButton, QComboBox, 
                              QTableWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QFileDialog,
                              QMessageBox, QGridLayout, QSizePolicy, )
-from PyQt5.QtGui import QFont, QPixmap
+from PyQt5.QtGui import QFont, QPixmap, QImageReader
 from PyQt5.QtCore import Qt
 
 class LoginWindow(QWidget):
@@ -21,11 +21,18 @@ class LoginWindow(QWidget):
         # Sección izquierda
         self.label_imagen = QLabel()
         self.label_imagen.setFixedSize(500, 500)  # ancho, alto fijo
-        self.imagen = QPixmap("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/cyber_football.jpeg")
-        self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
-        self.label_imagen.setPixmap(self.imagen)
+        self.label_imagen.setAlignment(Qt.AlignTop | Qt.AlignLeft)  # Alineación arriba y a la izquierda
+        self.label_imagen.setContentsMargins(0, 0, 0, 0)  # Eliminar márgenes
+        self.label_imagen.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
-        layout.addWidget(self.label_imagen, 0, 0, 2, 1)
+        # Cargar imagen
+        imagen_path = "/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/cyber_football.jpeg"
+        if QImageReader(imagen_path).size().isValid():
+            self.imagen = QPixmap(imagen_path)
+            self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            self.label_imagen.setPixmap(self.imagen)
+
+        layout.addWidget(self.label_imagen, 0, 0)
 
 
         # Sección derecha 
