@@ -20,7 +20,7 @@ class LoginWindow(QWidget):
 
         # Sección izquierda
         self.label_imagen = QLabel()
-        self.imagen = QPixmap("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/top_eleven.jpeg")
+        self.imagen = QPixmap("/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/APP/cyber_football.jpeg")
         self.label_imagen.setFixedSize(500, 500) # ancho, alto
         layout.addWidget(self.label_imagen, 0, 0)
         self.label_imagen.setPixmap(self.imagen)
