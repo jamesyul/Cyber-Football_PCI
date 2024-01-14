@@ -5,13 +5,8 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QLineEdit, QLabel, QPushButt
 from PyQt5.QtGui import QFont, QPixmap, QImageReader
 from PyQt5.QtCore import Qt
 import subprocess
-import sys
-import csv
 import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-from tensorflow.keras.models import load_model
-import joblib
+import csv
 
 class LoginWindow(QWidget):
     def __init__(self):
@@ -143,7 +138,7 @@ class LoginWindow(QWidget):
         mensaje.exec_() 
 
 class MainWindow(QWidget):
-    def __init__(self, predicted_data):
+    def __init__(self):
         super().__init__()
         self.setWindowTitle('Mi Aplicación')
         self.setFixedSize(600, 400)
@@ -157,24 +152,22 @@ class MainWindow(QWidget):
         # Create widgets
         self.model_combo = QComboBox()
         self.model_combo.addItems(['Random Forest(Recomendado)', 'Regresión Lineal', 'Red Neuronal'])
-        
+
         self.position_combo = QComboBox()
         self.position_combo.addItems(['General', 'Delantero', 'Mediocentro', 'Portero', 'Defensa'])
-        
+
         self.suggest_button = QPushButton('Sugerir')
-        
+
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
         self.team_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
         
+        # Call a method to populate the team_table with data from 'jugadores.csv'
+        self.populate_team_table()
+
         self.suggestion_table = QTableWidget()
         self.suggestion_table.setColumnCount(2)
         self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'Posición'])
-        
-        # Llama a un método para realizar predicciones y llenar la suggestion_table
-        self.populate_suggestion_table()
-        # Call a method to populate the suggestion_table with predicted data
-        self.populate_suggestion_table(predicted_data)
 
         # Add widgets to the layouts
         top_layout.addStretch()
@@ -188,7 +181,7 @@ class MainWindow(QWidget):
         bot_layout.addStretch()
         #suggest_button = QPushButton('Sugerir Equipo')
         #suggest_button.setFont(QFont('Arial', 15))
-        #bot_layout.addWidget(suggest_button)
+        #sbot_layout.addWidget(suggest_button)
 
         # Add layouts to the main layout
         layout.addLayout(top_layout)
@@ -197,57 +190,7 @@ class MainWindow(QWidget):
 
         self.setLayout(layout)
 
-    def populate_suggestion_table(self):
-        # Realiza las predicciones aquí y obtén una lista de diccionarios con claves 'Nombre' y 'Posición'
-        predictions = self.predict_with_neural_networks()  # Implementa este método
-
-        # Llena la suggestion_table con las predicciones
-        for row_index, player_data in enumerate(predictions):
-            if row_index < 5:  # Muestra las primeras 5 predicciones
-                nombre = player_data['Nombre']
-                posicion = player_data['Posición']
-                self.suggestion_table.insertRow(row_index)
-                self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(nombre))
-                self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(posicion))
-
-    def predict_with_neural_networks(self):
-        # Carga tus modelos entrenados
-        model = joblib.load('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/redes_neuronales.pkl')  # Cambia el nombre del archivo y la ruta según tus modelos
-        #model = joblib.load('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/redes_neuronales.pkl')  # Cambia el nombre del archivo y la ruta según tus modelos
-        
-        # Carga tus datos de entrada (X) en el mismo formato que usaste para entrenar tus modelos
-        # Asume que tienes un DataFrame llamado 'datos_prediccion' con las mismas columnas que usaste en entrenamiento
-        datos_prediccion = pd.read_csv('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/predicciones.csv')  # Cambia el nombre del archivo y la ruta
-
-        # Escala tus datos de entrada
-        #scaler = StandardScaler()
-        # Transforma tus datos de predicción usando el escalador cargado
-        #datos_prediccion_scaled = scaler.transform(datos_prediccion)
-        # Transforma tus datos de predicción usando el modelo cargado
-        datos_prediccion_scaled = model.predict(datos_prediccion)
-        # Realiza las predicciones para puntos y precio
-        #puntos_predictions = model.predict(datos_prediccion_scaled)
-        #precio_predictions = model.predict(datos_prediccion_scaled)
-
-        # Organiza las predicciones en una estructura de datos con nombre y posición
-        predictions = []
-        predictions = []
-        for i in range(len(datos_prediccion)):
-            nombre = datos_prediccion.iloc[i]['Nombre']
-            # ... (otras columnas necesarias)
-            position_prediction = "Posición predicha"  # Reemplaza esto con la predicción real de posición
-            predictions.append({'Nombre': nombre, 'Posición': position_prediction})
-
-        return predictions
-    
-    def populate_team_table(self, predicted_data):
-        for row_index, player_data in enumerate(predicted_data):
-            if row_index < 5:  # Display the first 5 predictions
-                nombre = player_data['Nombre']
-                posicion = player_data['Posición']
-                self.suggestion_table.insertRow(row_index)
-                self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(nombre))
-                self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(posicion))
+    def populate_team_table(self):
         with open('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
             header = next(csv_reader)  # Skip the header row
@@ -263,15 +206,7 @@ class MainWindow(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-
-    # Assuming predicted_data is a list of dictionaries with keys 'Nombre' and 'Posición'
-    predicted_data = [
-        {'Nombre': 'Player1', 'Posición': 'Position1'},
-        {'Nombre': 'Player2', 'Posición': 'Position2'},
-        # Add more predicted players here
-    ]
-
-    window = MainWindow(predicted_data)
+    window = LoginWindow()
     window.show()
     sys.exit(app.exec())
 
@@ -285,18 +220,4 @@ if __name__ == '__main__':
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
