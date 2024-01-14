@@ -11,8 +11,8 @@ import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
 
 class LoginWindow(QWidget):
-    def __init__(self):
-        super().__init__()
+    def _init_(self):
+        super()._init_()
         self.setWindowTitle('Cyber Football - Login')
         self.setFixedSize(1000, 500)
         self.setStyleSheet("background-color: dark;")
@@ -149,8 +149,8 @@ class LoginWindow(QWidget):
         mensaje.exec_() 
 
 class MainWindow(QWidget):
-    def __init__(self):
-        super().__init__()
+    def _init_(self):
+        super()._init_()
         self.setWindowTitle('Mi Aplicación')
         self.setFixedSize(800, 400)
 
@@ -220,6 +220,49 @@ class MainWindow(QWidget):
     def sugerirEquipo(self):
         # Obtener la opción seleccionada en el QComboBox
         selected_model = self.model_combo.currentText()
+<<<<<<< HEAD
+
+        # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
+        if selected_model == 'Random Forest(Recomendado)':
+            # Ruta del archivo .ipynb
+            notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/RandomForest.ipynb'
+
+            # Ejecutar el archivo .ipynb
+            try:
+                with open(notebook_path, 'r') as f:
+                    notebook = nbformat.read(f, as_version=4)
+
+                # Configurar el ejecutor
+                executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
+
+                # Ejecutar el notebook
+                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/'}})
+
+                # Guardar el resultado en un archivo CSV
+                resultado_csv = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Random Forest/sugerencia.csv'
+
+                # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
+                self.mostrarResultadosEnTabla(resultado_csv)
+
+            except Exception as e:
+                print(f"Error al ejecutar el notebook: {e}")
+
+    def mostrarResultadosEnTabla(self, csv_path):
+        # Limpiar la tabla de sugerencias
+        self.suggestion_table.setRowCount(0)
+
+        # Leer el archivo CSV y mostrar los resultados en la tabla
+        try:
+            sugerencia_df = pd.read_csv(csv_path)
+            for row_index, row_data in sugerencia_df.iterrows():
+                self.suggestion_table.insertRow(row_index)
+                self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
+                #self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Posición'])))
+
+        except Exception as e:
+            print(f"Error al leer el archivo CSV de sugerencias: {e}")
+=======
+>>>>>>> a53c626a82aff1cad43cd26d1016a8498c74ae95
 
         # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
         if selected_model == 'Random Forest(Recomendado)':
@@ -261,20 +304,8 @@ class MainWindow(QWidget):
         except Exception as e:
             print(f"Error al leer el archivo CSV de sugerencias: {e}")
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app = QApplication(sys.argv)
     window = LoginWindow()
     window.show()
     sys.exit(app.exec())
-
-
-
-
-
-
-
-
-
-
-
-   
