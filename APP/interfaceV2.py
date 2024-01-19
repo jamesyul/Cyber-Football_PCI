@@ -288,6 +288,30 @@ class MainWindow(QWidget):
             except Exception as e:
                 print(f"Error al ejecutar el notebook: {e}")
 
+        elif selected_model == 'Regresion Lineal':
+            # Ruta del archivo .ipynb
+            notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Regresion_lineal/regresionlinealyrecomendador.ipynb'
+
+            # Ejecutar el archivo .ipynb
+            try:
+                with open(notebook_path, 'r') as f:
+                    notebook = nbformat.read(f, as_version=4)
+
+                # Configurar el ejecutor
+                executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
+
+                # Ejecutar el notebook
+                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Regresion_lineal/'}})
+
+                # Guardar el resultado en un archivo CSV
+                resultado_csv = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/predicciones.csv'
+
+                # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
+                self.mostrarResultadosEnTabla(resultado_csv)
+
+            except Exception as e:
+                print(f"Error al ejecutar el notebook: {e}")
+
     def mostrarResultadosEnTabla(self, csv_path):
         # Limpiar la tabla de sugerencias
         self.suggestion_table.setRowCount(0)
