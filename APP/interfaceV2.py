@@ -95,11 +95,6 @@ class LoginWindow(QWidget):
         login_button.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         layout.setAlignment(login_button, Qt.AlignVCenter)
 
-        button_info = QPushButton('?')
-        button_info.setFixedSize(30, 30) 
-        button_info.clicked.connect(self.mostrarInstrucciones)
-        layout.addWidget(button_info)
-
         # Crear tabla team_table
         self.team_table = QTableWidget()
         self.team_table.setColumnCount(2)
@@ -143,16 +138,13 @@ class LoginWindow(QWidget):
             self.imagen=QPixmap(ruta_imagen) 
             self.label_imagen.setPixmap(self.imagen) 
 
-    def mostrarInstrucciones(self):
-        mensaje = QMessageBox()
-        mensaje.setText('Aquí están las instrucciones')
-        mensaje.exec_() 
+    
 
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('Mi Aplicación')
-        self.setFixedSize(800, 400)
+        self.setFixedSize(930, 400)
 
         # Create layouts
         layout = QVBoxLayout()
@@ -172,15 +164,20 @@ class MainWindow(QWidget):
         self.suggest_button.clicked.connect(self.sugerirEquipo)
 
         self.team_table = QTableWidget()
-        self.team_table.setColumnCount(2)
-        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+        self.team_table.setColumnCount(4)
+        self.team_table.setHorizontalHeaderLabels(['Nombre', 'Puntos', 'Posición', 'Precio'])
         
         # Call a method to populate the team_table with data from 'jugadores.csv'
         self.populate_team_table()
 
         self.suggestion_table = QTableWidget()
-        self.suggestion_table.setColumnCount(2)
-        self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'Precio'])
+        self.suggestion_table.setColumnCount(4)
+        self.suggestion_table.setHorizontalHeaderLabels(['Nombre', 'Puntos', 'Posición', 'Precio'])
+
+        button_info = QPushButton('?')
+        button_info.setFixedSize(30, 30) 
+        button_info.clicked.connect(self.mostrarInstrucciones)
+        layout.addWidget(button_info)
 
         # Add widgets to the layouts
         top_layout.addStretch()
@@ -203,6 +200,21 @@ class MainWindow(QWidget):
 
         self.setLayout(layout)
 
+    def mostrarInstrucciones(self):
+        mensaje = QMessageBox()
+        mensaje.setText('CYBER FOOTBALL\n'
+                        '\n'
+                        'Bienvenido a Cyber Football, la aplicación que te \n'
+                        'ayudará a ganar la Liga en Mr Fantasy. \n'
+                        '\n'
+                        '1) Selecciona el modelo de inteligencia artificial\n'
+                        'que deseas utilizar para sugerir tu equipo.\n'
+                        '2) Selecciona la posición de los jugadores que deseas\n'
+                        'sugerir.\n'
+                        '3) Pulsa el botón "Sugerir" para obtener tu equipo\n'
+                        'ideal. \n')
+        mensaje.exec_() 
+
     def populate_team_table(self):
         with open('/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
@@ -212,9 +224,13 @@ class MainWindow(QWidget):
                 if row_count < 12:  # Display the first 5 rows
                     nombre = row[0]
                     precio = row[1]
+                    puntos=row[4]
+                    posicion=row[3]
                     self.team_table.insertRow(row_count)
                     self.team_table.setItem(row_count, 0, QTableWidgetItem(nombre))
-                    self.team_table.setItem(row_count, 1, QTableWidgetItem(precio))
+                    self.team_table.setItem(row_count, 2, QTableWidgetItem(puntos))
+                    self.team_table.setItem(row_count, 1, QTableWidgetItem(posicion))
+                    self.team_table.setItem(row_count, 3, QTableWidgetItem(precio))
                     row_count += 1
     
     def sugerirEquipo(self):
@@ -246,7 +262,7 @@ class MainWindow(QWidget):
             except Exception as e:
                 print(f"Error al ejecutar el notebook: {e}")
 
-        # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
+        # Verificar si la opción seleccionada es 'Red Neuronal'
         elif selected_model == 'Red Neuronal':
             # Ruta del archivo .ipynb
             notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ML/Red Neuronales/ML_Redes Neuronales.ipynb'
@@ -283,13 +299,15 @@ class MainWindow(QWidget):
             print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
             
             # Verificar si las columnas 'Nombre' y 'Precio' están presentes en el DataFrame
-            if 'Nombre' in sugerencia_df.columns and 'Predicciones_Precio' in sugerencia_df.columns:
-                for row_index, row_data in sugerencia_df[['Nombre', 'Predicciones_Precio']].iterrows():
+            if 'Nombre' in sugerencia_df.columns and 'Puntos' in sugerencia_df.columns and 'Posicion' in sugerencia_df.columns and 'Precio' in sugerencia_df.columns:
+                for row_index, row_data in sugerencia_df[['Nombre', 'Puntos', 'Posicion', 'Precio']].iterrows():
                     self.suggestion_table.insertRow(row_index)
                     self.suggestion_table.setItem(row_index, 0, QTableWidgetItem(str(row_data['Nombre'])))
-                    self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Predicciones_Precio'])))
+                    self.suggestion_table.setItem(row_index, 1, QTableWidgetItem(str(row_data['Puntos'])))
+                    self.suggestion_table.setItem(row_index, 2, QTableWidgetItem(str(row_data['Posicion'])))
+                    self.suggestion_table.setItem(row_index, 3, QTableWidgetItem(str(row_data['Precio'])))
             else:
-                print("Las columnas 'Nombre' y 'Predicciones_Precio' no están presentes en el DataFrame.")
+                print("Las columnas 'Nombre' y 'Precio' no están presentes en el DataFrame.")
 
         except Exception as e:
             print(f"Error al leer el archivo CSV de sugerencias: {e}")
