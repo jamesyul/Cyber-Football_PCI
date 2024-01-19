@@ -290,10 +290,20 @@ class MainWindow(QWidget):
     def mostrarResultadosEnTabla(self, csv_path):
         # Limpiar la tabla de sugerencias
         self.suggestion_table.setRowCount(0)
+        #selected_model = self.position_combo.currentText()
 
         # Leer el archivo CSV y mostrar los resultados en la tabla
         try:
             sugerencia_df = pd.read_csv(csv_path)
+
+            # Obtener posición seleccionada
+            posicion = self.position_combo.currentText()
+
+            # Filtrar por posición
+            if posicion != 'General':
+                #sugerencia_df = sugerencia_df[sugerencia_df['Posicion'] == posicion]
+                filtro = sugerencia_df['Posicion'] == posicion
+                sugerencia_df = sugerencia_df[filtro]
             
             # Imprimir los nombres de las columnas en el DataFrame
             print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
