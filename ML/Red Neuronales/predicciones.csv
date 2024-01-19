@@ -1,104 +1,104 @@
-Nombre,Predicciones_Puntos,Predicciones_Precio
-M. Morlanes,20.19832,152.63739
-M. Tejón,-1.8377157,144.14008
-F. Coquelin,16.76614,148.6044
-Á. Berenguer,44.4027,604.99005
-A. López,-1.8369356,144.15118
-C. Mosquera,55.121258,836.52954
-L. Torró,43.203247,454.7141
-P. Marín,-1.8353757,144.17337
-A. Mandi,35.266083,253.39398
-J. Costa,24.701447,172.32495
-N. Fernández,12.092848,140.61726
-J. Pacheco,30.455433,193.42677
-J. Arnaiz,36.81827,296.15295
-L. Ramazani,53.492176,668.826
-Isco,133.2672,2457.2354
-I. Peña,62.479412,830.13696
-J. Guerra,71.10568,1168.7037
-B. Méndez,101.84755,1829.5802
-R. García,45.290745,437.76874
-A. Ferreira,41.760475,430.0641
-K. Arrizabalaga,62.98534,978.5829
-M. Diakhaby,50.753048,557.7172
-H. Guillamón,35.12373,296.34973
-P. Barrios,74.05989,1028.6144
-K. García,41.706707,394.0092
-L. Vázquez,37.69675,400.72076
-J. Cancelo,94.13251,1748.8585
-C. Herrera,23.047575,157.89252
-A. Almeida,36.477833,271.53406
-J. Navas,22.94561,167.9162
-A. Christensen,38.541733,502.95627
-R. Nteka,39.135357,318.69617
-Á. Correa,55.378956,711.4867
-A. Budimir,118.63571,2106.3237
-V. Muriqi,112.02863,1902.0753
-M. Guiu,147.27094,2034.9918
-D. Brašanac,-1.8521439,143.93463
-V. Fernández,36.004295,298.19492
-F. Torres,66.02342,1058.4172
-G. González,37.555676,327.25043
-B. Ocampo,18.891563,151.29944
-V. Tsygankov,103.45265,1835.8759
-C. Portu,38.301548,357.50574
-Y. Herrera,91.53902,1542.5956
-I. García,23.034775,158.04443
-A. Zakharyan,30.99893,219.98953
-R. De Paul,82.53488,1425.6807
-Ç. Söyüncü,-0.1291804,141.74097
-L. Henrique,28.57058,185.71552
-Marcão,1.2197944,140.51044
-I. Ruiz De Galarreta,80.89672,1307.1223
-G. Paulista,37.445457,424.40143
-J. Agirrezabala,-1.8540944,143.90686
-A. Witsel,75.51491,1289.1932
-R. Mandava,16.606434,147.84071
-M. Llorente,68.90067,1182.2413
-A. Griezmann,155.59442,2938.0208
-Chumi,18.55444,150.23929
-Y. Pino,41.810436,361.1936
-M. El Haddadi,47.023106,643.5355
-J. Cuenca,37.578037,328.1574
-A. Catena,42.6469,466.02057
-C. Neva,33.16236,261.917
-S. Omorodion,60.61338,889.93976
-E. Bailly,16.024712,146.06546
-R. Falcao,28.484344,182.79161
-S. Arribas,82.41854,1404.053
-Á. Odriozola,32.28532,212.76433
-R. Silva,63.734238,914.91125
-J. Bellingham,194.41685,3546.7026
-Sávio,121.58804,2227.6348
-A. Lunin,72.7742,976.7388
-G. Moreno,122.37719,2249.7317
-A. Prats,58.573288,739.4383
-K. Tierney,49.381073,603.6869
-F. De Jong,123.82814,2251.6929
-S. Cardona,72.5894,1264.5939
-F. San Emeterio,16.76614,148.6044
-D. Duarte,10.226454,142.55046
-F. Valverde,115.248314,2187.4614
-A. Balde,45.988674,669.323
-L. Suárez,72.22585,886.748
-I. Grbić,-1.8353757,144.17337
-G. Gumbau,51.056488,671.6479
-I. Palazón,82.77013,1469.4451
-H. Álvarez,6.012329,140.8128
-S. Costa,73.1288,1223.9886
-B. Iglesias,18.740004,150.53255
-J. Miranda,41.20732,441.50012
-J. Llabrés,16.736195,148.46123
-I. Rakitić,81.94897,1504.4083
-C. Pérez,20.23716,152.86649
-M. Nastasić,43.854885,481.14697
-U. González,11.34555,143.21797
-J. Muñoz,43.899593,584.5823
-R. Albiol,33.217735,308.59686
-R. Alcaraz,60.57932,820.8101
-I. Baba,23.047575,157.89252
-R. Fernández,36.473633,271.14536
-A. Suárez,46.842648,534.5933
-L. Hernández,54.690594,581.9424
-J. Doménech,-1.8353757,144.17337
-P. Reina,-1.835375,144.17339
+Nombre,Puntos,Posicion,Precio
+M. Morlanes,20.968958,mediocentro,115.804
+M. Tejón,1.8788298,mediocentro,33.33316
+F. Coquelin,17.908901,mediocentro,92.01366
+Á. Berenguer,45.01227,mediocentro,823.53674
+A. López,1.8799695,portero,33.331818
+C. Mosquera,56.828808,defensa,1175.6205
+L. Torró,42.29839,mediocentro,591.5665
+P. Marín,1.8822486,mediocentro,33.329144
+A. Mandi,32.991085,defensa,284.47858
+J. Costa,24.656693,defensa,163.00754
+N. Fernández,14.854779,defensa,109.386086
+J. Pacheco,28.523563,defensa,191.88947
+J. Arnaiz,34.907433,delantero,349.89893
+L. Ramazani,53.55014,delantero,916.9231
+Isco,130.76956,mediocentro,3502.4207
+I. Peña,63.090675,portero,1161.3031
+J. Guerra,73.013695,mediocentro,1666.0962
+B. Méndez,101.14953,mediocentro,2610.325
+R. García,43.905563,mediocentro,564.07434
+A. Ferreira,40.780743,portero,554.2643
+K. Arrizabalaga,64.96928,portero,1388.2623
+M. Diakhaby,49.949265,defensa,746.5248
+H. Guillamón,32.998875,mediocentro,351.2038
+P. Barrios,75.261284,mediocentro,1461.1116
+K. García,40.331036,delantero,498.4684
+L. Vázquez,36.673985,defensa,511.26892
+J. Cancelo,94.27473,defensa,2489.701
+C. Herrera,23.237415,delantero,132.99046
+A. Almeida,34.373203,mediocentro,312.14307
+J. Navas,23.44902,defensa,157.15234
+A. Christensen,38.359974,defensa,669.0621
+R. Nteka,37.17147,delantero,383.46863
+Á. Correa,55.651485,delantero,981.8467
+A. Budimir,116.876015,delantero,3008.3845
+V. Muriqi,111.235275,delantero,2723.8674
+M. Guiu,146.11012,delantero,2935.6765
+D. Brašanac,1.8577472,mediocentro,33.357952
+V. Fernández,34.020813,mediocentro,353.5321
+F. Torres,68.202324,delantero,1506.7397
+G. González,36.000874,defensa,397.59064
+B. Ocampo,19.877373,mediocentro,106.96786
+V. Tsygankov,102.682884,mediocentro,2621.34
+C. Portu,36.991665,mediocentro,443.9906
+Y. Herrera,92.011345,mediocentro,2206.8335
+I. García,23.230503,defensa,133.77505
+A. Zakharyan,29.061245,mediocentro,234.05774
+R. De Paul,83.28418,mediocentro,2035.7365
+Ç. Söyüncü,3.9198933,defensa,37.060566
+L. Henrique,27.201145,delantero,181.54102
+Marcão,5.242548,defensa,39.818844
+I. Ruiz De Galarreta,82.40081,mediocentro,1867.9943
+G. Paulista,36.55087,defensa,548.0875
+J. Agirrezabala,1.8548981,portero,33.3613
+A. Witsel,76.79694,defensa,1838.6803
+R. Mandava,17.743793,defensa,94.70373
+M. Llorente,70.53338,mediocentro,1683.4108
+A. Griezmann,152.21312,delantero,4181.391
+Chumi,19.837286,defensa,117.11403
+Y. Pino,39.988346,delantero,447.64044
+M. El Haddadi,47.69903,delantero,881.6477
+J. Cuenca,36.03281,defensa,398.98163
+A. Catena,41.946037,defensa,609.40784
+C. Neva,31.070457,defensa,298.89862
+S. Omorodion,62.153667,delantero,1255.024
+E. Bailly,17.641489,defensa,109.50617
+R. Falcao,27.138588,delantero,177.394
+S. Arribas,83.31197,mediocentro,2005.2767
+Á. Odriozola,30.058775,defensa,220.82037
+R. Silva,65.1193,portero,1291.816
+J. Bellingham,188.56636,mediocentro,5053.8774
+Sávio,119.60251,delantero,3175.8157
+A. Lunin,73.59208,portero,1382.1223
+G. Moreno,120.39475,delantero,3206.7156
+A. Prats,58.713707,delantero,1023.20935
+K. Tierney,49.28273,defensa,818.5292
+F. De Jong,121.72608,mediocentro,3211.6707
+S. Cardona,73.86788,defensa,1801.8882
+F. San Emeterio,17.908901,mediocentro,92.01366
+D. Duarte,12.638731,defensa,66.3592
+F. Valverde,114.24598,mediocentro,3110.7893
+A. Balde,47.097206,defensa,922.19885
+L. Suárez,72.113174,delantero,1243.1039
+I. Grbić,1.8822486,portero,33.329144
+G. Gumbau,51.48525,mediocentro,922.7553
+I. Palazón,83.345924,mediocentro,2096.7551
+H. Álvarez,9.274105,mediocentro,51.983883
+S. Costa,74.71228,mediocentro,1745.2842
+B. Iglesias,19.830368,delantero,110.80866
+J. Miranda,40.432583,defensa,572.30444
+J. Llabrés,17.877354,delantero,92.51804
+I. Rakitić,82.71822,mediocentro,2142.3303
+C. Pérez,20.989323,mediocentro,114.55786
+M. Nastasić,43.155045,defensa,632.1045
+U. González,13.519945,mediocentro,69.87164
+J. Muñoz,44.35088,mediocentro,792.239
+R. Albiol,31.464645,defensa,370.9892
+R. Alcaraz,61.35084,mediocentro,1148.0026
+I. Baba,23.237415,mediocentro,132.99046
+R. Fernández,34.366604,portero,311.5469
+A. Suárez,46.324726,defensa,713.0676
+L. Hernández,53.609493,defensa,781.67096
+J. Doménech,1.8822486,portero,33.329144
+P. Reina,1.882249,portero,33.32914

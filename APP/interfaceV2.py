@@ -300,11 +300,24 @@ class MainWindow(QWidget):
             posicion = self.position_combo.currentText()
 
             # Filtrar por posición
-            if posicion != 'General':
-                #sugerencia_df = sugerencia_df[sugerencia_df['Posicion'] == posicion]
-                filtro = sugerencia_df['Posicion'] == posicion
+            if posicion == 'Delantero':
+                filtro = sugerencia_df['Posicion'] == 'delantero'
                 sugerencia_df = sugerencia_df[filtro]
-            
+            elif posicion == 'Mediocentro':
+                filtro = sugerencia_df['Posicion'] == 'mediocentro'
+                sugerencia_df = sugerencia_df[filtro]
+            elif posicion == 'Defensa':
+                filtro = sugerencia_df['Posicion'] == 'defensa'
+                sugerencia_df = sugerencia_df[filtro]
+            elif posicion == 'Portero':
+                filtro = sugerencia_df['Posicion'] == 'portero'
+                sugerencia_df = sugerencia_df[filtro]
+            elif posicion == 'General':
+                # No se realiza ningún filtro
+                pass
+            else:
+                print(f"Posición desconocida: {posicion}")
+
             # Imprimir los nombres de las columnas en el DataFrame
             print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
             
