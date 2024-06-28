@@ -1,0 +1,832 @@
+Nombre_x,Precio_x,Media,Total_puntos,posicion,equipo,Apellido,Nombre_y,Equipo,Precio_y,Puntos,Partidos,Minutos,Goles,Asistencias,Asistencias sin Gol,Centros,Despejes,Remates,Tiros,Recuperaciones,Perdidas,Penaltis fallados,Goles en contra,Rojas,Paradas,Penaltis cometidos,Amarillas,Seguna Amarilla,Penaltis provocados,Penaltis parados,Goles en PP
+J. Bellingham,24262000,10.2,173,mediocentro,Real Madrid Club de Fútbol,Bellingham,Bellingham,Real Madrid,99.113.111,142.0,13.0,1025.0,11.0,2.0,1.0,1.0,6.0,24.0,18.0,59.0,136.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+T. Kubo,20904000,8.2,147,mediocentro,Real Sociedad de Fútbol,Kubo,Kubo,Real Sociedad,67.921.009,105.0,14.0,970.0,5.0,2.0,7.0,14.0,1.0,16.0,10.0,52.0,162.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,Griezmann,Griezmann,Atlético de Madrid,85.589.829,112.0,13.0,1071.0,9.0,1.0,3.0,16.0,6.0,14.0,14.0,46.0,164.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+I. Williams,18358000,7.7,139,delantero,Athletic Club,Williams,Iñaki Williams,Athletic Club,54.811.201,113.0,15.0,1233.0,6.0,3.0,6.0,12.0,13.0,21.0,22.0,70.0,235.0,0.0,16.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. Williams,18358000,7.7,139,delantero,Athletic Club,Williams,Nico Williams,Athletic Club,67.608.305€,91.0,14.0,1260.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,121.0,112.0,0.0,25.0,0.0,67.0,1.0,1.0,0.0,0.0,0.0,0.0
+B. Mayoral,16992000,7.3,138,delantero,Getafe Club de Fútbol,Mayoral,Borja Mayoral,Getafe CF,24.693.328€,89.0,14.0,1170.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,123.0,182.0,0.0,17.0,0.0,46.0,0.0,2.0,0.0,0.0,1.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. García,20771000,7.2,137,mediocentro,Girona Fútbol Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Dovbyk,16928000,7.2,130,delantero,Girona Fútbol Club,Dovbyk,Dovbyk,Girona FC,39.670.275€,82.0,12.0,704.0,6.0,4.0,4.0,0.0,5.0,4.0,15.0,5.0,61.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Valles,16058000,6.7,128,portero,Unión Deportiva Las Palmas,Valles,Valles,UD Las Palmas,23.300.238€,101.0,13.0,1047.0,4.0,4.0,5.0,8.0,2.0,30.0,9.0,71.0,183.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Pepelu,15714000,6.7,127,mediocentro,Valencia Club de Fútbol,Pepelu,Pepelu,Valencia CF,35.512.140€,87.0,14.0,1087.0,1.0,4.0,9.0,27.0,3.0,13.0,13.0,40.0,176.0,2.0,17.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,Budimir,Budimir,C.A. Osasuna,17.047.578€,75.0,14.0,966.0,1.0,3.0,4.0,2.0,1.0,20.0,1.0,59.0,142.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Isco,19605000,7.0,126,mediocentro,Real Betis Balompié,Isco,Isco,Real Betis,77.507.740,110.0,14.0,1144.0,2.0,2.0,7.0,33.0,2.0,28.0,15.0,68.0,245.0,0.0,15.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+Sávio,18030000,6.5,123,delantero,Girona Fútbol Club,Sávio,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Zubimendi,16692000,6.4,122,mediocentro,Real Sociedad de Fútbol,Zubimendi,Zubimendi,Real Sociedad,34.015.356€,81.0,14.0,1157.0,2.0,1.0,1.0,0.0,24.0,3.0,4.0,97.0,116.0,0.0,15.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Rodrygo,19338000,6.2,117,delantero,Real Madrid Club de Fútbol,Rodrygo,Rodrygo,Real Madrid,61.745.345,105.0,14.0,969.0,5.0,4.0,2.0,7.0,1.0,28.0,16.0,36.0,129.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Á. Morata,16644000,6.4,116,delantero,Club Atlético de Madrid,Morata,Morata,Atlético de Madrid,50.006.363€,77.0,13.0,937.0,5.0,2.0,2.0,16.0,0.0,33.0,16.0,40.0,185.0,0.0,26.0,0.0,0.0,0.0,5.0,0.0,1.0,0.0,0.0
+B. Zaragoza,11133000,6.2,111,mediocentro,Granada Club de Fútbol,Zaragoza,,,,,,,,,,,,,,,,,,,,,,,,,
+K. Rodríguez,15190000,6.1,110,mediocentro,Unión Deportiva Las Palmas,Rodríguez,Guido Rodríguez,Real Betis,12.222.076€,69.0,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. Rodríguez,15190000,6.1,110,mediocentro,Unión Deportiva Las Palmas,Rodríguez,Dani Rodríguez,RCD Mallorca,4.040.039€,53.0,14.0,625.0,3.0,0.0,2.0,3.0,4.0,7.0,6.0,27.0,96.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+K. Rodríguez,15190000,6.1,110,mediocentro,Unión Deportiva Las Palmas,Rodríguez,Miguel Rodríguez,RC Celta,549.462€,10.0,14.0,64.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,20.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. Rodríguez,15190000,6.1,110,mediocentro,Unión Deportiva Las Palmas,Rodríguez,Miguel Rodríguez,Girona FC,496.189€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Strand Larsen,12852000,5.8,110,delantero,Real Club Celta de Vigo,Larsen,Larsen,RC Celta,14.759.923€,65.0,12.0,1040.0,0.0,0.0,0.0,0.0,46.0,10.0,0.0,86.0,103.0,0.0,10.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0
+F. Valverde,20115000,5.7,108,mediocentro,Real Madrid Club de Fútbol,Valverde,Valverde,Real Madrid,66.847.159,103.0,14.0,1118.0,1.0,2.0,4.0,2.0,9.0,12.0,7.0,85.0,119.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+F. Valverde,20115000,5.7,108,mediocentro,Real Madrid Club de Fútbol,Valverde,Ernesto Valverde,Athletic Club,493.223€,42.0,9.0,582.0,1.0,1.0,1.0,4.0,12.0,2.0,2.0,38.0,87.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+T. Kroos,18097000,5.7,108,mediocentro,Real Madrid Club de Fútbol,Kroos,Kroos,Real Madrid,47.421.229€,92.0,13.0,1045.0,2.0,2.0,2.0,3.0,13.0,6.0,7.0,72.0,139.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. Guruzeta,14643000,5.7,108,delantero,Athletic Club,Guruzeta,Guruzeta,Athletic Club,26.824.398€,77.0,12.0,903.0,7.0,1.0,1.0,1.0,13.0,6.0,15.0,24.0,81.0,0.0,8.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
+C. Ramos,10317000,5.5,105,delantero,Cádiz Club de Fútbol,Ramos,Chris Ramos,Cádiz CF,3.473.022€,54.0,14.0,976.0,0.0,0.0,0.0,0.0,33.0,0.0,0.0,72.0,79.0,0.0,11.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+C. Ramos,10317000,5.5,105,delantero,Cádiz Club de Fútbol,Ramos,Sergio Ramos,Sevilla FC,11.642.679€,15.0,5.0,180.0,1.0,0.0,0.0,0.0,6.0,0.0,2.0,12.0,12.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,Moreno,Alberto Moreno,Villarreal CF,551.333€,24.0,11.0,804.0,0.0,0.0,0.0,0.0,44.0,0.0,1.0,36.0,61.0,0.0,20.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0
+N. Williams,17801000,6.4,103,mediocentro,Athletic Club,Williams,Iñaki Williams,Athletic Club,54.811.201,113.0,15.0,1233.0,6.0,3.0,6.0,12.0,13.0,21.0,22.0,70.0,235.0,0.0,16.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+N. Williams,17801000,6.4,103,mediocentro,Athletic Club,Williams,Nico Williams,Athletic Club,67.608.305€,91.0,14.0,1260.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,121.0,112.0,0.0,25.0,0.0,67.0,1.0,1.0,0.0,0.0,0.0,0.0
+M. Oyarzabal,15116000,5.7,103,delantero,Real Sociedad de Fútbol,Oyarzabal,Oyarzabal,Real Sociedad,33.474.798€,78.0,14.0,883.0,7.0,1.0,1.0,1.0,5.0,2.0,14.0,30.0,83.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+İ. Gündoğan,17817000,5.4,102,mediocentro,Fútbol Club Barcelona,Gündoğan,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Remiro,11957000,5.3,100,portero,Real Sociedad de Fútbol,Remiro,Remiro,Real Sociedad,26.829.882€,97.0,14.0,1260.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,104.0,127.0,0.0,17.0,0.0,48.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. Simón,10982000,5.3,100,portero,Athletic Club,Simón,Unai Simón,Athletic Club,21.845.398€,91.0,14.0,1085.0,8.0,1.0,1.0,5.0,10.0,14.0,16.0,32.0,127.0,0.0,13.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+H. Duro,10560000,5.3,100,delantero,Valencia Club de Fútbol,Duro,Hugo Duro,Valencia CF,23.703.098€,78.0,14.0,1140.0,6.0,2.0,3.0,0.0,7.0,7.0,13.0,36.0,105.0,0.0,16.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+G. Mamardashvili,10247000,5.2,98,portero,Valencia Club de Fútbol,Mamardashvili,Mamardashvili,Valencia CF,13.248.664€,81.0,14.0,1260.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,105.0,157.0,0.0,18.0,0.0,36.0,1.0,1.0,0.0,0.0,1.0,0.0
+B. Méndez,15078000,5.7,97,mediocentro,Real Sociedad de Fútbol,Méndez,Brais Méndez,Real Sociedad,40.089.464€,71.0,10.0,866.0,2.0,1.0,3.0,5.0,10.0,26.0,4.0,76.0,170.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. Martín,13043000,5.4,97,mediocentro,Girona Fútbol Club,Martín,Iván Martín,Girona FC,10.579.722€,61.0,11.0,705.0,2.0,2.0,4.0,9.0,6.0,7.0,6.0,37.0,100.0,0.0,8.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+A. Pérez,12845000,5.4,97,delantero,Real Betis Balompié,Pérez,Ayoze Pérez,Real Betis,44.290.879€,88.0,14.0,1235.0,2.0,0.0,1.0,17.0,26.0,7.0,5.0,106.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Pérez,12845000,5.4,97,delantero,Real Betis Balompié,Pérez,Fran Pérez,Valencia CF,15.133.163€,75.0,14.0,748.0,5.0,2.0,2.0,1.0,4.0,4.0,16.0,22.0,71.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Pérez,12845000,5.4,97,delantero,Real Betis Balompié,Pérez,Kike Pérez,Rayo Vallecano,590.292€,26.0,13.0,380.0,1.0,0.0,0.0,1.0,4.0,2.0,4.0,26.0,73.0,0.0,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Pérez,12845000,5.4,97,delantero,Real Betis Balompié,Pérez,Carles Pérez,RC Celta,663.924€,11.0,9.0,237.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,18.0,37.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Pérez,12845000,5.4,97,delantero,Real Betis Balompié,Pérez,Carles Pérez,Valencia CF,491.089€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Arribas,11043000,5.1,96,mediocentro,Unión Deportiva Almería,Arribas,Arribas,UD Almería,5.199.763€,58.0,13.0,893.0,3.0,0.0,0.0,1.0,7.0,8.0,5.0,45.0,83.0,0.0,11.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+F. Jörgensen,10347000,5.1,96,portero,Villarreal Club de Fútbol,Jörgensen,Jörgensen,Villarreal CF,16.927.665€,90.0,13.0,1170.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,80.0,35.0,0.0,13.0,0.0,32.0,0.0,1.0,0.0,0.0,0.0,0.0
+L. Rioja,10241000,5.1,96,mediocentro,Deportivo Alavés,Rioja,Rioja,Deportivo Alavés,13.359.455€,78.0,14.0,1108.0,1.0,3.0,6.0,19.0,12.0,16.0,10.0,66.0,187.0,0.0,15.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+D. Carvajal,15064000,6.8,95,defensa,Real Madrid Club de Fútbol,Carvajal,Carvajal,Real Madrid,49.469.101€,90.0,13.0,1159.0,0.0,0.0,0.0,0.0,17.0,1.0,0.0,144.0,195.0,0.0,20.0,0.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Couto,12222000,5.3,95,defensa,Girona Fútbol Club,Couto,Yan Couto,Girona FC,6.527.390€,45.0,12.0,615.0,0.0,1.0,1.0,13.0,5.0,3.0,0.0,38.0,110.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Gutiérrez,13063000,5.2,93,defensa,Girona Fútbol Club,Gutiérrez,Miguel Gutiérrez,Girona FC,25.151.105€,71.0,14.0,1152.0,2.0,0.0,0.0,3.0,6.0,13.0,4.0,107.0,161.0,0.0,11.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0
+I. Palazón,12991000,4.8,92,mediocentro,Rayo Vallecano de Madrid,Palazón,,,,,,,,,,,,,,,,,,,,,,,,,
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Á. García,8990000,5.4,91,mediocentro,Rayo Vallecano de Madrid,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Roca,11337000,5.0,90,mediocentro,Real Betis Balompié,Roca,Marc Roca,Real Betis,13.315.997€,55.0,13.0,980.0,3.0,1.0,1.0,1.0,19.0,12.0,8.0,41.0,140.0,0.0,15.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+F. Lejeune,12094000,4.7,90,defensa,Rayo Vallecano de Madrid,Lejeune,Lejeune,Rayo Vallecano,17.969.498€,69.0,13.0,979.0,6.0,1.0,2.0,0.0,13.0,14.0,11.0,22.0,127.0,0.0,19.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+Ó. Mingueza,10343000,4.7,90,defensa,Real Club Celta de Vigo,Mingueza,Mingueza,RC Celta,2.333.771€,43.0,14.0,1215.0,0.0,1.0,1.0,0.0,55.0,4.0,2.0,89.0,121.0,0.0,33.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+P. Rajković,8465000,4.7,90,portero,Real Club Deportivo Mallorca,Rajković,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Oblak,10879000,4.7,89,portero,Club Atlético de Madrid,Oblak,Oblak,Atlético de Madrid,22.918.949€,84.0,13.0,1001.0,4.0,0.0,2.0,5.0,26.0,12.0,8.0,74.0,116.0,0.0,13.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0
+S. Costa,9796000,4.7,89,mediocentro,Real Club Deportivo Mallorca,Costa,Samu Costa,RCD Mallorca,3.628.973€,60.0,11.0,655.0,6.0,0.0,1.0,1.0,7.0,1.0,10.0,15.0,65.0,0.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Costa,9796000,4.7,89,mediocentro,Real Club Deportivo Mallorca,Costa,Jaume Costa,RCD Mallorca,572.369€,15.0,13.0,229.0,0.0,0.0,0.0,0.0,13.0,0.0,0.0,15.0,25.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. Pezzella,11683000,4.9,88,defensa,Real Betis Balompié,Pezzella,Pezzella,Real Betis,23.278.289€,80.0,14.0,1140.0,0.0,0.0,0.0,0.0,68.0,2.0,2.0,96.0,103.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+J. Bamba,9292000,4.9,88,delantero,Real Club Celta de Vigo,Bamba,Bamba,RC Celta,18.214.246€,76.0,14.0,971.0,7.0,1.0,2.0,1.0,3.0,4.0,16.0,26.0,113.0,0.0,20.0,0.0,0.0,0.0,3.0,0.0,2.0,0.0,0.0
+A. Rüdiger,14830000,4.8,87,defensa,Real Madrid Club de Fútbol,Rüdiger,Rüdiger,Real Madrid,34.474.505€,66.0,11.0,915.0,2.0,0.0,0.0,0.0,31.0,1.0,4.0,81.0,79.0,0.0,12.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+C. Stuani,5792000,4.8,87,delantero,Girona Fútbol Club,Stuani,Stuani,Girona FC,2.612.830€,43.0,13.0,990.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,78.0,133.0,0.0,28.0,0.0,36.0,0.0,1.0,0.0,0.0,1.0,0.0
+D. Blind,11816000,4.6,87,defensa,Girona Fútbol Club,Blind,Daley Blind,Girona FC,33.796.732€,74.0,14.0,1117.0,3.0,1.0,1.0,0.0,14.0,23.0,8.0,91.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. Vivian,10261000,4.6,87,defensa,Athletic Club,Vivian,Vivian,Athletic Club,17.473.138€,62.0,12.0,941.0,0.0,1.0,2.0,2.0,29.0,0.0,4.0,69.0,84.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+S. Dimitrievski,7511000,4.6,87,portero,Rayo Vallecano de Madrid,Dimitrievski,Dimitrievski,Rayo Vallecano,18.993.505,102.0,14.0,1260.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0,114.0,183.0,0.0,18.0,0.0,55.0,0.0,1.0,0.0,0.0,1.0,0.0
+S. Lino,14649000,5.7,86,mediocentro,Club Atlético de Madrid,Lino,Samuel Lino,Atlético de Madrid,17.233.047€,59.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Herrera,11017000,5.7,86,mediocentro,Girona Fútbol Club,Herrera,Yangel Herrera,Girona FC,47.952.703€,85.0,11.0,729.0,1.0,5.0,6.0,17.0,2.0,26.0,5.0,49.0,154.0,0.0,11.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0
+Y. Herrera,11017000,5.7,86,mediocentro,Girona Fútbol Club,Herrera,Sergio Herrera,C.A. Osasuna,5.600.971€,58.0,14.0,1103.0,0.0,0.0,2.0,4.0,33.0,7.0,1.0,112.0,217.0,0.0,12.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+Y. Herrera,11017000,5.7,86,mediocentro,Girona Fútbol Club,Herrera,Ander Herrera,Athletic Club,564.443€,22.0,8.0,479.0,0.0,0.0,0.0,3.0,4.0,9.0,4.0,34.0,65.0,0.0,7.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+Y. Herrera,11017000,5.7,86,mediocentro,Girona Fútbol Club,Herrera,Herrera,UD Las Palmas,495.229€,5.0,14.0,93.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,6.0,11.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Herrera,11017000,5.7,86,mediocentro,Girona Fútbol Club,Herrera,Herrera,Real Sociedad,39.721.690€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Lewandowski,20994000,5.1,86,delantero,Fútbol Club Barcelona,Lewandowski,Lewandowski,FC Barcelona,71.119.326€,83.0,12.0,927.0,7.0,3.0,2.0,1.0,4.0,6.0,16.0,17.0,121.0,0.0,10.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+O. Sancet,14696000,5.1,86,mediocentro,Athletic Club,Sancet,Sancet,Athletic Club,30.694.041€,70.0,13.0,1081.0,0.0,2.0,0.0,1.0,38.0,5.0,0.0,63.0,102.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Yamal,10378000,4.5,86,delantero,Fútbol Club Barcelona,Yamal,Lamine Yamal,FC Barcelona,18.866.853€,50.0,13.0,967.0,1.0,1.0,2.0,9.0,5.0,18.0,9.0,69.0,229.0,0.0,16.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+P. Gazzaniga,10335000,4.5,86,portero,Girona Fútbol Club,Gazzaniga,Gazzaniga,Girona FC,22.390.408€,94.0,14.0,801.0,1.0,4.0,4.0,23.0,4.0,1.0,10.0,55.0,87.0,0.0,8.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+N. Maksimović,9896000,4.5,86,mediocentro,Getafe Club de Fútbol,Maksimović,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Ledesma,9994000,5.3,85,portero,Cádiz Club de Fútbol,Ledesma,Ledesma,Cádiz CF,18.451.626€,89.0,13.0,1170.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,103.0,125.0,0.0,16.0,0.0,40.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Ocampos,11184000,4.7,85,delantero,Sevilla Fútbol Club,Ocampos,Ocampos,Sevilla FC,5.466.453€,50.0,14.0,414.0,4.0,1.0,1.0,0.0,2.0,4.0,6.0,10.0,54.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Witsel,10736000,4.7,85,defensa,Club Atlético de Madrid,Witsel,Witsel,Atlético de Madrid,29.628.561€,78.0,12.0,1010.0,1.0,0.0,1.0,0.0,37.0,0.0,2.0,66.0,63.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Soria,10078000,4.5,85,portero,Getafe Club de Fútbol,Soria,David Soria,Getafe CF,22.317.581€,99.0,14.0,1144.0,5.0,3.0,5.0,10.0,12.0,19.0,20.0,63.0,217.0,0.0,15.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. López,11109000,5.6,84,defensa,Girona Fútbol Club,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. López,11109000,5.6,84,defensa,Girona Fútbol Club,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. López,11109000,5.6,84,defensa,Girona Fútbol Club,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. López,11109000,5.6,84,defensa,Girona Fútbol Club,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+I. Aspas,17571000,4.7,84,delantero,Real Club Celta de Vigo,Aspas,Aspas,RC Celta,39.721.690€,84.0,13.0,1170.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,81.0,82.0,0.0,12.0,0.0,33.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Greenwood,12089000,5.5,83,delantero,Getafe Club de Fútbol,Greenwood,Greenwood,Getafe CF,11.353.688€,54.0,11.0,920.0,0.0,0.0,0.0,0.0,46.0,0.0,0.0,68.0,78.0,0.0,13.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+V. Tsygankov,14504000,5.9,82,mediocentro,Girona Fútbol Club,Tsygankov,Tsygankov,Girona FC,29.816.876€,69.0,12.0,887.0,1.0,5.0,6.0,22.0,1.0,5.0,10.0,52.0,167.0,0.0,20.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+R. Alcaraz,4127000,4.6,82,mediocentro,Cádiz Club de Fútbol,Alcaraz,Alcaraz,Cádiz CF,1.333.450€,40.0,14.0,899.0,0.0,1.0,0.0,5.0,8.0,4.0,2.0,48.0,118.0,0.0,10.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+M. Llorente,10543000,4.3,82,mediocentro,Club Atlético de Madrid,Llorente,Marcos Llorente,Atlético de Madrid,12.241.039€,57.0,10.0,584.0,0.0,2.0,3.0,2.0,1.0,9.0,5.0,58.0,94.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+H. Traoré,9807000,4.3,82,defensa,Real Sociedad de Fútbol,Traoré,Traoré,Real Sociedad,16.964.136€,60.0,14.0,1146.0,0.0,0.0,0.0,0.0,64.0,1.0,2.0,84.0,98.0,0.0,22.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+V. Muriqi,12454000,6.8,81,delantero,Real Club Deportivo Mallorca,Muriqi,Muriqi,RCD Mallorca,15.484.370€,57.0,12.0,942.0,1.0,0.0,2.0,10.0,19.0,4.0,1.0,69.0,152.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. Torres,8080000,4.5,81,delantero,Fútbol Club Barcelona,Torres,Ferran Torres,FC Barcelona,11.844.014€,52.0,12.0,948.0,1.0,0.0,0.0,0.0,42.0,1.0,1.0,65.0,66.0,0.0,14.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+F. Torres,8080000,4.5,81,delantero,Fútbol Club Barcelona,Torres,Óliver Torres,Sevilla FC,654.008€,31.0,11.0,559.0,0.0,0.0,1.0,5.0,0.0,3.0,2.0,45.0,85.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+J. Guridi,4146000,4.5,81,mediocentro,Deportivo Alavés,Guridi,Guridi,Deportivo Alavés,2.273.431€,53.0,14.0,1017.0,1.0,1.0,1.0,15.0,8.0,12.0,5.0,56.0,141.0,0.0,18.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+M. Uzuni,3324000,4.3,81,delantero,Granada Club de Fútbol,Uzuni,Uzuni,Granada CF,3.308.687€,59.0,13.0,653.0,1.0,3.0,2.0,2.0,12.0,11.0,3.0,69.0,92.0,0.0,16.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0
+J. Cancelo,16261000,5.0,80,defensa,Fútbol Club Barcelona,Cancelo,Joao Cancelo,FC Barcelona,39.765.962€,69.0,14.0,1258.0,0.0,1.0,0.0,0.0,59.0,1.0,8.0,89.0,147.0,0.0,18.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+R. De Paul,11692000,5.0,80,mediocentro,Club Atlético de Madrid,Paul,De Paul,Atlético de Madrid,18.000.687€,57.0,14.0,1156.0,1.0,1.0,2.0,0.0,2.0,12.0,3.0,78.0,164.0,0.0,20.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Guerra,8999000,4.7,80,mediocentro,Valencia Club de Fútbol,Guerra,Guerra,Valencia CF,24.249.630€,74.0,14.0,1078.0,2.0,1.0,1.0,15.0,19.0,12.0,16.0,74.0,215.0,0.0,13.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+S. Cardona,11393000,4.4,80,defensa,Unión Deportiva Las Palmas,Cardona,Cardona,UD Las Palmas,3.808.852€,58.0,14.0,705.0,1.0,0.0,0.0,1.0,25.0,9.0,7.0,65.0,79.0,0.0,12.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. Zubeldia,10038000,4.4,80,defensa,Real Sociedad de Fútbol,Zubeldia,Zubeldia,Real Sociedad,5.677.465€,44.0,12.0,638.0,1.0,2.0,1.0,20.0,3.0,2.0,5.0,30.0,124.0,0.0,11.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+M. Merino,12573000,4.9,79,mediocentro,Real Sociedad de Fútbol,Merino,Mikel Merino,Real Sociedad,20.833.131€,52.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Omorodion,5889000,4.4,79,delantero,Deportivo Alavés,Omorodion,,,,,,,,,,,,,,,,,,,,,,,,,
+U. Núñez,10152000,4.2,79,defensa,Real Club Celta de Vigo,Núñez,,,,,,,,,,,,,,,,,,,,,,,,,
+L. Ramazani,3171000,4.2,79,delantero,Unión Deportiva Almería,Ramazani,Ramazani,UD Almería,5.650.305€,64.0,13.0,751.0,0.0,0.0,0.0,3.0,8.0,15.0,1.0,77.0,88.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+D. López,5210000,4.1,78,delantero,Valencia Club de Fútbol,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. López,5210000,4.1,78,delantero,Valencia Club de Fútbol,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. López,5210000,4.1,78,delantero,Valencia Club de Fútbol,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. López,5210000,4.1,78,delantero,Valencia Club de Fútbol,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+A. Barrenetxea,8605000,5.1,77,mediocentro,Real Sociedad de Fútbol,Barrenetxea,Barrenetxea,Real Sociedad,27.203.978€,64.0,14.0,1134.0,1.0,1.0,0.0,9.0,11.0,11.0,2.0,89.0,125.0,0.0,22.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Sørloth,9176000,4.8,77,delantero,Villarreal Club de Fútbol,Sørloth,,,,,,,,,,,,,,,,,,,,,,,,,
+F. Giménez,4870000,4.3,77,defensa,Cádiz Club de Fútbol,Giménez,Giménez,Atlético de Madrid,4.524.060€,27.0,8.0,365.0,0.0,0.0,0.0,0.0,25.0,2.0,0.0,17.0,35.0,0.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+R. Araújo,15035000,5.8,76,defensa,Fútbol Club Barcelona,Araújo,Araújo,FC Barcelona,39.048.879€,39.0,14.0,922.0,2.0,0.0,1.0,15.0,17.0,7.0,3.0,63.0,130.0,0.0,23.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+I. Ruiz De Galarreta,8634000,5.4,76,mediocentro,Athletic Club,Galarreta,De Galarreta,Athletic Club,6.659.237€,56.0,12.0,823.0,2.0,1.0,1.0,0.0,7.0,3.0,4.0,59.0,105.0,0.0,12.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Félix,14964000,4.8,76,delantero,Fútbol Club Barcelona,Félix,Joao Félix,FC Barcelona,41.714.892€,63.0,12.0,766.0,0.0,3.0,5.0,21.0,3.0,10.0,0.0,51.0,128.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+L. Modrić,11997000,4.8,76,mediocentro,Real Madrid Club de Fútbol,Modrić,,,,,,,,,,,,,,,,,,,,,,,,,
+I. Rakitić,14477000,4.5,76,mediocentro,Sevilla Fútbol Club,Rakitić,Rakitić,Sevilla FC,30.792.712€,81.0,13.0,998.0,2.0,1.0,3.0,36.0,8.0,8.0,6.0,89.0,214.0,0.0,14.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+M. Mármol,10103000,4.5,76,defensa,Unión Deportiva Las Palmas,Mármol,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Rodríguez,5798000,4.2,76,mediocentro,Real Club Deportivo Mallorca,Rodríguez,Guido Rodríguez,Real Betis,12.222.076€,69.0,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. Rodríguez,5798000,4.2,76,mediocentro,Real Club Deportivo Mallorca,Rodríguez,Dani Rodríguez,RCD Mallorca,4.040.039€,53.0,14.0,625.0,3.0,0.0,2.0,3.0,4.0,7.0,6.0,27.0,96.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+D. Rodríguez,5798000,4.2,76,mediocentro,Real Club Deportivo Mallorca,Rodríguez,Miguel Rodríguez,RC Celta,549.462€,10.0,14.0,64.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,20.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. Rodríguez,5798000,4.2,76,mediocentro,Real Club Deportivo Mallorca,Rodríguez,Miguel Rodríguez,Girona FC,496.189€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Sivera,6143000,4.0,76,portero,Deportivo Alavés,Sivera,Sivera,Deportivo Alavés,6.772.401€,72.0,13.0,1085.0,2.0,3.0,4.0,11.0,6.0,12.0,9.0,65.0,169.0,0.0,16.0,0.0,0.0,0.0,5.0,0.0,1.0,0.0,0.0
+F. Pérez,2565000,4.0,76,mediocentro,Valencia Club de Fútbol,Pérez,Ayoze Pérez,Real Betis,44.290.879€,88.0,14.0,1235.0,2.0,0.0,1.0,17.0,26.0,7.0,5.0,106.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+F. Pérez,2565000,4.0,76,mediocentro,Valencia Club de Fútbol,Pérez,Fran Pérez,Valencia CF,15.133.163€,75.0,14.0,748.0,5.0,2.0,2.0,1.0,4.0,4.0,16.0,22.0,71.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Pérez,2565000,4.0,76,mediocentro,Valencia Club de Fútbol,Pérez,Kike Pérez,Rayo Vallecano,590.292€,26.0,13.0,380.0,1.0,0.0,0.0,1.0,4.0,2.0,4.0,26.0,73.0,0.0,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+F. Pérez,2565000,4.0,76,mediocentro,Valencia Club de Fútbol,Pérez,Carles Pérez,RC Celta,663.924€,11.0,9.0,237.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,18.0,37.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. Pérez,2565000,4.0,76,mediocentro,Valencia Club de Fútbol,Pérez,Carles Pérez,Valencia CF,491.089€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Coco,7894000,4.7,75,defensa,Unión Deportiva Las Palmas,Coco,Coco,UD Las Palmas,1.919.078€,46.0,14.0,756.0,1.0,0.0,0.0,0.0,38.0,0.0,4.0,57.0,60.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Ó. Valentín,5242000,4.4,75,mediocentro,Rayo Vallecano de Madrid,Valentín,Óscar Valentín,Rayo Vallecano,8.817.794€,63.0,12.0,796.0,3.0,2.0,2.0,1.0,0.0,13.0,7.0,47.0,136.0,0.0,6.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+A. Guevara,4567000,4.2,75,mediocentro,Deportivo Alavés,Guevara,Guevara,Deportivo Alavés,2.341.339€,58.0,13.0,801.0,5.0,0.0,1.0,4.0,2.0,8.0,9.0,35.0,92.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. De Jong,17706000,6.7,74,mediocentro,Fútbol Club Barcelona,Jong,De Jong,FC Barcelona,47.939.459€,46.0,7.0,576.0,1.0,0.0,1.0,2.0,7.0,8.0,2.0,51.0,65.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+B. Díaz,10224000,5.3,74,mediocentro,Real Madrid Club de Fútbol,Díaz,,,,,,,,,,,,,,,,,,,,,,,,,
+W. José,9343000,4.6,74,delantero,Real Betis Balompié,José,Willian José,Real Betis,8.585.879€,59.0,14.0,993.0,0.0,1.0,1.0,4.0,17.0,16.0,1.0,54.0,147.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Prats,2871000,4.6,74,delantero,Real Club Deportivo Mallorca,Prats,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Parejo,11226000,4.1,74,mediocentro,Villarreal Club de Fútbol,Parejo,Parejo,Villarreal CF,15.513.920€,64.0,13.0,730.0,1.0,2.0,3.0,1.0,3.0,17.0,13.0,41.0,123.0,0.0,8.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Oroz,4198000,3.9,74,mediocentro,Club Atlético Osasuna,Oroz,Aimar Oroz,C.A. Osasuna,8.643.445€,57.0,13.0,1145.0,0.0,1.0,1.0,26.0,32.0,5.0,2.0,80.0,178.0,0.0,20.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Paredes,5630000,3.8,73,defensa,Athletic Club,Paredes,Paredes,Athletic Club,11.319.753€,56.0,14.0,720.0,1.0,2.0,1.0,5.0,6.0,9.0,4.0,65.0,95.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+Gavi,6598000,6.0,72,mediocentro,Fútbol Club Barcelona,Gavi,Gavi,FC Barcelona,24.012.680€,59.0,14.0,1025.0,5.0,0.0,3.0,2.0,4.0,7.0,14.0,30.0,78.0,0.0,26.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+S. Herrera,6970000,4.5,72,portero,Club Atlético Osasuna,Herrera,Yangel Herrera,Girona FC,47.952.703€,85.0,11.0,729.0,1.0,5.0,6.0,17.0,2.0,26.0,5.0,49.0,154.0,0.0,11.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0
+S. Herrera,6970000,4.5,72,portero,Club Atlético Osasuna,Herrera,Sergio Herrera,C.A. Osasuna,5.600.971€,58.0,14.0,1103.0,0.0,0.0,2.0,4.0,33.0,7.0,1.0,112.0,217.0,0.0,12.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+S. Herrera,6970000,4.5,72,portero,Club Atlético Osasuna,Herrera,Ander Herrera,Athletic Club,564.443€,22.0,8.0,479.0,0.0,0.0,0.0,3.0,4.0,9.0,4.0,34.0,65.0,0.0,7.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+S. Herrera,6970000,4.5,72,portero,Club Atlético Osasuna,Herrera,Herrera,UD Las Palmas,495.229€,5.0,14.0,93.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,6.0,11.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Herrera,6970000,4.5,72,portero,Club Atlético Osasuna,Herrera,Herrera,Real Sociedad,39.721.690€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. Álvarez,8276000,4.2,72,defensa,Getafe Club de Fútbol,Álvarez,,,,,,,,,,,,,,,,,,,,,,,,,
+S. Ñíguez,4160000,3.8,72,mediocentro,Club Atlético de Madrid,Ñíguez,,,,,,,,,,,,,,,,,,,,,,,,,
+T. Stegen,6248000,5.5,71,portero,Fútbol Club Barcelona,Stegen,Ter Stegen,FC Barcelona,28.301.245€,89.0,14.0,1053.0,4.0,1.0,3.0,0.0,6.0,24.0,12.0,77.0,137.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Hermoso,10151000,4.2,71,defensa,Club Atlético de Madrid,Hermoso,Hermoso,Atlético de Madrid,24.229.082€,76.0,14.0,1178.0,2.0,1.0,1.0,8.0,6.0,26.0,12.0,65.0,176.0,0.0,21.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Baena,12230000,4.4,70,mediocentro,Villarreal Club de Fútbol,Baena,Álex Baena,Villarreal CF,21.349.203€,68.0,14.0,1170.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0,84.0,178.0,0.0,19.0,0.0,31.0,0.0,1.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+E. García,9864000,4.4,70,defensa,Girona Fútbol Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Joselu,11546000,3.7,70,delantero,Real Madrid Club de Fútbol,Joselu,Joselu,Real Madrid,38.141.880€,75.0,14.0,873.0,6.0,0.0,0.0,1.0,9.0,8.0,13.0,46.0,128.0,0.0,9.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+Koke,8752000,4.6,69,mediocentro,Club Atlético de Madrid,Koke,Koke,Atlético de Madrid,14.577.653€,54.0,9.0,562.0,0.0,1.0,2.0,0.0,7.0,23.0,3.0,60.0,95.0,0.0,7.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+R. Le Normand,11084000,4.3,69,defensa,Real Sociedad de Fútbol,Normand,Le Normand,Real Sociedad,14.658.901€,53.0,13.0,1022.0,0.0,2.0,0.0,5.0,18.0,11.0,2.0,103.0,191.0,0.0,14.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+A. Pedrosa,7655000,4.1,69,defensa,Sevilla Fútbol Club,Pedrosa,Pedrosa,Sevilla FC,816.638€,33.0,13.0,682.0,0.0,2.0,2.0,7.0,16.0,3.0,0.0,50.0,138.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. López,2376000,4.1,69,mediocentro,Rayo Vallecano de Madrid,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+U. López,2376000,4.1,69,mediocentro,Rayo Vallecano de Madrid,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. López,2376000,4.1,69,mediocentro,Rayo Vallecano de Madrid,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. López,2376000,4.1,69,mediocentro,Rayo Vallecano de Madrid,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. García,6886000,3.8,69,defensa,Club Atlético Osasuna,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Ciss,2819000,3.8,69,mediocentro,Rayo Vallecano de Madrid,Ciss,Pathé Ciss,Rayo Vallecano,4.048.474€,58.0,13.0,1059.0,4.0,2.0,4.0,1.0,14.0,3.0,16.0,33.0,166.0,2.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Gorosabel,4897000,3.6,69,defensa,Deportivo Alavés,Gorosabel,Gorosabel,Deportivo Alavés,1.266.837€,40.0,12.0,636.0,1.0,0.0,0.0,0.0,43.0,3.0,2.0,40.0,49.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. García,1014000,3.6,69,delantero,Deportivo Alavés,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Rico,10002000,4.9,68,defensa,Getafe Club de Fútbol,Rico,Diego Rico,Getafe CF,4.576.400€,53.0,11.0,934.0,1.0,3.0,3.0,15.0,9.0,4.0,2.0,66.0,157.0,0.0,15.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+J. Araujo,6680000,4.3,68,defensa,Unión Deportiva Las Palmas,Araujo,Araujo,UD Las Palmas,715.774€,23.0,9.0,406.0,0.0,0.0,0.0,0.0,27.0,2.0,0.0,25.0,45.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Luis Gayà,10399000,5.2,67,defensa,Valencia Club de Fútbol,Gayà,,,,,,,,,,,,,,,,,,,,,,,,,
+R. Riquelme,7978000,4.5,67,mediocentro,Club Atlético de Madrid,Riquelme,Riquelme,Atlético de Madrid,5.675.331€,43.0,12.0,630.0,1.0,1.0,1.0,0.0,3.0,2.0,4.0,44.0,55.0,0.0,8.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Robertone,7819000,4.5,67,mediocentro,Unión Deportiva Almería,Robertone,Robertone,UD Almería,5.495.650€,54.0,13.0,890.0,0.0,5.0,4.0,14.0,16.0,8.0,0.0,80.0,203.0,0.0,13.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+S. Darder,9912000,3.9,67,mediocentro,Real Club Deportivo Mallorca,Darder,Darder,RCD Mallorca,14.150.556€,61.0,12.0,751.0,2.0,1.0,2.0,2.0,18.0,0.0,4.0,64.0,111.0,0.0,11.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Mosquera,6802000,3.9,67,defensa,Valencia Club de Fútbol,Mosquera,,,,,,,,,,,,,,,,,,,,,,,,,
+G. Gumbau,4257000,3.9,67,mediocentro,Granada Club de Fútbol,Gumbau,Gumbau,Granada CF,823.471€,40.0,12.0,993.0,0.0,0.0,0.0,1.0,14.0,4.0,1.0,80.0,106.0,0.0,13.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0
+G. Villar,2550000,3.9,67,mediocentro,Granada Club de Fútbol,Villar,Gonzalo Villar,Granada CF,2.654.774€,59.0,14.0,1018.0,2.0,0.0,3.0,3.0,0.0,10.0,7.0,50.0,171.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. Villar,2550000,3.9,67,mediocentro,Granada Club de Fútbol,Villar,Iván Villar,RC Celta,1.824.328€,39.0,12.0,861.0,0.0,0.0,0.0,5.0,20.0,6.0,0.0,79.0,99.0,0.0,12.0,0.0,0.0,0.0,5.0,1.0,0.0,0.0,0.0
+G. Rodríguez,4103000,4.7,66,mediocentro,Real Betis Balompié,Rodríguez,Guido Rodríguez,Real Betis,12.222.076€,69.0,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. Rodríguez,4103000,4.7,66,mediocentro,Real Betis Balompié,Rodríguez,Dani Rodríguez,RCD Mallorca,4.040.039€,53.0,14.0,625.0,3.0,0.0,2.0,3.0,4.0,7.0,6.0,27.0,96.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+G. Rodríguez,4103000,4.7,66,mediocentro,Real Betis Balompié,Rodríguez,Miguel Rodríguez,RC Celta,549.462€,10.0,14.0,64.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,20.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. Rodríguez,4103000,4.7,66,mediocentro,Real Betis Balompié,Rodríguez,Miguel Rodríguez,Girona FC,496.189€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Starfelt,5012000,4.1,66,defensa,Real Club Celta de Vigo,Starfelt,Starfelt,RC Celta,8.863.096€,69.0,13.0,986.0,1.0,0.0,1.0,0.0,24.0,8.0,4.0,98.0,78.0,0.0,10.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0
+R. Martí,2856000,4.1,66,delantero,Cádiz Club de Fútbol,Martí,,,,,,,,,,,,,,,,,,,,,,,,,
+M. El Haddadi,5213000,3.5,66,delantero,Unión Deportiva Las Palmas,Haddadi,,,,,,,,,,,,,,,,,,,,,,,,,
+Ó. De Marcos,6181000,4.6,65,defensa,Athletic Club,Marcos,De Marcos,Athletic Club,14.695.060€,54.0,14.0,1125.0,0.0,0.0,0.0,0.0,55.0,0.0,0.0,74.0,95.0,0.0,18.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Raphinha,13379000,4.3,65,delantero,Fútbol Club Barcelona,Raphinha,Raphinha,FC Barcelona,11.340.119€,41.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Correa,3482000,4.3,65,delantero,Club Atlético de Madrid,Correa,Correa,Atlético de Madrid,3.049.413€,48.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Baptistão,3539000,4.0,64,delantero,Unión Deportiva Almería,Baptistão,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Latasa,3720000,3.4,64,delantero,Getafe Club de Fútbol,Latasa,Latasa,Getafe CF,644.272€,37.0,14.0,363.0,1.0,1.0,2.0,0.0,1.0,12.0,6.0,11.0,48.0,0.0,7.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Koundé,11284000,3.9,63,defensa,Fútbol Club Barcelona,Koundé,Koundé,FC Barcelona,50.943.080€,80.0,13.0,846.0,1.0,1.0,1.0,5.0,37.0,6.0,4.0,56.0,73.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+T. Correia,5036000,3.7,63,defensa,Valencia Club de Fútbol,Correia,Thierry Correia,Valencia CF,6.718.880€,53.0,14.0,1220.0,0.0,0.0,0.0,10.0,26.0,12.0,3.0,102.0,212.0,0.0,16.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0
+E. Camavinga,10232000,4.8,62,mediocentro,Real Madrid Club de Fútbol,Camavinga,Camavinga,Real Madrid,26.676.211€,63.0,11.0,844.0,1.0,0.0,0.0,2.0,13.0,4.0,3.0,53.0,73.0,0.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Maximiano,5528000,3.9,62,portero,Unión Deportiva Almería,Maximiano,Maximiano,UD Almería,1.751.614€,42.0,14.0,817.0,1.0,0.0,3.0,17.0,18.0,3.0,3.0,61.0,151.0,0.0,13.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+S. Akieme,1370000,3.9,62,defensa,Unión Deportiva Almería,Akieme,Akieme,UD Almería,1.735.237€,36.0,12.0,990.0,2.0,0.0,2.0,10.0,18.0,15.0,5.0,58.0,140.0,0.0,25.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0
+J. Muñoz,4998000,3.3,62,mediocentro,Unión Deportiva Las Palmas,Muñoz,Javi Muñoz,UD Las Palmas,545.356€,40.0,13.0,347.0,1.0,0.0,1.0,7.0,2.0,5.0,5.0,20.0,42.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Muñoz,4998000,3.3,62,mediocentro,Unión Deportiva Las Palmas,Muñoz,Iker Muñoz,C.A. Osasuna,531.692€,21.0,10.0,367.0,1.0,1.0,0.0,0.0,7.0,7.0,1.0,9.0,65.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+E. Loiodice,1391000,3.3,62,mediocentro,Unión Deportiva Las Palmas,Loiodice,Loiodice,UD Las Palmas,1.998.933€,51.0,14.0,916.0,0.0,1.0,1.0,8.0,17.0,18.0,2.0,82.0,191.0,0.0,15.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+M. Vesga,2244000,4.4,61,mediocentro,Athletic Club,Vesga,Vesga,Athletic Club,16.295.083€,65.0,13.0,1120.0,4.0,1.0,3.0,11.0,10.0,4.0,6.0,50.0,155.0,0.0,16.0,0.0,0.0,0.0,5.0,0.0,1.0,0.0,0.0
+P. Espino,2136000,3.6,61,defensa,Rayo Vallecano de Madrid,Espino,Espino,Rayo Vallecano,7.021.570€,53.0,14.0,544.0,0.0,3.0,3.0,3.0,11.0,4.0,0.0,63.0,77.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. López,2891000,4.0,60,defensa,Deportivo Alavés,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. López,2891000,4.0,60,defensa,Deportivo Alavés,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. López,2891000,4.0,60,defensa,Deportivo Alavés,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. López,2891000,4.0,60,defensa,Deportivo Alavés,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+Á. Berenguer,5313000,3.3,60,mediocentro,Athletic Club,Berenguer,Berenguer,Athletic Club,2.811.238€,53.0,9.0,619.0,2.0,1.0,2.0,5.0,1.0,9.0,6.0,28.0,89.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Larin,4310000,3.3,60,delantero,Real Club Deportivo Mallorca,Larin,Larin,RCD Mallorca,762.310€,25.0,12.0,341.0,0.0,0.0,0.0,1.0,2.0,13.0,6.0,17.0,62.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Portu,1493000,3.3,60,mediocentro,Girona Fútbol Club,Portu,Portu,Girona FC,876.010€,31.0,13.0,287.0,1.0,0.0,1.0,6.0,0.0,2.0,4.0,17.0,39.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Berchiche,7933000,4.5,59,defensa,Athletic Club,Berchiche,,,,,,,,,,,,,,,,,,,,,,,,,
+I. Carcelén,2411000,3.3,59,defensa,Cádiz Club de Fútbol,Carcelén,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Muñoz,2044000,3.1,59,defensa,Real Sociedad de Fútbol,Muñoz,Javi Muñoz,UD Las Palmas,545.356€,40.0,13.0,347.0,1.0,0.0,1.0,7.0,2.0,5.0,5.0,20.0,42.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Muñoz,2044000,3.1,59,defensa,Real Sociedad de Fútbol,Muñoz,Iker Muñoz,C.A. Osasuna,531.692€,21.0,10.0,367.0,1.0,1.0,0.0,0.0,7.0,7.0,1.0,9.0,65.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Raíllo,7157000,6.4,58,defensa,Real Club Deportivo Mallorca,Raíllo,Raíllo,RCD Mallorca,2.385.538€,14.0,9.0,411.0,0.0,0.0,0.0,8.0,6.0,3.0,1.0,39.0,79.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+V. Júnior,18069000,5.3,58,delantero,Real Madrid Club de Fútbol,Júnior,,,,,,,,,,,,,,,,,,,,,,,,,
+Suso,7273000,3.9,58,mediocentro,Sevilla Fútbol Club,Suso,Suso,Sevilla FC,4.422.081€,57.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Sánchez,3585000,3.9,58,defensa,Real Club Celta de Vigo,Sánchez,Antonio Sánchez,RCD Mallorca,1.193.101€,48.0,10.0,339.0,3.0,1.0,2.0,3.0,0.0,9.0,5.0,14.0,75.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Sánchez,3585000,3.9,58,defensa,Real Club Celta de Vigo,Sánchez,Manu Sánchez,RC Celta,939.845€,32.0,14.0,772.0,0.0,1.0,2.0,5.0,19.0,4.0,0.0,59.0,118.0,0.0,15.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Hernández,284000,3.4,58,defensa,Cádiz Club de Fútbol,Hernández,Javi Hernández,Cádiz CF,2.921.443€,57.0,11.0,613.0,1.0,1.0,4.0,19.0,0.0,14.0,7.0,36.0,121.0,0.0,14.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Hernández,284000,3.4,58,defensa,Cádiz Club de Fútbol,Hernández,Luis Hernández,Cádiz CF,965.508€,28.0,7.0,542.0,1.0,0.0,0.0,0.0,20.0,0.0,1.0,29.0,75.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. Sánchez,1241000,3.2,58,defensa,Granada Club de Fútbol,Sánchez,Antonio Sánchez,RCD Mallorca,1.193.101€,48.0,10.0,339.0,3.0,1.0,2.0,3.0,0.0,9.0,5.0,14.0,75.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Sánchez,1241000,3.2,58,defensa,Granada Club de Fútbol,Sánchez,Manu Sánchez,RC Celta,939.845€,32.0,14.0,772.0,0.0,1.0,2.0,5.0,19.0,4.0,0.0,59.0,118.0,0.0,15.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Foyth,5326000,4.8,57,defensa,Villarreal Club de Fútbol,Foyth,Foyth,Villarreal CF,9.178.837€,49.0,10.0,620.0,2.0,1.0,0.0,1.0,0.0,19.0,7.0,18.0,95.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Tchouaméni,10879000,4.1,57,mediocentro,Real Madrid Club de Fútbol,Tchouaméni,Tchouaméni,Real Madrid,16.809.938€,61.0,14.0,1094.0,0.0,2.0,1.0,3.0,19.0,9.0,0.0,100.0,171.0,0.0,15.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Suárez,2489000,3.8,57,defensa,Unión Deportiva Las Palmas,Suárez,Álex Suárez,UD Las Palmas,8.077.400€,56.0,14.0,1108.0,0.0,0.0,0.0,1.0,42.0,4.0,0.0,65.0,107.0,0.0,11.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+A. Suárez,2489000,3.8,57,defensa,Unión Deportiva Las Palmas,Suárez,Luis Suárez,UD Almería,1.003.827€,40.0,14.0,1192.0,0.0,0.0,2.0,10.0,16.0,5.0,3.0,82.0,142.0,0.0,18.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. Suárez,2489000,3.8,57,defensa,Unión Deportiva Las Palmas,Suárez,Denis Suárez,Villarreal CF,826.190€,15.0,12.0,408.0,0.0,0.0,0.0,0.0,10.0,1.0,0.0,35.0,41.0,0.0,8.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+R. Duarte,558000,3.8,57,defensa,Deportivo Alavés,Duarte,Duarte,Deportivo Alavés,4.252.922€,42.0,12.0,769.0,0.0,0.0,0.0,2.0,8.0,6.0,1.0,72.0,87.0,0.0,11.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Duarte,558000,3.8,57,defensa,Deportivo Alavés,Duarte,Domingos Duarte,Getafe CF,816.252€,17.0,12.0,179.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,17.0,22.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Balliu,3073000,3.6,57,defensa,Rayo Vallecano de Madrid,Balliu,Balliu,Rayo Vallecano,4.166.551€,47.0,12.0,638.0,0.0,2.0,3.0,4.0,19.0,1.0,0.0,37.0,59.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. Embarba,1404000,3.2,57,mediocentro,Unión Deportiva Almería,Embarba,Embarba,UD Almería,1.510.702€,44.0,13.0,1083.0,0.0,0.0,0.0,0.0,39.0,2.0,0.0,77.0,127.0,0.0,15.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0
+I. Miquel,1177000,3.0,57,defensa,Granada Club de Fútbol,Miquel,Miquel,Granada CF,621.424€,43.0,13.0,474.0,2.0,1.0,2.0,4.0,2.0,11.0,9.0,22.0,79.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Neva,1060000,3.0,57,defensa,Granada Club de Fútbol,Neva,Neva,Granada CF,545.356€,27.0,14.0,1211.0,0.0,1.0,4.0,10.0,30.0,0.0,0.0,71.0,175.0,0.0,30.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+M. Gómez,5916000,4.0,56,mediocentro,Club Atlético Osasuna,Gómez,Moi Gómez,C.A. Osasuna,3.493.032€,41.0,8.0,694.0,4.0,0.0,1.0,1.0,6.0,7.0,13.0,16.0,65.0,0.0,19.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Gómez,5916000,4.0,56,mediocentro,Club Atlético Osasuna,Gómez,Maxi Gómez,Cádiz CF,1.196.805€,14.0,11.0,406.0,0.0,0.0,1.0,0.0,0.0,2.0,2.0,9.0,70.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Luis Morales,4457000,4.0,56,delantero,Villarreal Club de Fútbol,Morales,Morales,Villarreal CF,741.573€,36.0,14.0,384.0,3.0,0.0,0.0,1.0,1.0,6.0,5.0,18.0,40.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Valjent,1385000,3.5,56,defensa,Real Club Deportivo Mallorca,Valjent,Valjent,RCD Mallorca,5.272.147€,54.0,11.0,749.0,0.0,4.0,3.0,5.0,13.0,2.0,6.0,68.0,114.0,0.0,17.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Balde,6306000,3.3,56,defensa,Fútbol Club Barcelona,Balde,Álex Balde,FC Barcelona,27.879.779€,59.0,12.0,943.0,1.0,1.0,2.0,2.0,16.0,12.0,6.0,52.0,93.0,0.0,11.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0
+G. González,1026000,3.3,56,defensa,Real Club Deportivo Mallorca,González,Gio González,RCD Mallorca,493.015€,22.0,14.0,833.0,0.0,0.0,0.0,5.0,11.0,3.0,2.0,57.0,121.0,0.0,12.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+G. González,1026000,3.3,56,defensa,Real Club Deportivo Mallorca,González,Sergio González,Cádiz CF,485.166€,18.0,5.0,267.0,0.0,0.0,1.0,0.0,1.0,2.0,3.0,23.0,45.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. González,1026000,3.3,56,defensa,Real Club Deportivo Mallorca,González,González,Valencia CF,474.209€,14.0,9.0,31.0,0.0,1.0,1.0,4.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Areso,1900000,3.1,56,defensa,Club Atlético Osasuna,Areso,Areso,C.A. Osasuna,609.511€,35.0,14.0,822.0,0.0,1.0,1.0,9.0,16.0,10.0,1.0,56.0,134.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Riad,7002000,4.2,55,defensa,Real Betis Balompié,Riad,Chadi Riad,Real Betis,3.827.611€,47.0,10.0,744.0,0.0,0.0,0.0,0.0,40.0,0.0,1.0,48.0,43.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Molina,4012000,3.4,55,defensa,Club Atlético de Madrid,Molina,Nahuel Molina,Atlético de Madrid,19.082.022€,53.0,13.0,914.0,0.0,0.0,0.0,0.0,34.0,6.0,0.0,78.0,73.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Y. En Nesyri,6714000,3.2,55,delantero,Sevilla Fútbol Club,Nesyri,,,,,,,,,,,,,,,,,,,,,,,,,
+U. Sadiq,6371000,3.2,55,delantero,Real Sociedad de Fútbol,Sadiq,Sadiq,Real Sociedad,2.331.254€,37.0,10.0,474.0,0.0,1.0,2.0,5.0,2.0,6.0,1.0,34.0,84.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Ruibal,2230000,4.9,54,defensa,Real Betis Balompié,Ruibal,Ruibal,Real Betis,530.721€,21.0,14.0,272.0,0.0,0.0,0.0,0.0,2.0,2.0,3.0,14.0,51.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. García,647000,3.9,54,mediocentro,Club Atlético Osasuna,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Gudelj,4387000,3.4,54,defensa,Sevilla Fútbol Club,Gudelj,Gudelj,Sevilla FC,3.190.687€,46.0,12.0,887.0,1.0,0.0,1.0,0.0,35.0,2.0,3.0,54.0,91.0,0.0,15.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0
+A. Ezzalzouli,1465000,3.4,54,delantero,Real Betis Balompié,Ezzalzouli,,,,,,,,,,,,,,,,,,,,,,,,,
+É. Capoue,2064000,3.0,54,mediocentro,Villarreal Club de Fútbol,Capoue,Capoue,Villarreal CF,3.767.624€,51.0,14.0,411.0,2.0,1.0,3.0,19.0,4.0,6.0,3.0,22.0,96.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+F. López,4170000,4.4,53,mediocentro,Fútbol Club Barcelona,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. López,4170000,4.4,53,mediocentro,Fútbol Club Barcelona,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. López,4170000,4.4,53,mediocentro,Fútbol Club Barcelona,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. López,4170000,4.4,53,mediocentro,Fútbol Club Barcelona,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+D. Lukébakio,1766000,4.4,53,delantero,Sevilla Fútbol Club,Lukébakio,Lukébakio,Sevilla FC,8.710.859€,48.0,14.0,740.0,0.0,1.0,2.0,5.0,24.0,2.0,1.0,39.0,97.0,0.0,9.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. Peña,1395000,3.5,53,defensa,Club Atlético Osasuna,Peña,Rubén Peña,C.A. Osasuna,3.544.548€,51.0,14.0,635.0,0.0,1.0,2.0,1.0,12.0,3.0,2.0,43.0,73.0,0.0,9.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. Peña,1395000,3.5,53,defensa,Club Atlético Osasuna,Peña,Iñaki Peña,FC Barcelona,641.038€,5.0,11.0,90.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,12.0,3.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Peña,1395000,3.5,53,defensa,Club Atlético Osasuna,Peña,Iñaki Peña,UD Almería,44.290.879€,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Lopy,1012000,3.1,53,mediocentro,Unión Deportiva Almería,Lopy,,,,,,,,,,,,,,,,,,,,,,,,,
+S. Ruiz,779000,3.1,53,mediocentro,Granada Club de Fútbol,Ruiz,Sergio Ruiz,Granada CF,494.849€,26.0,14.0,630.0,0.0,0.0,1.0,1.0,10.0,4.0,0.0,57.0,78.0,0.0,16.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Diao,5039000,4.3,52,mediocentro,Real Betis Balompié,Diao,Diao,Real Betis,2.666.449€,15.0,14.0,580.0,0.0,0.0,0.0,2.0,7.0,3.0,0.0,43.0,96.0,0.0,12.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. Catena,2473000,3.5,52,defensa,Club Atlético Osasuna,Catena,Catena,C.A. Osasuna,7.579.941€,57.0,14.0,814.0,0.0,1.0,1.0,0.0,21.0,2.0,0.0,52.0,40.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Ferreira,1918000,3.5,52,portero,Granada Club de Fútbol,Ferreira,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Rebbach,714000,3.5,52,mediocentro,Deportivo Alavés,Rebbach,A. Rebbach,Deportivo Alavés,481.566€,33.0,14.0,291.0,1.0,0.0,1.0,6.0,1.0,4.0,3.0,15.0,60.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Camello,713000,3.5,52,delantero,Rayo Vallecano de Madrid,Camello,Camello,Rayo Vallecano,981.310€,27.0,13.0,510.0,0.0,1.0,1.0,0.0,2.0,4.0,5.0,20.0,60.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+M. Perrone,1373000,3.3,52,mediocentro,Unión Deportiva Las Palmas,Perrone,Máximo Perrone,UD Las Palmas,524.162€,36.0,12.0,739.0,1.0,0.0,0.0,0.0,18.0,1.0,2.0,39.0,55.0,0.0,13.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Á. Sola,337000,3.3,52,mediocentro,Deportivo Alavés,Sola,Álex Sola,Deportivo Alavés,579.724€,32.0,14.0,565.0,0.0,0.0,1.0,7.0,5.0,18.0,3.0,41.0,106.0,0.0,11.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+A. Blanco,2869000,3.1,52,mediocentro,Deportivo Alavés,Blanco,Blanco,Deportivo Alavés,817.202€,41.0,14.0,360.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,38.0,13.0,0.0,2.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Beltrán,410000,3.1,52,mediocentro,Real Club Celta de Vigo,Beltrán,Fran Beltrán,RC Celta,1.623.058€,42.0,13.0,598.0,0.0,3.0,2.0,8.0,13.0,11.0,0.0,36.0,120.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. de Frutos,528000,2.9,52,mediocentro,Rayo Vallecano de Madrid,Frutos,De Frutos,Rayo Vallecano,1.260.549€,39.0,13.0,835.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,77.0,103.0,0.0,15.0,1.0,27.0,2.0,0.0,0.0,0.0,1.0,0.0
+M. Nastasić,2359000,3.6,51,defensa,Real Club Deportivo Mallorca,Nastasić,,,,,,,,,,,,,,,,,,,,,,,,,
+L. Torró,1951000,3.6,51,mediocentro,Club Atlético Osasuna,Torró,Torró,C.A. Osasuna,1.599.044€,39.0,12.0,980.0,0.0,0.0,0.0,0.0,42.0,2.0,0.0,60.0,88.0,0.0,16.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0
+C. Azpilicueta,1627000,3.2,51,defensa,Club Atlético de Madrid,Azpilicueta,Azpilicueta,Atlético de Madrid,5.464.363€,48.0,14.0,470.0,1.0,1.0,1.0,3.0,4.0,6.0,4.0,46.0,69.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. Djené,1494000,3.2,51,defensa,Getafe Club de Fútbol,Djené,Djené,Getafe CF,2.487.717€,39.0,10.0,571.0,1.0,0.0,1.0,1.0,10.0,3.0,4.0,37.0,68.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Alejo,516000,3.0,51,mediocentro,Cádiz Club de Fútbol,Alejo,Alejo,Cádiz CF,511.683€,21.0,12.0,242.0,0.0,1.0,2.0,2.0,3.0,3.0,0.0,20.0,47.0,0.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+P. Barrios,3854000,5.6,50,mediocentro,Club Atlético de Madrid,Barrios,Barrios,Atlético de Madrid,7.083.575€,53.0,7.0,630.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,53.0,44.0,0.0,5.0,0.0,17.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Diakhaby,1456000,4.2,50,defensa,Valencia Club de Fútbol,Diakhaby,Diakhaby,Valencia CF,5.840.555€,43.0,14.0,977.0,0.0,0.0,1.0,0.0,57.0,0.0,1.0,44.0,95.0,0.0,19.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+M. Park,1130000,3.6,50,delantero,Unión Deportiva Las Palmas,Park,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Sánchez,739000,3.6,50,mediocentro,Real Club Deportivo Mallorca,Sánchez,Antonio Sánchez,RCD Mallorca,1.193.101€,48.0,10.0,339.0,3.0,1.0,2.0,3.0,0.0,9.0,5.0,14.0,75.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Sánchez,739000,3.6,50,mediocentro,Real Club Deportivo Mallorca,Sánchez,Manu Sánchez,RC Celta,939.845€,32.0,14.0,772.0,0.0,1.0,2.0,5.0,19.0,4.0,0.0,59.0,118.0,0.0,15.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+L. Boyé,4222000,3.3,50,delantero,Granada Club de Fútbol,Boyé,Boyé,Granada CF,6.424.743€,43.0,9.0,653.0,1.0,0.0,0.0,0.0,31.0,2.0,3.0,49.0,57.0,0.0,9.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+R. García de Haro,1326000,2.9,50,delantero,Club Atlético Osasuna,Haro,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Moncayola,949000,2.9,50,mediocentro,Club Atlético Osasuna,Moncayola,Moncayola,C.A. Osasuna,1.601.939€,45.0,14.0,418.0,2.0,0.0,1.0,8.0,4.0,5.0,5.0,30.0,77.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. de la Torre,813000,2.9,50,mediocentro,Real Club Celta de Vigo,Torre,De La Torre,RC Celta,913.172€,45.0,12.0,829.0,0.0,0.0,0.0,1.0,9.0,11.0,1.0,75.0,78.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. de la Torre,813000,2.9,50,mediocentro,Real Club Celta de Vigo,Torre,Pablo Torre,Girona FC,571.296€,16.0,12.0,93.0,1.0,0.0,0.0,0.0,3.0,2.0,2.0,8.0,10.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Herrera,2116000,4.1,49,mediocentro,Athletic Club,Herrera,Yangel Herrera,Girona FC,47.952.703€,85.0,11.0,729.0,1.0,5.0,6.0,17.0,2.0,26.0,5.0,49.0,154.0,0.0,11.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0
+A. Herrera,2116000,4.1,49,mediocentro,Athletic Club,Herrera,Sergio Herrera,C.A. Osasuna,5.600.971€,58.0,14.0,1103.0,0.0,0.0,2.0,4.0,33.0,7.0,1.0,112.0,217.0,0.0,12.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Herrera,2116000,4.1,49,mediocentro,Athletic Club,Herrera,Ander Herrera,Athletic Club,564.443€,22.0,8.0,479.0,0.0,0.0,0.0,3.0,4.0,9.0,4.0,34.0,65.0,0.0,7.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Herrera,2116000,4.1,49,mediocentro,Athletic Club,Herrera,Herrera,UD Las Palmas,495.229€,5.0,14.0,93.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,6.0,11.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Herrera,2116000,4.1,49,mediocentro,Athletic Club,Herrera,Herrera,Real Sociedad,39.721.690€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Í. Lekue,4294000,3.5,49,defensa,Athletic Club,Lekue,Lekue,Athletic Club,540.917€,25.0,14.0,520.0,0.0,0.0,1.0,1.0,14.0,3.0,0.0,41.0,75.0,0.0,7.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Iglesias,1436000,3.5,49,defensa,Getafe Club de Fútbol,Iglesias,Juan Iglesias,Getafe CF,637.049€,31.0,14.0,561.0,0.0,0.0,1.0,6.0,17.0,2.0,4.0,41.0,119.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Iglesias,1436000,3.5,49,defensa,Getafe Club de Fútbol,Iglesias,Borja Iglesias,Real Betis,2.551.857€,20.0,13.0,277.0,0.0,1.0,2.0,0.0,2.0,1.0,1.0,8.0,30.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+R. Marín,2507000,3.3,49,defensa,Deportivo Alavés,Marín,Rafa Marín,Deportivo Alavés,532.919€,28.0,13.0,546.0,0.0,0.0,0.0,0.0,25.0,1.0,1.0,45.0,57.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+R. Albiol,2128000,2.9,49,defensa,Villarreal Club de Fútbol,Albiol,Albiol,Villarreal CF,2.571.819€,43.0,14.0,1180.0,1.0,1.0,2.0,12.0,15.0,10.0,5.0,81.0,235.0,0.0,24.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+A. Moleiro,6285000,5.3,48,mediocentro,Unión Deportiva Las Palmas,Moleiro,Moleiro,UD Las Palmas,2.356.049€,30.0,9.0,374.0,0.0,1.0,1.0,0.0,3.0,15.0,4.0,25.0,66.0,0.0,4.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0
+K. Arrizabalaga,7230000,4.4,48,portero,Real Madrid Club de Fútbol,Arrizabalaga,Arrizabalaga,Real Madrid,16.501.104€,68.0,10.0,709.0,4.0,1.0,3.0,0.0,0.0,29.0,8.0,19.0,158.0,0.0,3.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Pires,1452000,3.7,48,defensa,Cádiz Club de Fútbol,Pires,Lucas Pires,Cádiz CF,528.799€,17.0,9.0,429.0,1.0,0.0,0.0,6.0,10.0,6.0,2.0,33.0,75.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. Sow,1668000,3.2,48,mediocentro,Sevilla Fútbol Club,Sow,Sow,Sevilla FC,5.564.161€,43.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+V. Fernández,925000,3.2,48,mediocentro,Girona Fútbol Club,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+V. Fernández,925000,3.2,48,mediocentro,Girona Fútbol Club,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+V. Guaita,6789000,4.7,47,portero,Real Club Celta de Vigo,Guaita,Guaita,RC Celta,1.836.450€,29.0,9.0,273.0,0.0,1.0,1.0,0.0,7.0,0.0,2.0,13.0,20.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Silva,5232000,4.7,47,portero,Real Betis Balompié,Silva,Rui Silva,Real Betis,4.361.471€,34.0,11.0,405.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,43.0,50.0,0.0,7.0,0.0,14.0,1.0,0.0,0.0,0.0,0.0,0.0
+R. Silva,5232000,4.7,47,portero,Real Betis Balompié,Silva,André Silva,Real Sociedad,905.538€,4.0,4.0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Silva,5232000,4.7,47,portero,Real Betis Balompié,Silva,André Silva,Girona FC,50.943.080€,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Sánchez,3831000,3.6,47,defensa,Sevilla Fútbol Club,Sánchez,Antonio Sánchez,RCD Mallorca,1.193.101€,48.0,10.0,339.0,3.0,1.0,2.0,3.0,0.0,9.0,5.0,14.0,75.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Sánchez,3831000,3.6,47,defensa,Sevilla Fútbol Club,Sánchez,Manu Sánchez,RC Celta,939.845€,32.0,14.0,772.0,0.0,1.0,2.0,5.0,19.0,4.0,0.0,59.0,118.0,0.0,15.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Douvikas,1030000,3.4,47,delantero,Real Club Celta de Vigo,Douvikas,Douvikas,RC Celta,1.271.353€,22.0,14.0,529.0,0.0,0.0,0.0,3.0,13.0,9.0,0.0,43.0,83.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Pedri,16152000,5.8,46,mediocentro,Fútbol Club Barcelona,Pedri,Pedri,FC Barcelona,54.155.984€,34.0,5.0,358.0,1.0,0.0,4.0,2.0,1.0,7.0,3.0,18.0,58.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Suárez,975000,5.8,46,delantero,Unión Deportiva Almería,Suárez,Álex Suárez,UD Las Palmas,8.077.400€,56.0,14.0,1108.0,0.0,0.0,0.0,1.0,42.0,4.0,0.0,65.0,107.0,0.0,11.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+L. Suárez,975000,5.8,46,delantero,Unión Deportiva Almería,Suárez,Luis Suárez,UD Almería,1.003.827€,40.0,14.0,1192.0,0.0,0.0,2.0,10.0,16.0,5.0,3.0,82.0,142.0,0.0,18.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+L. Suárez,975000,5.8,46,delantero,Unión Deportiva Almería,Suárez,Denis Suárez,Villarreal CF,826.190€,15.0,12.0,408.0,0.0,0.0,0.0,0.0,10.0,1.0,0.0,35.0,41.0,0.0,8.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+D. Alaba,6703000,3.3,46,defensa,Real Madrid Club de Fútbol,Alaba,Alaba,Real Madrid,35.989.766€,60.0,14.0,1259.0,1.0,0.0,0.0,0.0,76.0,3.0,4.0,106.0,188.0,0.0,24.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0
+R. Sanchez,564000,3.3,46,mediocentro,Real Betis Balompié,Sanchez,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Abqar,160000,3.3,46,defensa,Deportivo Alavés,Abqar,Abqar,Deportivo Alavés,600.622€,35.0,13.0,989.0,0.0,0.0,0.0,0.0,52.0,2.0,1.0,61.0,90.0,0.0,16.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,1.0
+Ó. Trejo,429000,3.1,46,mediocentro,Rayo Vallecano de Madrid,Trejo,Trejo,Rayo Vallecano,1.258.384€,42.0,12.0,897.0,0.0,0.0,2.0,2.0,16.0,10.0,0.0,60.0,158.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+C. Aleñá,160000,3.1,46,mediocentro,Getafe Club de Fútbol,Aleñá,Aleñá,Getafe CF,931.034€,31.0,14.0,563.0,1.0,1.0,1.0,6.0,5.0,2.0,4.0,37.0,77.0,0.0,12.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Lunin,3059000,5.6,45,portero,Real Madrid Club de Fútbol,Lunin,Lunin,Real Madrid,2.132.419€,41.0,13.0,743.0,1.0,3.0,2.0,8.0,7.0,10.0,3.0,52.0,144.0,0.0,13.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+G. Paulista,3568000,3.0,45,defensa,Valencia Club de Fútbol,Paulista,Gabriel Paulista,Valencia CF,6.821.962€,54.0,10.0,686.0,0.0,2.0,2.0,0.0,8.0,2.0,1.0,66.0,81.0,0.0,7.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. Machís,1169000,3.0,45,delantero,Cádiz Club de Fútbol,Machís,Machís,Cádiz CF,3.745.716€,46.0,12.0,547.0,3.0,0.0,0.0,9.0,2.0,4.0,7.0,41.0,91.0,0.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Akhomach,1078000,3.0,45,delantero,Villarreal Club de Fútbol,Akhomach,Akhomach,Villarreal CF,505.330€,18.0,14.0,162.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,16.0,25.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Sedlar,160000,4.0,44,defensa,Deportivo Alavés,Sedlar,Sedlar,Deportivo Alavés,967.685€,52.0,12.0,831.0,0.0,1.0,1.0,1.0,17.0,10.0,1.0,82.0,152.0,0.0,8.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Pedraza,2957000,3.4,44,defensa,Villarreal Club de Fútbol,Pedraza,Pedraza,Villarreal CF,2.619.716€,29.0,13.0,271.0,1.0,1.0,1.0,2.0,0.0,0.0,4.0,11.0,41.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+I. Hagi,1073000,3.1,44,mediocentro,Deportivo Alavés,Hagi,Ianis Hagi,Deportivo Alavés,744.802€,32.0,10.0,412.0,0.0,1.0,1.0,10.0,3.0,4.0,5.0,16.0,68.0,1.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Christensen,5128000,2.9,44,defensa,Fútbol Club Barcelona,Christensen,Christensen,FC Barcelona,13.403.810€,57.0,13.0,791.0,2.0,1.0,4.0,5.0,8.0,4.0,4.0,41.0,106.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. Suárez,1172000,2.9,44,defensa,Getafe Club de Fútbol,Suárez,Álex Suárez,UD Las Palmas,8.077.400€,56.0,14.0,1108.0,0.0,0.0,0.0,1.0,42.0,4.0,0.0,65.0,107.0,0.0,11.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+D. Suárez,1172000,2.9,44,defensa,Getafe Club de Fútbol,Suárez,Luis Suárez,UD Almería,1.003.827€,40.0,14.0,1192.0,0.0,0.0,2.0,10.0,16.0,5.0,3.0,82.0,142.0,0.0,18.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+D. Suárez,1172000,2.9,44,defensa,Getafe Club de Fútbol,Suárez,Denis Suárez,Villarreal CF,826.190€,15.0,12.0,408.0,0.0,0.0,0.0,0.0,10.0,1.0,0.0,35.0,41.0,0.0,8.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+J. Mata,1284000,2.8,44,delantero,Getafe Club de Fútbol,Mata,Mata,Getafe CF,502.314€,20.0,13.0,554.0,0.0,0.0,0.0,2.0,10.0,3.0,2.0,25.0,88.0,0.0,9.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+J. Costa,730000,2.6,44,defensa,Real Club Deportivo Mallorca,Costa,Samu Costa,RCD Mallorca,3.628.973€,60.0,11.0,655.0,6.0,0.0,1.0,1.0,7.0,1.0,10.0,15.0,65.0,0.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Costa,730000,2.6,44,defensa,Real Club Deportivo Mallorca,Costa,Jaume Costa,RCD Mallorca,572.369€,15.0,13.0,229.0,0.0,0.0,0.0,0.0,13.0,0.0,0.0,15.0,25.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Canós,1583000,3.9,43,mediocentro,Valencia Club de Fútbol,Canós,Canós,Valencia CF,694.630€,17.0,13.0,544.0,0.0,0.0,0.0,1.0,20.0,0.0,0.0,28.0,45.0,0.0,10.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+J. Cuenca,1040000,3.3,43,defensa,Villarreal Club de Fútbol,Cuenca,Cuenca,Villarreal CF,2.493.877€,40.0,13.0,1070.0,0.0,2.0,3.0,19.0,12.0,3.0,6.0,58.0,185.0,0.0,28.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0
+L. Vázquez,2855000,3.1,43,defensa,Real Madrid Club de Fútbol,Vázquez,Lucas Vázquez,Real Madrid,713.341€,26.0,14.0,170.0,0.0,1.0,2.0,2.0,4.0,7.0,3.0,12.0,34.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Vázquez,2855000,3.1,43,defensa,Real Madrid Club de Fútbol,Vázquez,Kevin Vázquez,RC Celta,487.846€,12.0,14.0,334.0,0.0,0.0,0.0,2.0,14.0,1.0,0.0,19.0,38.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+L. Vázquez,2855000,3.1,43,defensa,Real Madrid Club de Fútbol,Vázquez,Jesús Vázquez,Valencia CF,485.059€,3.0,7.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Vázquez,2855000,3.1,43,defensa,Real Madrid Club de Fútbol,Vázquez,Kevin Vázquez,Granada CF,505.539€,1.0,7.0,19.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Vázquez,2855000,3.1,43,defensa,Real Madrid Club de Fútbol,Vázquez,Jesús Vázquez,Atlético de Madrid,26.824.398€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Pérez,193000,2.9,43,mediocentro,Rayo Vallecano de Madrid,Pérez,Ayoze Pérez,Real Betis,44.290.879€,88.0,14.0,1235.0,2.0,0.0,1.0,17.0,26.0,7.0,5.0,106.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+K. Pérez,193000,2.9,43,mediocentro,Rayo Vallecano de Madrid,Pérez,Fran Pérez,Valencia CF,15.133.163€,75.0,14.0,748.0,5.0,2.0,2.0,1.0,4.0,4.0,16.0,22.0,71.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Pérez,193000,2.9,43,mediocentro,Rayo Vallecano de Madrid,Pérez,Kike Pérez,Rayo Vallecano,590.292€,26.0,13.0,380.0,1.0,0.0,0.0,1.0,4.0,2.0,4.0,26.0,73.0,0.0,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+K. Pérez,193000,2.9,43,mediocentro,Rayo Vallecano de Madrid,Pérez,Carles Pérez,RC Celta,663.924€,11.0,9.0,237.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,18.0,37.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. Pérez,193000,2.9,43,mediocentro,Rayo Vallecano de Madrid,Pérez,Carles Pérez,Valencia CF,491.089€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Cruz,652000,3.2,42,defensa,Club Atlético Osasuna,Cruz,Juan Cruz,C.A. Osasuna,573.858€,23.0,10.0,208.0,2.0,0.0,0.0,0.0,3.0,2.0,4.0,6.0,30.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Cruz,652000,3.2,42,defensa,Club Atlético Osasuna,Cruz,Juan Cruz,Real Betis,484.672€,9.0,11.0,65.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,4.0,8.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Cruz,652000,3.2,42,defensa,Club Atlético Osasuna,Cruz,Juan Cruz,Sevilla FC,508.875€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Baba,160000,2.5,42,mediocentro,Unión Deportiva Almería,Baba,Baba,UD Almería,1.010.425€,33.0,14.0,827.0,0.0,0.0,1.0,2.0,11.0,7.0,1.0,86.0,83.0,0.0,31.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+K. Salas,1334000,4.6,41,defensa,Sevilla Fútbol Club,Salas,Kike Salas,Sevilla FC,8.863.096€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Dmitrović,5270000,3.7,41,portero,Sevilla Fútbol Club,Dmitrović,,,,,,,,,,,,,,,,,,,,,,,,,
+I. Muñoz,717000,3.7,41,mediocentro,Club Atlético Osasuna,Muñoz,Javi Muñoz,UD Las Palmas,545.356€,40.0,13.0,347.0,1.0,0.0,1.0,7.0,2.0,5.0,5.0,20.0,42.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Muñoz,717000,3.7,41,mediocentro,Club Atlético Osasuna,Muñoz,Iker Muñoz,C.A. Osasuna,531.692€,21.0,10.0,367.0,1.0,1.0,0.0,0.0,7.0,7.0,1.0,9.0,65.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. García,3726000,3.2,41,defensa,Real Madrid Club de Fútbol,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bebé,160000,2.9,41,delantero,Rayo Vallecano de Madrid,Bebé,Bebé,Rayo Vallecano,524.783€,28.0,14.0,78.0,2.0,0.0,0.0,3.0,0.0,7.0,4.0,7.0,31.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+P. Maffeo,5330000,2.7,41,defensa,Real Club Deportivo Mallorca,Maffeo,Maffeo,RCD Mallorca,1.493.149€,22.0,11.0,614.0,0.0,0.0,1.0,7.0,7.0,5.0,1.0,43.0,115.0,0.0,11.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Gómez,1096000,2.6,41,delantero,Cádiz Club de Fútbol,Gómez,Moi Gómez,C.A. Osasuna,3.493.032€,41.0,8.0,694.0,4.0,0.0,1.0,1.0,6.0,7.0,13.0,16.0,65.0,0.0,19.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Gómez,1096000,2.6,41,delantero,Cádiz Club de Fútbol,Gómez,Maxi Gómez,Cádiz CF,1.196.805€,14.0,11.0,406.0,0.0,0.0,1.0,0.0,0.0,2.0,2.0,9.0,70.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+E. Ávila,4821000,2.4,41,delantero,Club Atlético Osasuna,Ávila,Chimy Ávila,C.A. Osasuna,2.751.650€,44.0,10.0,816.0,3.0,2.0,0.0,0.0,15.0,24.0,5.0,40.0,145.0,0.0,21.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+S. Roberto,1383000,6.7,40,defensa,Fútbol Club Barcelona,Roberto,Sergi Roberto,FC Barcelona,651.806€,16.0,9.0,189.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,16.0,16.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Ramos,11325000,4.0,40,defensa,Sevilla Fútbol Club,Ramos,Chris Ramos,Cádiz CF,3.473.022€,54.0,14.0,976.0,0.0,0.0,0.0,0.0,33.0,0.0,0.0,72.0,79.0,0.0,11.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+S. Ramos,11325000,4.0,40,defensa,Sevilla Fútbol Club,Ramos,Sergio Ramos,Sevilla FC,11.642.679€,15.0,5.0,180.0,1.0,0.0,0.0,0.0,6.0,0.0,2.0,12.0,12.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Cardona,185000,3.6,40,delantero,Unión Deportiva Las Palmas,Cardona,Cardona,UD Las Palmas,3.808.852€,58.0,14.0,705.0,1.0,0.0,0.0,1.0,25.0,9.0,7.0,65.0,79.0,0.0,12.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+É. González,2083000,2.7,40,defensa,Unión Deportiva Almería,González,Gio González,RCD Mallorca,493.015€,22.0,14.0,833.0,0.0,0.0,0.0,5.0,11.0,3.0,2.0,57.0,121.0,0.0,12.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+É. González,2083000,2.7,40,defensa,Unión Deportiva Almería,González,Sergio González,Cádiz CF,485.166€,18.0,5.0,267.0,0.0,0.0,1.0,0.0,1.0,2.0,3.0,23.0,45.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+É. González,2083000,2.7,40,defensa,Unión Deportiva Almería,González,González,Valencia CF,474.209€,14.0,9.0,31.0,0.0,1.0,1.0,4.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Ibáñez,391000,2.7,40,mediocentro,Club Atlético Osasuna,Ibáñez,,,,,,,,,,,,,,,,,,,,,,,,,
+L. Milla,6586000,4.9,39,mediocentro,Getafe Club de Fútbol,Milla,Milla,Getafe CF,518.248€,13.0,4.0,223.0,0.0,0.0,0.0,8.0,1.0,2.0,0.0,21.0,41.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Milla,6586000,4.9,39,mediocentro,Getafe Club de Fútbol,Milla,Milla,Cádiz CF,479.841€,2.0,10.0,55.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,3.0,7.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Depay,4932000,3.9,39,delantero,Club Atlético de Madrid,Depay,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Mumin,4854000,3.9,39,defensa,Rayo Vallecano de Madrid,Mumin,Mumin,Rayo Vallecano,814.729€,34.0,12.0,435.0,1.0,0.0,0.0,0.0,33.0,0.0,1.0,12.0,33.0,0.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Mojica,550000,3.5,39,defensa,Club Atlético Osasuna,Mojica,Mojica,C.A. Osasuna,2.644.990€,46.0,13.0,669.0,0.0,1.0,4.0,13.0,4.0,5.0,2.0,81.0,148.0,0.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Giménez,2483000,3.0,39,defensa,Club Atlético de Madrid,Giménez,Giménez,Atlético de Madrid,4.524.060€,27.0,8.0,365.0,0.0,0.0,0.0,0.0,25.0,2.0,0.0,17.0,35.0,0.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+G. Melero,160000,2.6,39,mediocentro,Unión Deportiva Almería,Melero,Melero,UD Almería,601.397€,21.0,14.0,271.0,0.0,0.0,1.0,3.0,2.0,3.0,0.0,17.0,43.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+P. Torre,1415000,3.2,38,mediocentro,Girona Fútbol Club,Torre,De La Torre,RC Celta,913.172€,45.0,12.0,829.0,0.0,0.0,0.0,1.0,9.0,11.0,1.0,75.0,78.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Torre,1415000,3.2,38,mediocentro,Girona Fútbol Club,Torre,Pablo Torre,Girona FC,571.296€,16.0,12.0,93.0,1.0,0.0,0.0,0.0,3.0,2.0,2.0,8.0,10.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+O. Romeu,899000,2.7,38,mediocentro,Fútbol Club Barcelona,Romeu,Oriol Romeu,FC Barcelona,8.399.746€,51.0,12.0,619.0,1.0,1.0,2.0,7.0,3.0,20.0,5.0,25.0,89.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+L. Hernández,440000,4.6,37,defensa,Cádiz Club de Fútbol,Hernández,Javi Hernández,Cádiz CF,2.921.443€,57.0,11.0,613.0,1.0,1.0,4.0,19.0,0.0,14.0,7.0,36.0,121.0,0.0,14.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+L. Hernández,440000,4.6,37,defensa,Cádiz Club de Fútbol,Hernández,Luis Hernández,Cádiz CF,965.508€,28.0,7.0,542.0,1.0,0.0,0.0,0.0,20.0,0.0,1.0,29.0,75.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+C. Fernández,299000,3.7,37,delantero,Real Sociedad de Fútbol,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+C. Fernández,299000,3.7,37,delantero,Real Sociedad de Fútbol,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Miranda,2442000,3.4,37,defensa,Real Betis Balompié,Miranda,Miranda,Real Betis,2.830.347€,48.0,13.0,665.0,0.0,1.0,5.0,0.0,15.0,0.0,2.0,54.0,89.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. Gómez,769000,3.4,37,mediocentro,Athletic Club,Gómez,Moi Gómez,C.A. Osasuna,3.493.032€,41.0,8.0,694.0,4.0,0.0,1.0,1.0,6.0,7.0,13.0,16.0,65.0,0.0,19.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. Gómez,769000,3.4,37,mediocentro,Athletic Club,Gómez,Maxi Gómez,Cádiz CF,1.196.805€,14.0,11.0,406.0,0.0,0.0,1.0,0.0,0.0,2.0,2.0,9.0,70.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Ó. Rodríguez,256000,3.4,37,mediocentro,Getafe Club de Fútbol,Rodríguez,Guido Rodríguez,Real Betis,12.222.076€,69.0,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0
+Ó. Rodríguez,256000,3.4,37,mediocentro,Getafe Club de Fútbol,Rodríguez,Dani Rodríguez,RCD Mallorca,4.040.039€,53.0,14.0,625.0,3.0,0.0,2.0,3.0,4.0,7.0,6.0,27.0,96.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+Ó. Rodríguez,256000,3.4,37,mediocentro,Getafe Club de Fútbol,Rodríguez,Miguel Rodríguez,RC Celta,549.462€,10.0,14.0,64.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,20.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Ó. Rodríguez,256000,3.4,37,mediocentro,Getafe Club de Fútbol,Rodríguez,Miguel Rodríguez,Girona FC,496.189€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Prados,1613000,3.1,37,mediocentro,Athletic Club,Prados,Prados,Athletic Club,475.469€,11.0,9.0,89.0,0.0,0.0,0.0,0.0,1.0,1.0,2.0,10.0,16.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Prados,1613000,3.1,37,mediocentro,Athletic Club,Prados,Prados,Atlético de Madrid,480.076€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. Guillamón,1244000,3.1,37,mediocentro,Valencia Club de Fútbol,Guillamón,Guillamón,Valencia CF,562.759€,18.0,14.0,141.0,1.0,1.0,1.0,0.0,2.0,1.0,1.0,7.0,25.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Vinícius,972000,2.8,37,defensa,Real Betis Balompié,Vinícius,,,,,,,,,,,,,,,,,,,,,,,,,
+O. Alderete,597000,2.8,37,defensa,Getafe Club de Fútbol,Alderete,Alderete,Getafe CF,1.059.029€,33.0,13.0,568.0,0.0,1.0,0.0,0.0,40.0,3.0,0.0,35.0,80.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+Ó. Torres,863000,2.6,37,mediocentro,Sevilla Fútbol Club,Torres,Ferran Torres,FC Barcelona,11.844.014€,52.0,12.0,948.0,1.0,0.0,0.0,0.0,42.0,1.0,1.0,65.0,66.0,0.0,14.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+Ó. Torres,863000,2.6,37,mediocentro,Sevilla Fútbol Club,Torres,Óliver Torres,Sevilla FC,654.008€,31.0,11.0,559.0,0.0,0.0,1.0,5.0,0.0,3.0,2.0,45.0,85.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+Á. Fernández,596000,2.5,37,mediocentro,Cádiz Club de Fútbol,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+Á. Fernández,596000,2.5,37,mediocentro,Cádiz Club de Fútbol,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Callejón,166000,2.3,37,mediocentro,Granada Club de Fútbol,Callejón,,,,,,,,,,,,,,,,,,,,,,,,,
+Chumi,855000,2.2,37,defensa,Unión Deportiva Almería,Chumi,Chumi,UD Almería,477.674€,30.0,14.0,469.0,0.0,0.0,1.0,1.0,5.0,7.0,2.0,25.0,35.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Í. Martínez,5093000,4.5,36,defensa,Fútbol Club Barcelona,Martínez,Iñigo Martínez,FC Barcelona,9.478.809€,34.0,11.0,543.0,0.0,0.0,0.0,0.0,24.0,0.0,1.0,41.0,63.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Arnaiz,546000,3.3,36,delantero,Club Atlético Osasuna,Arnaiz,Jose Arnaiz,C.A. Osasuna,606.307€,31.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Martínez,1073000,3.0,36,defensa,Girona Fútbol Club,Martínez,Iñigo Martínez,FC Barcelona,9.478.809€,34.0,11.0,543.0,0.0,0.0,0.0,0.0,24.0,0.0,1.0,41.0,63.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+T. Lato,269000,3.0,36,defensa,Real Club Deportivo Mallorca,Lato,Lato,RCD Mallorca,813.705€,33.0,13.0,547.0,0.0,1.0,1.0,4.0,7.0,0.0,0.0,32.0,76.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+Á. Fernández,439000,2.8,36,mediocentro,Granada Club de Fútbol,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+Á. Fernández,439000,2.8,36,mediocentro,Granada Club de Fútbol,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Ángel Carmona,204000,2.8,36,defensa,Getafe Club de Fútbol,Carmona,Carmona,Getafe CF,508.309€,28.0,10.0,482.0,1.0,1.0,0.0,2.0,5.0,2.0,2.0,36.0,71.0,0.0,9.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. de Tomás,1539000,2.6,36,delantero,Rayo Vallecano de Madrid,Tomás,,,,,,,,,,,,,,,,,,,,,,,,,
+Sandro,1220000,4.4,35,delantero,Unión Deportiva Las Palmas,Sandro,Sandro,UD Las Palmas,1.032.002€,25.0,11.0,338.0,2.0,0.0,2.0,2.0,3.0,4.0,4.0,14.0,48.0,0.0,5.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+K. Tierney,3208000,3.9,35,defensa,Real Sociedad de Fútbol,Tierney,Kieran Tierney,Real Sociedad,1.791.822€,15.0,8.0,448.0,0.0,0.0,0.0,0.0,23.0,0.0,3.0,38.0,33.0,0.0,6.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+A. Hernández,577000,3.5,35,defensa,Rayo Vallecano de Madrid,Hernández,Javi Hernández,Cádiz CF,2.921.443€,57.0,11.0,613.0,1.0,1.0,4.0,19.0,0.0,14.0,7.0,36.0,121.0,0.0,14.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Hernández,577000,3.5,35,defensa,Rayo Vallecano de Madrid,Hernández,Luis Hernández,Cádiz CF,965.508€,28.0,7.0,542.0,1.0,0.0,0.0,0.0,20.0,0.0,1.0,29.0,75.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. Zakharyan,742000,2.9,35,mediocentro,Real Sociedad de Fútbol,Zakharyan,Zakharyan,Real Sociedad,957.474€,16.0,6.0,363.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,17.0,72.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. Terrats,186000,2.7,35,mediocentro,Villarreal Club de Fútbol,Terrats,Terrats,Villarreal CF,651.088€,19.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Foulquier,554000,2.5,35,defensa,Valencia Club de Fútbol,Foulquier,Foulquier,Valencia CF,538.148€,21.0,12.0,587.0,0.0,0.0,0.0,1.0,22.0,1.0,0.0,41.0,78.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+Pejiño,311000,3.4,34,mediocentro,Unión Deportiva Las Palmas,Pejiño,Pejiño,UD Las Palmas,511.000€,24.0,10.0,448.0,0.0,1.0,1.0,5.0,13.0,2.0,0.0,28.0,53.0,0.0,6.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+S. Mitrović,186000,3.1,34,defensa,Getafe Club de Fútbol,Mitrović,,,,,,,,,,,,,,,,,,,,,,,,,
+L. Badé,4177000,2.8,34,defensa,Sevilla Fútbol Club,Badé,Badé,Sevilla FC,11.675.825€,52.0,14.0,863.0,0.0,0.0,0.0,3.0,6.0,11.0,4.0,66.0,143.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Morlanes,328000,2.3,34,mediocentro,Real Club Deportivo Mallorca,Morlanes,Morlanes,RCD Mallorca,620.350€,28.0,13.0,360.0,0.0,0.0,0.0,1.0,4.0,3.0,1.0,38.0,36.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Ndiaye,160000,2.3,34,mediocentro,Real Club Deportivo Mallorca,Ndiaye,,,,,,,,,,,,,,,,,,,,,,,,,
+R. Tapia,2321000,3.3,33,mediocentro,Real Club Celta de Vigo,Tapia,Tapia,RC Celta,535.500€,13.0,13.0,197.0,0.0,0.0,0.0,0.0,6.0,1.0,1.0,15.0,25.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+R. Tapia,2321000,3.3,33,mediocentro,Real Club Celta de Vigo,Tapia,Tapia,Rayo Vallecano,472.456€,2.0,14.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+S. Comesaña,206000,3.0,33,mediocentro,Villarreal Club de Fútbol,Comesaña,Comesaña,Villarreal CF,696.074€,16.0,14.0,317.0,0.0,0.0,0.0,0.0,5.0,3.0,1.0,22.0,41.0,0.0,5.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+A. Puertas,160000,1.9,33,mediocentro,Granada Club de Fútbol,Puertas,Antonio Puertas,Granada CF,516.747€,27.0,13.0,513.0,0.0,2.0,0.0,1.0,4.0,11.0,4.0,24.0,74.0,1.0,15.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Sobrino,160000,1.9,33,mediocentro,Cádiz Club de Fútbol,Sobrino,Sobrino,Cádiz CF,519.597€,12.0,12.0,366.0,0.0,0.0,0.0,3.0,5.0,3.0,0.0,43.0,59.0,0.0,7.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0
+R. Sobrino,160000,1.9,33,mediocentro,Cádiz Club de Fútbol,Sobrino,Sobrino,UD Almería,467.985€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Soumaré,2348000,2.9,32,mediocentro,Sevilla Fútbol Club,Soumaré,Soumaré,Sevilla FC,1.273.116€,20.0,5.0,270.0,0.0,1.0,1.0,2.0,9.0,3.0,0.0,23.0,37.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+O. Mascarell,160000,2.7,32,mediocentro,Real Club Deportivo Mallorca,Mascarell,Mascarell,RCD Mallorca,596.668€,15.0,14.0,48.0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,5.0,14.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ó. Melendo,181000,2.5,32,mediocentro,Granada Club de Fútbol,Melendo,Melendo,Granada CF,543.649€,27.0,14.0,764.0,0.0,0.0,0.0,1.0,2.0,6.0,0.0,43.0,78.0,0.0,17.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+E. Lamela,263000,4.4,31,mediocentro,Sevilla Fútbol Club,Lamela,Lamela,Sevilla FC,809.286€,25.0,14.0,437.0,0.0,0.0,0.0,0.0,3.0,2.0,9.0,11.0,44.0,0.0,6.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+M. Rubio,160000,3.9,31,defensa,Granada Club de Fútbol,Rubio,Miguel Rubio,Granada CF,610.909€,26.0,8.0,559.0,1.0,0.0,0.0,0.0,24.0,1.0,1.0,45.0,71.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+S. Savić,778000,3.1,31,defensa,Club Atlético de Madrid,Savić,,,,,,,,,,,,,,,,,,,,,,,,,
+I. Villar,160000,3.1,31,portero,Real Club Celta de Vigo,Villar,Gonzalo Villar,Granada CF,2.654.774€,59.0,14.0,1018.0,2.0,0.0,3.0,3.0,0.0,10.0,7.0,50.0,171.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+I. Villar,160000,3.1,31,portero,Real Club Celta de Vigo,Villar,Iván Villar,RC Celta,1.824.328€,39.0,12.0,861.0,0.0,0.0,0.0,5.0,20.0,6.0,0.0,79.0,99.0,0.0,12.0,0.0,0.0,0.0,5.0,1.0,0.0,0.0,0.0
+L. Henrique,349000,2.8,31,delantero,Real Betis Balompié,Henrique,Luiz Henrique,Real Betis,2.186.765€,35.0,8.0,292.0,0.0,2.0,3.0,3.0,2.0,11.0,1.0,18.0,54.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. Falcao,247000,2.8,31,delantero,Rayo Vallecano de Madrid,Falcao,Falcao,Rayo Vallecano,505.346€,16.0,14.0,221.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,11.0,31.0,0.0,3.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+B. Turrientes,170000,2.6,31,mediocentro,Real Sociedad de Fútbol,Turrientes,Turrientes,Real Sociedad,500.613€,30.0,5.0,231.0,1.0,1.0,0.0,2.0,1.0,12.0,1.0,9.0,37.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Kaba,160000,2.6,31,delantero,Unión Deportiva Las Palmas,Kaba,Sory Kaba,UD Las Palmas,591.881€,21.0,10.0,435.0,0.0,0.0,0.0,0.0,7.0,7.0,0.0,38.0,35.0,0.0,8.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+A. Moreno,865000,2.4,31,defensa,Villarreal Club de Fútbol,Moreno,Alberto Moreno,Villarreal CF,551.333€,24.0,11.0,804.0,0.0,0.0,0.0,0.0,44.0,0.0,1.0,36.0,61.0,0.0,20.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0
+Ø. Nyland,215000,4.3,30,portero,Sevilla Fútbol Club,Nyland,Nyland,Sevilla FC,1.889.597€,37.0,10.0,387.0,0.0,0.0,0.0,0.0,6.0,3.0,1.0,47.0,57.0,0.0,3.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. Navas,999000,2.5,30,defensa,Sevilla Fútbol Club,Navas,Navas,Sevilla FC,1.975.664€,29.0,9.0,602.0,0.0,2.0,2.0,9.0,7.0,4.0,1.0,43.0,90.0,0.0,12.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. Peña,3576000,4.8,29,portero,Fútbol Club Barcelona,Peña,Rubén Peña,C.A. Osasuna,3.544.548€,51.0,14.0,635.0,0.0,1.0,2.0,1.0,12.0,3.0,2.0,43.0,73.0,0.0,9.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+I. Peña,3576000,4.8,29,portero,Fútbol Club Barcelona,Peña,Iñaki Peña,FC Barcelona,641.038€,5.0,11.0,90.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,12.0,3.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Peña,3576000,4.8,29,portero,Fútbol Club Barcelona,Peña,Iñaki Peña,UD Almería,44.290.879€,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Mandi,230000,3.2,29,defensa,Villarreal Club de Fútbol,Mandi,Mandi,Villarreal CF,587.957€,16.0,13.0,466.0,0.0,0.0,1.0,0.0,16.0,0.0,1.0,27.0,29.0,0.0,8.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+A. Guardado,160000,2.6,29,mediocentro,Real Betis Balompié,Guardado,Guardado,Real Betis,521.281€,21.0,14.0,623.0,0.0,1.0,1.0,0.0,4.0,7.0,2.0,16.0,67.0,0.0,21.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+S. Amallah,167000,2.4,29,mediocentro,Valencia Club de Fútbol,Amallah,Amallah,Valencia CF,1.213.402€,30.0,10.0,422.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,48.0,50.0,0.0,9.0,0.0,16.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. Torrente,171000,2.2,29,defensa,Granada Club de Fútbol,Torrente,Torrente,Granada CF,530.242€,21.0,10.0,262.0,0.0,0.0,1.0,1.0,8.0,3.0,0.0,21.0,47.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Benavídez,160000,2.2,29,mediocentro,Deportivo Alavés,Benavídez,,,,,,,,,,,,,,,,,,,,,,,,,
+C. Bravo,189000,4.0,28,portero,Real Betis Balompié,Bravo,Claudio Bravo,Real Betis,2.025.974€,53.0,14.0,956.0,1.0,0.0,0.0,0.0,34.0,1.0,1.0,58.0,86.0,0.0,14.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,1.0
+R. Nteka,199000,3.5,28,delantero,Rayo Vallecano de Madrid,Nteka,Nteka,Rayo Vallecano,1.456.052€,25.0,7.0,373.0,0.0,0.0,2.0,2.0,4.0,8.0,4.0,19.0,62.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+H. Sotelo,164000,3.5,28,mediocentro,Real Club Celta de Vigo,Sotelo,Hugo Sotelo,RC Celta,547.669€,15.0,5.0,166.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,14.0,36.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Dotor,174000,2.8,28,mediocentro,Real Club Celta de Vigo,Dotor,Dotor,RC Celta,520.065€,17.0,14.0,323.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,26.0,39.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+D. García,168000,2.8,28,mediocentro,Athletic Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Barja,160000,2.5,28,mediocentro,Club Atlético Osasuna,Barja,Kike Barja,C.A. Osasuna,502.438€,17.0,11.0,234.0,0.0,0.0,0.0,3.0,1.0,8.0,2.0,16.0,53.0,0.0,7.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+W. Swedberg,514000,4.5,27,mediocentro,Real Club Celta de Vigo,Swedberg,Swedberg,RC Celta,489.537€,15.0,14.0,188.0,0.0,0.0,0.0,2.0,1.0,4.0,1.0,8.0,35.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Mendy,2846000,2.7,27,defensa,Real Madrid Club de Fútbol,Mendy,Mendy,Real Madrid,8.699.885€,41.0,11.0,698.0,1.0,0.0,0.0,3.0,3.0,6.0,4.0,56.0,96.0,0.0,12.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+W. Carvalho,1603000,2.7,27,mediocentro,Real Betis Balompié,Carvalho,William Carvalho,Real Betis,1.431.978€,22.0,8.0,196.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,25.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Pozo,175000,1.9,27,defensa,Unión Deportiva Almería,Pozo,Pozo,UD Almería,517.807€,13.0,12.0,400.0,0.0,0.0,0.0,7.0,5.0,1.0,1.0,27.0,79.0,0.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Pozo,175000,1.9,27,defensa,Unión Deportiva Almería,Pozo,Pozo,Sevilla FC,506.386€,2.0,5.0,17.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Elustondo,536000,3.7,26,defensa,Real Sociedad de Fútbol,Elustondo,,,,,,,,,,,,,,,,,,,,,,,,,
+Y. Pino,160000,3.7,26,delantero,Villarreal Club de Fútbol,Pino,Yéremy Pino,Villarreal CF,2.530.686€,22.0,5.0,147.0,2.0,0.0,0.0,1.0,0.0,2.0,3.0,1.0,27.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Almeida,166000,3.3,26,mediocentro,Valencia Club de Fútbol,Almeida,Almeida,Valencia CF,2.707.936€,32.0,8.0,484.0,0.0,1.0,1.0,3.0,1.0,7.0,2.0,19.0,66.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Vidal,203000,4.2,25,defensa,Club Atlético Osasuna,Vidal,Nacho Vidal,C.A. Osasuna,496.726€,13.0,14.0,60.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,2.0,8.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Vidal,203000,4.2,25,defensa,Club Atlético Osasuna,Vidal,Nacho Vidal,Deportivo Alavés,524.436€,1.0,12.0,141.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,6.0,16.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Yaremchuk,646000,2.3,25,delantero,Valencia Club de Fútbol,Yaremchuk,Roman Yaremchuk,Valencia CF,725.504€,14.0,9.0,173.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,9.0,33.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. Bellerín,628000,2.1,25,defensa,Real Betis Balompié,Bellerín,Bellerín,Real Betis,5.395.018€,41.0,13.0,994.0,0.0,0.0,0.0,4.0,30.0,2.0,2.0,56.0,109.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Ramírez,160000,3.4,24,mediocentro,Unión Deportiva Las Palmas,Ramírez,,,,,,,,,,,,,,,,,,,,,,,,,
+K. Vázquez,619000,2.7,24,defensa,Real Club Celta de Vigo,Vázquez,Lucas Vázquez,Real Madrid,713.341€,26.0,14.0,170.0,0.0,1.0,2.0,2.0,4.0,7.0,3.0,12.0,34.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Vázquez,619000,2.7,24,defensa,Real Club Celta de Vigo,Vázquez,Kevin Vázquez,RC Celta,487.846€,12.0,14.0,334.0,0.0,0.0,0.0,2.0,14.0,1.0,0.0,19.0,38.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+K. Vázquez,619000,2.7,24,defensa,Real Club Celta de Vigo,Vázquez,Jesús Vázquez,Valencia CF,485.059€,3.0,7.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Vázquez,619000,2.7,24,defensa,Real Club Celta de Vigo,Vázquez,Kevin Vázquez,Granada CF,505.539€,1.0,7.0,19.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Vázquez,619000,2.7,24,defensa,Real Club Celta de Vigo,Vázquez,Jesús Vázquez,Atlético de Madrid,26.824.398€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Kouamé,209000,2.7,24,mediocentro,Cádiz Club de Fútbol,Kouamé,,,,,,,,,,,,,,,,,,,,,,,,,
+F. Cervi,882000,2.4,24,mediocentro,Real Club Celta de Vigo,Cervi,Cervi,RC Celta,530.295€,13.0,9.0,169.0,0.0,0.0,1.0,1.0,2.0,1.0,0.0,20.0,23.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. Cervi,882000,2.4,24,mediocentro,Real Club Celta de Vigo,Cervi,Cervi,Sevilla FC,593.804€,2.0,9.0,9.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Mir,755000,1.8,24,delantero,Sevilla Fútbol Club,Mir,Rafa Mir,Sevilla FC,728.793€,28.0,13.0,189.0,1.0,0.0,0.0,1.0,0.0,2.0,6.0,9.0,31.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Ristić,174000,3.3,23,defensa,Real Club Celta de Vigo,Ristić,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Pacheco,166000,2.9,23,defensa,Real Sociedad de Fútbol,Pacheco,Jon Pacheco,Real Sociedad,490.217€,20.0,13.0,313.0,0.0,0.0,0.0,0.0,14.0,0.0,1.0,11.0,30.0,0.0,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+G. Escalante,183000,2.1,23,mediocentro,Cádiz Club de Fútbol,Escalante,Escalante,Cádiz CF,961.686€,35.0,11.0,691.0,0.0,2.0,1.0,0.0,14.0,0.0,0.0,52.0,73.0,0.0,12.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Arambarri,160000,3.1,22,mediocentro,Getafe Club de Fútbol,Arambarri,Arambarri,Getafe CF,966.111€,14.0,7.0,337.0,0.0,0.0,0.0,2.0,7.0,3.0,2.0,28.0,41.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Villalibre,203000,2.8,22,delantero,Athletic Club,Villalibre,Villalibre,Athletic Club,554.121€,18.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Iglesias,511000,2.2,22,delantero,Real Betis Balompié,Iglesias,Juan Iglesias,Getafe CF,637.049€,31.0,14.0,561.0,0.0,0.0,1.0,6.0,17.0,2.0,4.0,41.0,119.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+B. Iglesias,511000,2.2,22,delantero,Real Betis Balompié,Iglesias,Borja Iglesias,Real Betis,2.551.857€,20.0,13.0,277.0,0.0,1.0,2.0,0.0,2.0,1.0,1.0,8.0,30.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+D. Gil,559000,5.3,21,portero,Cádiz Club de Fútbol,Gil,David Gil,Cádiz CF,475.541€,2.0,13.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Gil,559000,5.3,21,portero,Cádiz Club de Fútbol,Gil,David Gil,RC Celta,38.141.880€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Muniain,228000,1.9,21,mediocentro,Athletic Club,Muniain,Muniain,Athletic Club,1.134.267€,21.0,12.0,287.0,0.0,0.0,0.0,2.0,3.0,2.0,0.0,24.0,36.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Dominguez,688000,3.3,20,defensa,Real Club Celta de Vigo,Dominguez,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Acuña,452000,2.5,20,defensa,Sevilla Fútbol Club,Acuña,Acuña,Sevilla FC,1.234.156€,14.0,4.0,140.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,6.0,9.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Llabrés,205000,2.0,20,delantero,Real Club Deportivo Mallorca,Llabrés,Javi Llabrés,RCD Mallorca,510.066€,4.0,6.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Llabrés,205000,2.0,20,delantero,Real Club Deportivo Mallorca,Llabrés,Javi Llabrés,Real Sociedad,23.703.098€,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Fernández,2592000,1.7,20,defensa,Real Madrid Club de Fútbol,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+N. Fernández,2592000,1.7,20,defensa,Real Madrid Club de Fútbol,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+P. Chavarría,210000,3.2,19,defensa,Rayo Vallecano de Madrid,Chavarría,,,,,,,,,,,,,,,,,,,,,,,,,
+F. Diédhiou,160000,2.4,19,delantero,Granada Club de Fútbol,Diédhiou,,,,,,,,,,,,,,,,,,,,,,,,,
+C. Montes,414000,1.9,19,defensa,Unión Deportiva Almería,Montes,César Montes,UD Almería,30.694.041€,0.0,9.0,424.0,0.0,0.0,0.0,1.0,19.0,0.0,0.0,21.0,65.0,0.0,15.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+N. Petrović,189000,1.9,19,mediocentro,Granada Club de Fútbol,Petrović,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Aidoo,160000,3.0,18,defensa,Real Club Celta de Vigo,Aidoo,Aidoo,RC Celta,1.070.041€,23.0,12.0,652.0,0.0,1.0,1.0,3.0,13.0,0.0,0.0,41.0,107.0,0.0,12.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Özkacar,160000,2.3,18,defensa,Valencia Club de Fútbol,Özkacar,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Altimira,555000,2.0,18,defensa,Villarreal Club de Fútbol,Altimira,Altimira,Real Betis,491.462€,7.0,10.0,48.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,8.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Altimira,555000,2.0,18,defensa,Villarreal Club de Fútbol,Altimira,Altimira,Deportivo Alavés,47.421.229€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Ceballos,451000,2.0,18,mediocentro,Real Madrid Club de Fútbol,Ceballos,Ceballos,Real Madrid,672.350€,9.0,6.0,87.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,7.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Ceballos,451000,2.0,18,mediocentro,Real Madrid Club de Fútbol,Ceballos,Ceballos,Deportivo Alavés,511.778€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Puigmal,179000,1.6,18,mediocentro,Unión Deportiva Almería,Puigmal,Arnau Puigmal,UD Almería,476.930€,9.0,14.0,231.0,0.0,0.0,0.0,2.0,1.0,2.0,0.0,17.0,36.0,0.0,4.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+A. Puigmal,179000,1.6,18,mediocentro,Unión Deportiva Almería,Puigmal,Arnau Puigmal,Atlético de Madrid,829.099€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+L. Vinicius,160000,1.6,18,mediocentro,Unión Deportiva Almería,Vinicius,,,,,,,,,,,,,,,,,,,,,,,,,
+K. Fernandes,160000,2.8,17,defensa,Unión Deportiva Almería,Fernandes,,,,,,,,,,,,,,,,,,,,,,,,,
+X. Alkain,166000,2.1,17,mediocentro,Deportivo Alavés,Alkain,Alkain,Deportivo Alavés,492.052€,21.0,12.0,755.0,0.0,0.0,1.0,11.0,7.0,9.0,0.0,37.0,146.0,0.0,10.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0
+J. Copete,160000,2.1,17,defensa,Real Club Deportivo Mallorca,Copete,Copete,RCD Mallorca,585.987€,11.0,13.0,467.0,0.0,0.0,0.0,1.0,17.0,0.0,0.0,36.0,39.0,0.0,9.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+J. Copete,160000,2.1,17,defensa,Real Club Deportivo Mallorca,Copete,Copete,UD Las Palmas,474.069€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Tenaglia,359000,1.9,17,defensa,Deportivo Alavés,Tenaglia,Tenaglia,Deportivo Alavés,627.990€,13.0,12.0,96.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,7.0,15.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Tenaglia,359000,1.9,17,defensa,Deportivo Alavés,Tenaglia,Tenaglia,Real Sociedad,479.003€,2.0,10.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Pérez,256000,2.3,16,mediocentro,Real Club Celta de Vigo,Pérez,Ayoze Pérez,Real Betis,44.290.879€,88.0,14.0,1235.0,2.0,0.0,1.0,17.0,26.0,7.0,5.0,106.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+C. Pérez,256000,2.3,16,mediocentro,Real Club Celta de Vigo,Pérez,Fran Pérez,Valencia CF,15.133.163€,75.0,14.0,748.0,5.0,2.0,2.0,1.0,4.0,4.0,16.0,22.0,71.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Pérez,256000,2.3,16,mediocentro,Real Club Celta de Vigo,Pérez,Kike Pérez,Rayo Vallecano,590.292€,26.0,13.0,380.0,1.0,0.0,0.0,1.0,4.0,2.0,4.0,26.0,73.0,0.0,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+C. Pérez,256000,2.3,16,mediocentro,Real Club Celta de Vigo,Pérez,Carles Pérez,RC Celta,663.924€,11.0,9.0,237.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,18.0,37.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Pérez,256000,2.3,16,mediocentro,Real Club Celta de Vigo,Pérez,Carles Pérez,Valencia CF,491.089€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Vieites,182000,5.0,15,portero,Real Betis Balompié,Vieites,Vieites,Real Betis,488.324€,21.0,10.0,258.0,1.0,0.0,0.0,0.0,7.0,1.0,1.0,18.0,57.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Pubill,192000,3.0,15,defensa,Unión Deportiva Almería,Pubill,Marc Pubill,UD Almería,542.209€,3.0,3.0,247.0,0.0,0.0,0.0,0.0,6.0,2.0,0.0,19.0,44.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Pubill,192000,3.0,15,defensa,Unión Deportiva Almería,Pubill,Marc Pubill,RCD Mallorca,24.229.082€,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Romero,160000,3.0,15,defensa,Villarreal Club de Fútbol,Romero,,,,,,,,,,,,,,,,,,,,,,,,,
+C. Herrera,160000,2.5,15,delantero,Unión Deportiva Las Palmas,Herrera,Yangel Herrera,Girona FC,47.952.703€,85.0,11.0,729.0,1.0,5.0,6.0,17.0,2.0,26.0,5.0,49.0,154.0,0.0,11.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0
+C. Herrera,160000,2.5,15,delantero,Unión Deportiva Las Palmas,Herrera,Sergio Herrera,C.A. Osasuna,5.600.971€,58.0,14.0,1103.0,0.0,0.0,2.0,4.0,33.0,7.0,1.0,112.0,217.0,0.0,12.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+C. Herrera,160000,2.5,15,delantero,Unión Deportiva Las Palmas,Herrera,Ander Herrera,Athletic Club,564.443€,22.0,8.0,479.0,0.0,0.0,0.0,3.0,4.0,9.0,4.0,34.0,65.0,0.0,7.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+C. Herrera,160000,2.5,15,delantero,Unión Deportiva Las Palmas,Herrera,Herrera,UD Las Palmas,495.229€,5.0,14.0,93.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,6.0,11.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Herrera,160000,2.5,15,delantero,Unión Deportiva Las Palmas,Herrera,Herrera,Real Sociedad,39.721.690€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Meré,160000,2.5,15,defensa,Cádiz Club de Fútbol,Meré,Meré,Cádiz CF,488.209€,20.0,10.0,370.0,0.0,0.0,0.0,1.0,6.0,2.0,0.0,36.0,34.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Juanpe,214000,2.1,15,defensa,Girona Fútbol Club,Juanpe,Juanpe,Girona FC,508.013€,9.0,13.0,118.0,0.0,0.0,0.0,0.0,16.0,0.0,0.0,3.0,11.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Juanpe,214000,2.1,15,defensa,Girona Fútbol Club,Juanpe,Juanpe,Getafe CF,482.832€,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+K. Femenía,162000,2.1,15,defensa,Villarreal Club de Fútbol,Femenía,Kiko Femenía,Villarreal CF,475.855€,10.0,14.0,197.0,0.0,0.0,1.0,2.0,2.0,0.0,0.0,14.0,24.0,0.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+K. Femenía,162000,2.1,15,defensa,Villarreal Club de Fútbol,Femenía,Kiko Femenía,Villarreal CF,640.448€,0.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+R. García,191000,1.9,15,delantero,Athletic Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Navarro,1096000,1.7,15,mediocentro,Cádiz Club de Fútbol,Navarro,Robert Navarro,Cádiz CF,493.843€,8.0,5.0,216.0,0.0,0.0,1.0,2.0,1.0,3.0,1.0,15.0,35.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Navarro,1096000,1.7,15,mediocentro,Cádiz Club de Fútbol,Navarro,Robert Navarro,Real Sociedad,23.300.238€,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Guardiola,170000,1.7,15,delantero,Cádiz Club de Fútbol,Guardiola,Sergi Guardiola,Cádiz CF,766.210€,7.0,8.0,73.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,12.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Guardiola,170000,1.7,15,delantero,Cádiz Club de Fútbol,Guardiola,Sergi Guardiola,RC Celta,21.845.398€,0.0,10.0,90.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,4.0,17.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Duarte,209000,1.4,15,defensa,Getafe Club de Fútbol,Duarte,Duarte,Deportivo Alavés,4.252.922€,42.0,12.0,769.0,0.0,0.0,0.0,2.0,8.0,6.0,1.0,72.0,87.0,0.0,11.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Duarte,209000,1.4,15,defensa,Getafe Club de Fútbol,Duarte,Domingos Duarte,Getafe CF,816.252€,17.0,12.0,179.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,17.0,22.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Sabaly,199000,4.7,14,defensa,Real Betis Balompié,Sabaly,Sabaly,Real Betis,1.392.336€,20.0,14.0,424.0,1.0,0.0,0.0,0.0,20.0,3.0,1.0,16.0,41.0,0.0,16.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. Rațiu,160000,3.5,14,defensa,Rayo Vallecano de Madrid,Rațiu,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Galán,160000,2.8,14,defensa,Club Atlético de Madrid,Galán,Javi Galán,Atlético de Madrid,915.057€,8.0,13.0,83.0,0.0,0.0,0.0,1.0,3.0,2.0,0.0,8.0,22.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Galán,160000,2.8,14,defensa,Club Atlético de Madrid,Galán,Javi Galán,Real Madrid,1.540.916€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Altimira,270000,2.3,14,mediocentro,Real Betis Balompié,Altimira,Altimira,Real Betis,491.462€,7.0,10.0,48.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,8.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Altimira,270000,2.3,14,mediocentro,Real Betis Balompié,Altimira,Altimira,Deportivo Alavés,47.421.229€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Vázquez,270000,2.0,14,defensa,Valencia Club de Fútbol,Vázquez,Lucas Vázquez,Real Madrid,713.341€,26.0,14.0,170.0,0.0,1.0,2.0,2.0,4.0,7.0,3.0,12.0,34.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Vázquez,270000,2.0,14,defensa,Valencia Club de Fútbol,Vázquez,Kevin Vázquez,RC Celta,487.846€,12.0,14.0,334.0,0.0,0.0,0.0,2.0,14.0,1.0,0.0,19.0,38.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Vázquez,270000,2.0,14,defensa,Valencia Club de Fútbol,Vázquez,Jesús Vázquez,Valencia CF,485.059€,3.0,7.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Vázquez,270000,2.0,14,defensa,Valencia Club de Fútbol,Vázquez,Kevin Vázquez,Granada CF,505.539€,1.0,7.0,19.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Vázquez,270000,2.0,14,defensa,Valencia Club de Fútbol,Vázquez,Jesús Vázquez,Atlético de Madrid,26.824.398€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Trigueros,160000,2.0,14,mediocentro,Villarreal Club de Fútbol,Trigueros,Trigueros,Villarreal CF,525.546€,7.0,12.0,93.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,13.0,11.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Trigueros,160000,2.0,14,mediocentro,Villarreal Club de Fútbol,Trigueros,Trigueros,Athletic Club,22.390.408€,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Y. Gasiorowski,571000,3.3,13,defensa,Valencia Club de Fútbol,Gasiorowski,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Mbaye,160000,3.3,13,defensa,Cádiz Club de Fútbol,Mbaye,,,,,,,,,,,,,,,,,,,,,,,,,
+R. Fernández,160000,3.3,13,portero,Granada Club de Fútbol,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+R. Fernández,160000,3.3,13,portero,Granada Club de Fútbol,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. Koné,160000,1.6,13,delantero,Unión Deportiva Almería,Koné,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Guiu,204000,11.0,11,delantero,Fútbol Club Barcelona,Guiu,Marc Guiu,FC Barcelona,29.816.876€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+T. Nianzou,175000,3.7,11,defensa,Sevilla Fútbol Club,Nianzou,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Alonso,160000,2.8,11,defensa,Fútbol Club Barcelona,Alonso,Marcos Alonso,FC Barcelona,699.460€,13.0,12.0,160.0,0.0,0.0,1.0,2.0,3.0,3.0,2.0,14.0,23.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Alonso,160000,2.8,11,defensa,Fútbol Club Barcelona,Alonso,Marcos Alonso,Cádiz CF,480.880€,2.0,6.0,7.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Alonso,160000,2.8,11,defensa,Fútbol Club Barcelona,Alonso,Diego Alonso,Sevilla FC,17.969.498€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Ocampo,270000,2.2,11,mediocentro,Cádiz Club de Fútbol,Ocampo,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Januzaj,161000,1.6,11,mediocentro,Sevilla Fútbol Club,Januzaj,Januzaj,Sevilla FC,1.177.794€,4.0,7.0,42.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Januzaj,161000,1.6,11,mediocentro,Sevilla Fútbol Club,Januzaj,Januzaj,Cádiz CF,13.359.455€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+I. García,192000,2.5,10,defensa,Athletic Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Fernández,172000,2.5,10,portero,Club Atlético Osasuna,Fernández,Carlos Fernández,Real Sociedad,527.193€,33.0,13.0,373.0,2.0,1.0,1.0,0.0,4.0,3.0,4.0,17.0,60.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+A. Fernández,172000,2.5,10,portero,Club Atlético Osasuna,Fernández,Álex Fernández,Cádiz CF,522.861€,19.0,13.0,461.0,0.0,0.0,0.0,2.0,2.0,7.0,1.0,19.0,64.0,0.0,11.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+Y. Álvarez,773000,2.0,10,defensa,Athletic Club,Álvarez,,,,,,,,,,,,,,,,,,,,,,,,,
+S. Van der Heyden,182000,2.0,10,defensa,Real Club Deportivo Mallorca,Heyden,Heyden,RCD Mallorca,530.186€,15.0,5.0,130.0,0.0,0.0,1.0,2.0,4.0,5.0,0.0,10.0,25.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Negredo,177000,2.0,10,delantero,Cádiz Club de Fútbol,Negredo,Negredo,Cádiz CF,545.791€,8.0,13.0,35.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,10.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Negredo,177000,2.0,10,delantero,Cádiz Club de Fútbol,Negredo,Negredo,Rayo Vallecano,478.447€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Lozano,167000,1.7,10,delantero,Getafe Club de Fútbol,Lozano,Lozano,Getafe CF,531.439€,6.0,11.0,180.0,0.0,0.0,0.0,0.0,2.0,1.0,1.0,14.0,29.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+C. Lozano,167000,1.7,10,delantero,Getafe Club de Fútbol,Lozano,Lozano,Real Madrid,24.693.328€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Lemos,160000,3.0,9,defensa,Unión Deportiva Las Palmas,Lemos,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Suárez,173000,2.3,9,mediocentro,Villarreal Club de Fútbol,Suárez,Álex Suárez,UD Las Palmas,8.077.400€,56.0,14.0,1108.0,0.0,0.0,0.0,1.0,42.0,4.0,0.0,65.0,107.0,0.0,11.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+D. Suárez,173000,2.3,9,mediocentro,Villarreal Club de Fútbol,Suárez,Luis Suárez,UD Almería,1.003.827€,40.0,14.0,1192.0,0.0,0.0,2.0,10.0,16.0,5.0,3.0,82.0,142.0,0.0,18.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+D. Suárez,173000,2.3,9,mediocentro,Villarreal Club de Fútbol,Suárez,Denis Suárez,Villarreal CF,826.190€,15.0,12.0,408.0,0.0,0.0,0.0,0.0,10.0,1.0,0.0,35.0,41.0,0.0,8.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0
+A. Silva,1058000,1.8,9,delantero,Real Sociedad de Fútbol,Silva,Rui Silva,Real Betis,4.361.471€,34.0,11.0,405.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,43.0,50.0,0.0,7.0,0.0,14.0,1.0,0.0,0.0,0.0,0.0,0.0
+A. Silva,1058000,1.8,9,delantero,Real Sociedad de Fútbol,Silva,André Silva,Real Sociedad,905.538€,4.0,4.0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Silva,1058000,1.8,9,delantero,Real Sociedad de Fútbol,Silva,André Silva,Girona FC,50.943.080€,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Weissman,199000,1.8,9,delantero,Granada Club de Fútbol,Weissman,Weissman,Granada CF,754.235€,5.0,7.0,51.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Weissman,199000,1.8,9,delantero,Granada Club de Fútbol,Weissman,Weissman,Athletic Club,22.918.949€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Gozálbez,182000,1.8,9,mediocentro,Valencia Club de Fútbol,Gozálbez,Gozálbez,Valencia CF,474.209€,4.0,10.0,54.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,9.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Gozálbez,182000,1.8,9,mediocentro,Valencia Club de Fútbol,Gozálbez,Gozálbez,UD Las Palmas,29.628.561€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. González,176000,1.5,9,mediocentro,Valencia Club de Fútbol,González,Gio González,RCD Mallorca,493.015€,22.0,14.0,833.0,0.0,0.0,0.0,5.0,11.0,3.0,2.0,57.0,121.0,0.0,12.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+H. González,176000,1.5,9,mediocentro,Valencia Club de Fútbol,González,Sergio González,Cádiz CF,485.166€,18.0,5.0,267.0,0.0,0.0,1.0,0.0,1.0,2.0,3.0,23.0,45.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. González,176000,1.5,9,mediocentro,Valencia Club de Fútbol,González,González,Valencia CF,474.209€,14.0,9.0,31.0,0.0,1.0,1.0,4.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. Mendes,160000,1.3,9,defensa,Unión Deportiva Almería,Mendes,Mendes,UD Almería,476.915€,11.0,9.0,370.0,0.0,0.0,0.0,1.0,14.0,2.0,0.0,25.0,63.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+H. Mendes,160000,1.3,9,defensa,Unión Deportiva Almería,Mendes,Mendes,Real Madrid,1.877.671€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Herrando,171000,2.7,8,defensa,Club Atlético Osasuna,Herrando,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Jordan,161000,2.7,8,mediocentro,Sevilla Fútbol Club,Jordan,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Zaldua,160000,2.0,8,defensa,Cádiz Club de Fútbol,Zaldua,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Cruz,160000,2.0,8,mediocentro,Real Betis Balompié,Cruz,Juan Cruz,C.A. Osasuna,573.858€,23.0,10.0,208.0,2.0,0.0,0.0,0.0,3.0,2.0,4.0,6.0,30.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Cruz,160000,2.0,8,mediocentro,Real Betis Balompié,Cruz,Juan Cruz,Real Betis,484.672€,9.0,11.0,65.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,4.0,8.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Cruz,160000,2.0,8,mediocentro,Real Betis Balompié,Cruz,Juan Cruz,Sevilla FC,508.875€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Rodríguez,160000,1.1,8,delantero,Real Club Celta de Vigo,Rodríguez,Guido Rodríguez,Real Betis,12.222.076€,69.0,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Rodríguez,160000,1.1,8,delantero,Real Club Celta de Vigo,Rodríguez,Dani Rodríguez,RCD Mallorca,4.040.039€,53.0,14.0,625.0,3.0,0.0,2.0,3.0,4.0,7.0,6.0,27.0,96.0,0.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+M. Rodríguez,160000,1.1,8,delantero,Real Club Celta de Vigo,Rodríguez,Miguel Rodríguez,RC Celta,549.462€,10.0,14.0,64.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,20.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Rodríguez,160000,1.1,8,delantero,Real Club Celta de Vigo,Rodríguez,Miguel Rodríguez,Girona FC,496.189€,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Adu Ares,175000,2.3,7,delantero,Athletic Club,Ares,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Ander Olasagasti,208000,1.8,7,mediocentro,Real Sociedad de Fútbol,Olasagasti,Olasagasti,Real Sociedad,479.114€,5.0,12.0,19.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,7.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Ander Olasagasti,208000,1.8,7,mediocentro,Real Sociedad de Fútbol,Olasagasti,Olasagasti,Rayo Vallecano,47.952.703€,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+O. Mfulu,206000,1.4,7,mediocentro,Unión Deportiva Las Palmas,Mfulu,Mfulu,UD Las Palmas,495.656€,8.0,11.0,66.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,8.0,7.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+O. Mfulu,206000,1.4,7,mediocentro,Unión Deportiva Las Palmas,Mfulu,Mfulu,Granada CF,471.498€,0.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Odriozola,232000,3.0,6,defensa,Real Sociedad de Fútbol,Odriozola,Odriozola,Real Sociedad,500.278€,2.0,9.0,45.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Á. Odriozola,232000,3.0,6,defensa,Real Sociedad de Fútbol,Odriozola,Odriozola,C.A. Osasuna,24.249.630€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Martín,160000,3.0,6,mediocentro,Getafe Club de Fútbol,Martín,Iván Martín,Girona FC,10.579.722€,61.0,11.0,705.0,2.0,2.0,4.0,9.0,6.0,7.0,6.0,37.0,100.0,0.0,8.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+J. Vallejo,249000,2.0,6,defensa,Granada Club de Fútbol,Vallejo,,,,,,,,,,,,,,,,,,,,,,,,,
+F. San Emeterio,160000,2.0,6,mediocentro,Cádiz Club de Fútbol,Emeterio,San Emeterio,Cádiz CF,590.839€,14.0,13.0,118.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,8.0,27.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+V. Díaz,163000,1.5,6,defensa,Granada Club de Fútbol,Díaz,,,,,,,,,,,,,,,,,,,,,,,,,
+V. Chust,411000,1.2,6,defensa,Cádiz Club de Fútbol,Chust,Chust,Cádiz CF,524.739€,4.0,5.0,156.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,8.0,18.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+V. Chust,411000,1.2,6,defensa,Cádiz Club de Fútbol,Chust,Chust,FC Barcelona,39.670.275€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Sanca,160000,1.2,6,delantero,Unión Deportiva Almería,Sanca,,,,,,,,,,,,,,,,,,,,,,,,,
+É. Militão,2659000,5.0,5,defensa,Real Madrid Club de Fútbol,Militão,Militão,Real Madrid,2.140.800€,2.0,1.0,50.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+É. Militão,2659000,5.0,5,defensa,Real Madrid Club de Fútbol,Militão,Militão,RCD Mallorca,33.796.732€,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. Méndez,1179000,5.0,5,defensa,Granada Club de Fútbol,Méndez,Brais Méndez,Real Sociedad,40.089.464€,71.0,10.0,866.0,2.0,1.0,3.0,5.0,10.0,26.0,4.0,76.0,170.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+M. Bartra,200000,1.7,5,defensa,Real Betis Balompié,Bartra,Bartra,Real Betis,1.267.733€,7.0,5.0,225.0,0.0,0.0,0.0,0.0,10.0,2.0,0.0,17.0,19.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+M. Bartra,200000,1.7,5,defensa,Real Betis Balompié,Bartra,Bartra,Sevilla FC,67.608.305€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Angileri,209000,1.3,5,defensa,Getafe Club de Fútbol,Angileri,Angileri,Getafe CF,476.980€,9.0,13.0,75.0,0.0,0.0,1.0,2.0,4.0,0.0,0.0,10.0,14.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+F. Angileri,209000,1.3,5,defensa,Getafe Club de Fútbol,Angileri,Angileri,C.A. Osasuna,496.822€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Solís,165000,0.8,5,mediocentro,Girona Fútbol Club,Solís,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Batalla,1479000,4.0,4,portero,Granada Club de Fútbol,Batalla,,,,,,,,,,,,,,,,,,,,,,,,,
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+U. García,189000,4.0,4,defensa,Club Atlético Osasuna,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+S. Papastathopoulos,591000,2.0,4,defensa,Real Betis Balompié,Papastathopoulos,,,,,,,,,,,,,,,,,,,,,,,,,
+F. Coquelin,160000,2.0,4,mediocentro,Villarreal Club de Fútbol,Coquelin,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Dominguez,166000,1.3,4,mediocentro,Valencia Club de Fútbol,Dominguez,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Díaz,162000,1.0,4,delantero,Sevilla Fútbol Club,Díaz,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Arezo,267000,3.0,3,delantero,Granada Club de Fútbol,Arezo,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Mariño,189000,3.0,3,portero,Unión Deportiva Almería,Mariño,Mariño,UD Almería,471.433€,4.0,14.0,90.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,8.0,4.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Mariño,189000,3.0,3,portero,Unión Deportiva Almería,Mariño,Mariño,Getafe CF,71.119.326€,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Fekir,5293000,1.5,3,mediocentro,Real Betis Balompié,Fekir,Fekir,Real Betis,8.763.929€,3.0,3.0,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Fekir,5293000,1.5,3,mediocentro,Real Betis Balompié,Fekir,Fekir,Valencia CF,18.214.246€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Mari,168000,1.5,3,mediocentro,Cádiz Club de Fútbol,Mari,Jose Mari,Cádiz CF,473.235€,4.0,12.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. Mari,168000,1.5,3,mediocentro,Cádiz Club de Fútbol,Mari,Jose Mari,Deportivo Alavés,34.015.356€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. Martínez,163000,1.5,3,portero,Unión Deportiva Almería,Martínez,Iñigo Martínez,FC Barcelona,9.478.809€,34.0,11.0,543.0,0.0,0.0,0.0,0.0,24.0,0.0,1.0,41.0,63.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+A. Marí,160000,1.5,3,delantero,Valencia Club de Fútbol,Marí,Marí,Valencia CF,7.216.397€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+U. González,160000,1.5,3,mediocentro,Real Sociedad de Fútbol,González,Gio González,RCD Mallorca,493.015€,22.0,14.0,833.0,0.0,0.0,0.0,5.0,11.0,3.0,2.0,57.0,121.0,0.0,12.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+U. González,160000,1.5,3,mediocentro,Real Sociedad de Fútbol,González,Sergio González,Cádiz CF,485.166€,18.0,5.0,267.0,0.0,0.0,1.0,0.0,1.0,2.0,3.0,23.0,45.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+U. González,160000,1.5,3,mediocentro,Real Sociedad de Fútbol,González,González,Valencia CF,474.209€,14.0,9.0,31.0,0.0,1.0,1.0,4.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M. Milovanovic,167000,1.0,3,delantero,Unión Deportiva Almería,Milovanovic,,,,,,,,,,,,,,,,,,,,,,,,,
+E. Ünal,1977000,2.0,2,delantero,Getafe Club de Fútbol,Ünal,,,,,,,,,,,,,,,,,,,,,,,,,
+E. Bailly,1351000,2.0,2,defensa,Villarreal Club de Fútbol,Bailly,,,,,,,,,,,,,,,,,,,,,,,,,
+C. Vicente,1054000,2.0,2,delantero,Deportivo Alavés,Vicente,,,,,,,,,,,,,,,,,,,,,,,,,
+G. Simeone,607000,2.0,2,delantero,Deportivo Alavés,Simeone,Simeone,Atlético de Madrid,563.163€,51.0,14.0,877.0,0.0,1.0,0.0,0.0,14.0,8.0,4.0,67.0,104.0,0.0,17.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+U. Marrero,544000,2.0,2,portero,Real Sociedad de Fútbol,Marrero,,,,,,,,,,,,,,,,,,,,,,,,,
+R. Mandava,400000,2.0,2,defensa,Club Atlético de Madrid,Mandava,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Magunazelaia,191000,2.0,2,delantero,Real Sociedad de Fútbol,Magunazelaia,,,,,,,,,,,,,,,,,,,,,,,,,
+E. Curbelo,187000,2.0,2,defensa,Unión Deportiva Las Palmas,Curbelo,Curbelo,UD Las Palmas,490.414€,5.0,13.0,66.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,15.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+E. Curbelo,187000,2.0,2,defensa,Unión Deportiva Las Palmas,Curbelo,Curbelo,Atlético de Madrid,35.512.140€,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+R. Visus,175000,2.0,2,defensa,Real Betis Balompié,Visus,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Mendez,174000,2.0,2,mediocentro,Rayo Vallecano de Madrid,Mendez,,,,,,,,,,,,,,,,,,,,,,,,,
+N. Paz,183000,1.0,2,mediocentro,Real Madrid Club de Fútbol,Paz,Nico Paz,Real Madrid,479.274€,3.0,6.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+N. Paz,183000,1.0,2,mediocentro,Real Madrid Club de Fútbol,Paz,Nico Paz,Real Betis,17.047.578€,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Kébé,164000,1.0,2,mediocentro,Girona Fútbol Club,Kébé,,,,,,,,,,,,,,,,,,,,,,,,,
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+G. García,160000,1.0,2,delantero,Real Madrid Club de Fútbol,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Centelles,190000,0.7,2,defensa,Unión Deportiva Almería,Centelles,,,,,,,,,,,,,,,,,,,,,,,,,
+T. Lemar,160000,0.7,2,mediocentro,Club Atlético de Madrid,Lemar,Lemar,Atlético de Madrid,732.904€,8.0,3.0,167.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,19.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+T. Lemar,160000,0.7,2,mediocentro,Club Atlético de Madrid,Lemar,Lemar,Getafe CF,666.807€,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+W. Manafá,169000,0.5,2,defensa,Granada Club de Fútbol,Manafá,Manafá,Granada CF,521.332€,7.0,14.0,122.0,0.0,0.0,0.0,0.0,3.0,0.0,1.0,5.0,10.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+W. Manafá,169000,0.5,2,defensa,Granada Club de Fútbol,Manafá,Manafá,Girona FC,26.829.882€,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ç. Söyüncü,160000,0.3,2,defensa,Club Atlético de Madrid,Söyüncü,Söyüncü,Atlético de Madrid,903.694€,6.0,7.0,30.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ç. Söyüncü,160000,0.3,2,defensa,Club Atlético de Madrid,Söyüncü,Söyüncü,C.A. Osasuna,49.469.101€,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+V. Roque,10231000,1.0,1,delantero,Fútbol Club Barcelona,Roque,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Jauregizar,209000,1.0,1,mediocentro,Athletic Club,Jauregizar,,,,,,,,,,,,,,,,,,,,,,,,,
+C. Tárrega,205000,1.0,1,defensa,Valencia Club de Fútbol,Tárrega,,,,,,,,,,,,,,,,,,,,,,,,,
+H. Álvarez,167000,1.0,1,mediocentro,Real Club Celta de Vigo,Álvarez,,,,,,,,,,,,,,,,,,,,,,,,,
+S. Clúa,163000,1.0,1,mediocentro,Girona Fútbol Club,Clúa,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Ángel Pozo,160000,1.0,1,mediocentro,Rayo Vallecano de Madrid,Pozo,Pozo,UD Almería,517.807€,13.0,12.0,400.0,0.0,0.0,0.0,7.0,5.0,1.0,1.0,27.0,79.0,0.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. Ángel Pozo,160000,1.0,1,mediocentro,Rayo Vallecano de Madrid,Pozo,Pozo,Sevilla FC,506.386€,2.0,5.0,17.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+P. Nolaskoain,160000,1.0,1,defensa,Athletic Club,Nolaskoain,,,,,,,,,,,,,,,,,,,,,,,,,
+Marcão,270000,0.5,1,defensa,Sevilla Fútbol Club,Marcão,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Güler,3009000,0.0,0,mediocentro,Real Madrid Club de Fútbol,Güler,,,,,,,,,,,,,,,,,,,,,,,,,
+L. Agoumé,1200000,0.0,0,mediocentro,Sevilla Fútbol Club,Agoumé,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Cardoso,1092000,0.0,0,mediocentro,Real Betis Balompié,Cardoso,,,,,,,,,,,,,,,,,,,,,,,,,
+I. Moriba,846000,0.0,0,mediocentro,Getafe Club de Fútbol,Moriba,,,,,,,,,,,,,,,,,,,,,,,,,
+Jailson,834000,0.0,0,mediocentro,Real Club Celta de Vigo,Jailson,,,,,,,,,,,,,,,,,,,,,,,,,
+K. Piatkowski,562000,0.0,0,defensa,Granada Club de Fútbol,Piatkowski,,,,,,,,,,,,,,,,,,,,,,,,,
+T. Courtois,368000,0.0,0,portero,Real Madrid Club de Fútbol,Courtois,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Svidersky,210000,0.0,0,mediocentro,Unión Deportiva Almería,Svidersky,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Agirrezabala,208000,0.0,0,portero,Athletic Club,Agirrezabala,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Cárdenas,207000,0.0,0,portero,Rayo Vallecano de Madrid,Cárdenas,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Brašanac,203000,0.0,0,mediocentro,Club Atlético Osasuna,Brašanac,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Merquelanz,189000,0.0,0,mediocentro,Real Sociedad de Fútbol,Merquelanz,,,,,,,,,,,,,,,,,,,,,,,,,
+N. Maraš,187000,0.0,0,defensa,Deportivo Alavés,Maraš,,,,,,,,,,,,,,,,,,,,,,,,,
+P. Cuéllar,187000,0.0,0,portero,Real Club Deportivo Mallorca,Cuéllar,,,,,,,,,,,,,,,,,,,,,,,,,
+A. Escandell,177000,0.0,0,portero,Unión Deportiva Las Palmas,Escandell,,,,,,,,,,,,,,,,,,,,,,,,,
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+J. García,176000,0.0,0,delantero,Girona Fútbol Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. Marchesín,172000,0.0,0,portero,Real Club Celta de Vigo,Marchesín,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Pascual,172000,0.0,0,defensa,Rayo Vallecano de Madrid,Pascual,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Carlos Martín,171000,0.0,0,portero,Girona Fútbol Club,Martín,Iván Martín,Girona FC,10.579.722€,61.0,11.0,705.0,2.0,2.0,4.0,9.0,6.0,7.0,6.0,37.0,100.0,0.0,8.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Vitolo,171000,0.0,0,mediocentro,Club Atlético de Madrid,Vitolo,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Fuzato,166000,0.0,0,portero,Getafe Club de Fútbol,Fuzato,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Tejón,166000,0.0,0,mediocentro,Valencia Club de Fútbol,Tejón,,,,,,,,,,,,,,,,,,,,,,,,,
+F. Gattoni,165000,0.0,0,defensa,Sevilla Fútbol Club,Gattoni,,,,,,,,,,,,,,,,,,,,,,,,,
+A. López,164000,0.0,0,portero,Granada Club de Fútbol,López,David López,Girona FC,21.091.886€,65.0,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+A. López,164000,0.0,0,portero,Granada Club de Fútbol,López,Diego López,Valencia CF,8.244.336€,59.0,11.0,473.0,2.0,2.0,4.0,2.0,6.0,9.0,6.0,32.0,70.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. López,164000,0.0,0,portero,Granada Club de Fútbol,López,Unai López,Rayo Vallecano,1.149.304€,56.0,14.0,505.0,0.0,2.0,5.0,4.0,2.0,7.0,3.0,41.0,86.0,0.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+A. López,164000,0.0,0,portero,Granada Club de Fútbol,López,Javi López,Deportivo Alavés,546.786€,41.0,13.0,791.0,0.0,0.0,0.0,0.0,48.0,1.0,0.0,46.0,53.0,0.0,13.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Aleix García,Girona FC,72.562.139,130.0,14.0,1260.0,3.0,4.0,5.0,38.0,27.0,3.0,5.0,102.0,160.0,0.0,17.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Álvaro García,Rayo Vallecano,11.634.751€,64.0,13.0,1098.0,1.0,0.0,1.0,0.0,19.0,5.0,5.0,84.0,113.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,David García,C.A. Osasuna,15.415.782€,60.0,13.0,649.0,0.0,4.0,6.0,3.0,20.0,5.0,3.0,38.0,80.0,0.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Fran García,Real Madrid,9.630.692€,53.0,12.0,713.0,2.0,1.0,2.0,7.0,10.0,4.0,3.0,55.0,153.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Kike García,Deportivo Alavés,1.509.174€,47.0,14.0,688.0,2.0,0.0,1.0,1.0,8.0,8.0,12.0,24.0,98.0,1.0,8.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Rubén García,C.A. Osasuna,2.301.894€,45.0,12.0,871.0,0.0,2.0,2.0,1.0,6.0,5.0,2.0,47.0,85.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Eric García,Girona FC,5.680.238€,42.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Dani García,Athletic Club,529.673€,26.0,12.0,400.0,1.0,0.0,0.0,0.0,4.0,1.0,3.0,27.0,33.0,0.0,7.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Raúl García,Athletic Club,500.157€,6.0,14.0,77.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,17.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+B. García,160000,0.0,0,mediocentro,Girona Fútbol Club,García,Raúl García,C.A. Osasuna,16.927.665€,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+C. Rivero,160000,0.0,0,portero,Valencia Club de Fútbol,Rivero,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Greif,160000,0.0,0,portero,Real Club Deportivo Mallorca,Greif,,,,,,,,,,,,,,,,,,,,,,,,,
+F. González,160000,0.0,0,mediocentro,Unión Deportiva Las Palmas,González,Gio González,RCD Mallorca,493.015€,22.0,14.0,833.0,0.0,0.0,0.0,5.0,11.0,3.0,2.0,57.0,121.0,0.0,12.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0
+F. González,160000,0.0,0,mediocentro,Unión Deportiva Las Palmas,González,Sergio González,Cádiz CF,485.166€,18.0,5.0,267.0,0.0,0.0,1.0,0.0,1.0,2.0,3.0,23.0,45.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+F. González,160000,0.0,0,mediocentro,Unión Deportiva Las Palmas,González,González,Valencia CF,474.209€,14.0,9.0,31.0,0.0,1.0,1.0,4.0,0.0,0.0,0.0,3.0,5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I. Grbić,160000,0.0,0,portero,Club Atlético de Madrid,Grbić,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Doménech,160000,0.0,0,portero,Valencia Club de Fútbol,Doménech,,,,,,,,,,,,,,,,,,,,,,,,,
+J. Owono,160000,0.0,0,portero,Deportivo Alavés,Owono,,,,,,,,,,,,,,,,,,,,,,,,,
+M. Calderón,160000,0.0,0,mediocentro,Cádiz Club de Fútbol,Calderón,,,,,,,,,,,,,,,,,,,,,,,,,
+P. Marín,160000,0.0,0,mediocentro,Real Sociedad de Fútbol,Marín,Rafa Marín,Deportivo Alavés,532.919€,28.0,13.0,546.0,0.0,0.0,0.0,0.0,25.0,1.0,1.0,45.0,57.0,0.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+P. Reina,160000,0.0,0,portero,Villarreal Club de Fútbol,Reina,,,,,,,,,,,,,,,,,,,,,,,,,
+T. Fuidias,160000,0.0,0,portero,Girona Fútbol Club,Fuidias,,,,,,,,,,,,,,,,,,,,,,,,,
+T. Villa,160000,0.0,0,mediocentro,Girona Fútbol Club,Villa,,,,,,,,,,,,,,,,,,,,,,,,,
+U. Ropero,160000,0.0,0,mediocentro,Deportivo Alavés,Ropero,,,,,,,,,,,,,,,,,,,,,,,,,
+D. Sinkgraven,160000,-0.6,-3,defensa,Unión Deportiva Las Palmas,Sinkgraven,Sinkgraven,UD Las Palmas,530.802€,3.0,10.0,68.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,6.0,8.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+D. Sinkgraven,160000,-0.6,-3,defensa,Unión Deportiva Las Palmas,Sinkgraven,Sinkgraven,Deportivo Alavés,29.320.763€,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
