@@ -1,11 +1,11 @@
-Nombre,Precio,Media,Total_puntos,posicion,equipo,Predicted_Points,Predicted_Price
-J. Bellingham,24262000,10.2,173,mediocentro,Real Madrid Club de Fútbol,196.66441,4587.583
-A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,152.3551,3707.731
-A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,132.35265,2771.7085
-Isco,19605000,7.0,126,mediocentro,Real Betis Balompié,131.44612,3081.1953
-Sávio,18030000,6.5,123,delantero,Girona Fútbol Club,124.95258,2836.504
-G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,109.38205,2660.4827
-F. Valverde,20115000,5.7,108,mediocentro,Real Madrid Club de Fútbol,107.58061,2633.8538
-B. Méndez,15078000,5.7,97,mediocentro,Real Sociedad de Fútbol,96.74734,2198.8582
-S. Arribas,11043000,5.1,96,mediocentro,Unión Deportiva Almería,94.72225,1795.0828
-V. Muriqi,12454000,6.8,81,delantero,Real Club Deportivo Mallorca,92.84821,2115.4292
+Nombre,Precio,Media,Total_puntos,posicion,equipo,Partidos,Minutos,Goles,Asistencias,Asistencias sin Gol,Centros,Despejes,Remates,Tiros,Recuperaciones,Perdidas,Penaltis fallados,Goles en contra,Rojas,Paradas,Penaltis cometidos,Amarillas,Seguna Amarilla,Penaltis provocados,Penaltis parados,Goles en PP,Predicted_Points,Predicted_Price
+J. Bellingham,24262000,10.2,173,mediocentro,Real Madrid Club de Fútbol,13.0,1025.0,11.0,2.0,1.0,1.0,6.0,24.0,18.0,59.0,136.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,
+A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,13.0,1071.0,9.0,1.0,3.0,16.0,6.0,14.0,14.0,46.0,164.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,,
+A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,14.0,966.0,1.0,3.0,4.0,2.0,1.0,20.0,1.0,59.0,142.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,,
+Sávio,18030000,6.5,123,delantero,Girona Fútbol Club,,,,,,,,,,,,,,,,,,,,,,,
+F. Valverde,20115000,5.7,108,mediocentro,Real Madrid Club de Fútbol,14.0,1118.0,1.0,2.0,4.0,2.0,9.0,12.0,7.0,85.0,119.0,0.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,,
+G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,11.0,804.0,0.0,0.0,0.0,0.0,44.0,0.0,1.0,36.0,61.0,0.0,20.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,,
+B. Méndez,15078000,5.7,97,mediocentro,Real Sociedad de Fútbol,10.0,866.0,2.0,1.0,3.0,5.0,10.0,26.0,4.0,76.0,170.0,0.0,9.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,,
+S. Arribas,11043000,5.1,96,mediocentro,Unión Deportiva Almería,13.0,893.0,3.0,0.0,0.0,1.0,7.0,8.0,5.0,45.0,83.0,0.0,11.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,,
+I. Palazón,12991000,4.8,92,mediocentro,Rayo Vallecano de Madrid,,,,,,,,,,,,,,,,,,,,,,,
+S. Costa,9796000,4.7,89,mediocentro,Real Club Deportivo Mallorca,11.0,655.0,6.0,0.0,1.0,1.0,7.0,1.0,10.0,15.0,65.0,0.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,
