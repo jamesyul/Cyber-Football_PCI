@@ -1,11 +1,11 @@
 Nombre,Precio,Media,Total_puntos,posicion,equipo,Partidos,Minutos,Goles,Asistencias,Asistencias sin Gol,Centros,Despejes,Remates,Tiros,Recuperaciones,Perdidas,Penaltis fallados,Goles en contra,Rojas,Paradas,Penaltis cometidos,Amarillas,Seguna Amarilla,Penaltis provocados,Penaltis parados,Goles en PP,Predicted_Points,Predicted_Price
-A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,13.0,1071.0,9.0,1.0,3.0,16.0,6.0,14.0,14.0,46.0,164.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,,
-A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,14.0,966.0,1.0,3.0,4.0,2.0,1.0,20.0,1.0,59.0,142.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,,
-Sávio,18030000,6.5,123,delantero,Girona Fútbol Club,,,,,,,,,,,,,,,,,,,,,,,
-G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,11.0,804.0,0.0,0.0,0.0,0.0,44.0,0.0,1.0,36.0,61.0,0.0,20.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,,
-V. Muriqi,12454000,6.8,81,delantero,Real Club Deportivo Mallorca,12.0,942.0,1.0,0.0,2.0,10.0,19.0,4.0,1.0,69.0,152.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,
-F. Torres,8080000,4.5,81,delantero,Fútbol Club Barcelona,12.0,948.0,1.0,0.0,0.0,0.0,42.0,1.0,1.0,65.0,66.0,0.0,14.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,,
-M. Uzuni,3324000,4.3,81,delantero,Granada Club de Fútbol,13.0,653.0,1.0,3.0,2.0,2.0,12.0,11.0,3.0,69.0,92.0,0.0,16.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0,,
-S. Omorodion,5889000,4.4,79,delantero,Deportivo Alavés,,,,,,,,,,,,,,,,,,,,,,,
-L. Ramazani,3171000,4.2,79,delantero,Unión Deportiva Almería,13.0,751.0,0.0,0.0,0.0,3.0,8.0,15.0,1.0,77.0,88.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,,
-A. Sørloth,9176000,4.8,77,delantero,Villarreal Club de Fútbol,,,,,,,,,,,,,,,,,,,,,,,
+A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,13.0,1071.0,9.0,1.0,3.0,16.0,6.0,14.0,14.0,46.0,164.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,126.18053,9471.892
+A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,14.0,966.0,1.0,3.0,4.0,2.0,1.0,20.0,1.0,59.0,142.0,0.0,10.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,102.89443,6013.993
+M. Uzuni,3324000,4.3,81,delantero,Granada Club de Fútbol,13.0,653.0,1.0,3.0,2.0,2.0,12.0,11.0,3.0,69.0,92.0,0.0,16.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0,51.38935,5940.033
+J. Félix,14964000,4.8,76,delantero,Fútbol Club Barcelona,12.0,766.0,0.0,3.0,5.0,21.0,3.0,10.0,0.0,51.0,128.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,55.731445,4713.7637
+V. Muriqi,12454000,6.8,81,delantero,Real Club Deportivo Mallorca,12.0,942.0,1.0,0.0,2.0,10.0,19.0,4.0,1.0,69.0,152.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,82.6564,4574.9834
+F. Torres,8080000,4.5,81,delantero,Fútbol Club Barcelona,12.0,948.0,1.0,0.0,0.0,0.0,42.0,1.0,1.0,65.0,66.0,0.0,14.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,56.330273,2890.3281
+L. Ramazani,3171000,4.2,79,delantero,Unión Deportiva Almería,13.0,751.0,0.0,0.0,0.0,3.0,8.0,15.0,1.0,77.0,88.0,0.0,6.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,59.185097,2745.8677
+G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,11.0,804.0,0.0,0.0,0.0,0.0,44.0,0.0,1.0,36.0,61.0,0.0,20.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,78.18724,2220.386
+J. Mata,1284000,2.8,44,delantero,Getafe Club de Fútbol,13.0,554.0,0.0,0.0,0.0,2.0,10.0,3.0,2.0,25.0,88.0,0.0,9.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0,38.27465,1092.7787
+M. Rodríguez,160000,1.1,8,delantero,Real Club Celta de Vigo,10.0,900.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,57.0,56.0,0.0,7.0,0.0,24.0,0.0,1.0,0.0,0.0,0.0,0.0,28.489836,706.4694
