@@ -32,7 +32,7 @@ class LoginWindow(QWidget):
         self.label_imagen.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
         # Cargar imagen
-        imagen_path = "cyber_football.jpeg"
+        imagen_path = "/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/APP/cyber_football.jpeg"
         if QImageReader(imagen_path).size().isValid():
             self.imagen = QPixmap(imagen_path)
             self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
@@ -59,7 +59,7 @@ class LoginWindow(QWidget):
 
         self.label_imagen=QLabel(self)
         self.label_imagen.setAlignment(Qt.AlignCenter)
-        self.imagen = QPixmap("../APP/Profile-PNG-Images.png")
+        self.imagen = QPixmap("/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/APP/Profile-PNG-Images.png")
         self.btn_seleccionar=QPushButton('V')  
         self.btn_seleccionar.clicked.connect(self.seleccionarImagen)
         
@@ -123,7 +123,7 @@ class LoginWindow(QWidget):
 
         try:
             # Leer el archivo CSV
-            equipo_df = pd.read_csv("../ETL/scrap_equipo/equipo_fantasy.csv")
+            equipo_df = pd.read_csv("/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
 
             # Crear la tabla team_table antes de acceder a ella
             self.team_table = QTableWidget()
@@ -244,7 +244,7 @@ class MainWindow(QWidget):
 
     # Funcion de creacion de tabla y enseñar el equipo
     def populate_team_table(self):
-        with open('../ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
+        with open('/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
             header = next(csv_reader)  # Skip the header row
             row_count = 0
@@ -264,36 +264,45 @@ class MainWindow(QWidget):
     def sugerirEquipo(self):
         # Obtener la opción seleccionada en el QComboBox
         selected_model = self.model_combo.currentText()
+        selected_position = self.position_combo.currentText()
 
-        # Verificar si la opción seleccionada es 'Random Forest(Recomendado)'
+        base_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
+
         if selected_model == 'Random Forest':
-            # Ruta del archivo .ipynb
-            notebook_path = '../ML/Random Forest/RandomForest.ipynb'
-
-            # Ejecutar el archivo .ipynb
+            model_path = base_path + 'Random Forest/'
+            notebook_path = model_path + 'RandomForest.ipynb'   
             try:
                 with open(notebook_path, 'r') as f:
                     notebook = nbformat.read(f, as_version=4)
-
+                
                 # Configurar el ejecutor
                 executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
-
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '../ML/Random Forest/'}})
-
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '../ML/Random Forest/sugerencia.csv'
-
+                
+                executor.preprocess(notebook, {'metadata': {'path': model_path}})
+                
+                # Seleccionar el archivo CSV basado en la posición
+                if selected_position == 'General':
+                    resultado_csv = model_path + 'sugerencia.csv'
+                elif selected_position == 'Delantero':
+                    resultado_csv = model_path + 'sugerencia_delanteros.csv'
+                elif selected_position == 'Mediocentro':
+                    resultado_csv = model_path + 'sugerencia_mediocentros.csv'
+                elif selected_position == 'Defensa':
+                    resultado_csv = model_path + 'sugerencia_defensas.csv'
+                elif selected_position == 'Portero':
+                    resultado_csv = model_path + 'sugerencia_porteros.csv'
+                else:
+                    resultado_csv = model_path + 'sugerencia.csv'        
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
-
+        
             except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
+                print(f"Error al ejecutar el notebook de Random Forest: {e}")
 
         # Verificar si la opción seleccionada es 'Red Neuronal'
         elif selected_model == 'Red Neuronal':
             # Ruta del archivo .ipynb
-            notebook_path = '../ML/Red Neuronales/ML_Redes Neuronales.ipynb'
+            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Red Neuronales/ML_Redes Neuronales.ipynb'
 
             # Ejecutar el archivo .ipynb
             try:
@@ -307,7 +316,7 @@ class MainWindow(QWidget):
                 executor.preprocess(notebook, {'metadata': {'path': '../ML/Red Neuronales/'}})
 
                 # Guardar el resultado en un archivo CSV
-                resultado_csv = '../ML/Red Neuronales/top_10_predicciones_puntos.csv'
+                resultado_csv = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Red Neuronales/top_10_predicciones_puntos.csv'
 
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
@@ -317,7 +326,7 @@ class MainWindow(QWidget):
 
         elif selected_model == 'Regresión Lineal(Recomendado)':
             # Ruta del archivo .ipynb
-            notebook_path = '../ML/Regresion_lineal/regresionlinealyrecomendador.ipynb'
+            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/regresionlinealyrecomendador.ipynb'
 
             # Ejecutar el archivo .ipynb
             try:
@@ -328,10 +337,10 @@ class MainWindow(QWidget):
                 executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
 
                 # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '../ML/Regresion_lineal/'}})
+                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/'}})
 
                 # Guardar el resultado en un archivo CSV
-                resultado_csv = '../ML/Regresion_lineal/jugadores_top_predicciones.csv'
+                resultado_csv = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/jugadores_top_predicciones.csv'
 
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
@@ -347,15 +356,6 @@ class MainWindow(QWidget):
         # Leer el archivo CSV y mostrar los resultados en la tabla
         try:
             sugerencia_df = pd.read_csv(csv_path)
-
-            # Obtener posición seleccionada
-            posicion = self.position_combo.currentText()
-
-            # Filtrar por posición
-            if posicion != 'General':
-                sugerencia_df = sugerencia_df[sugerencia_df['Posicion'] == posicion]
-                #filtro = sugerencia_df['Posicion'] == posicion
-                #sugerencia_df = sugerencia_df[filtro]
             
             # Imprimir los nombres de las columnas en el DataFrame
             print("Nombres de columnas en sugerencia_df:", sugerencia_df.columns)
