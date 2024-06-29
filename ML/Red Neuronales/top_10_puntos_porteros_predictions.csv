@@ -1,0 +1,11 @@
+Nombre,Precio,Media,Total_puntos,posicion,equipo,Predicted_Points,Predicted_Price
+A. Lunin,3059000,5.6,45,portero,Real Madrid Club de Fútbol,59.965176,900.4398
+R. Silva,5232000,4.7,47,portero,Real Betis Balompié,51.277008,845.2405
+A. Ferreira,1918000,3.5,52,portero,Granada Club de Fútbol,50.115906,483.28354
+K. Arrizabalaga,7230000,4.4,48,portero,Real Madrid Club de Fútbol,46.965225,902.6698
+I. Peña,3576000,4.8,29,portero,Fútbol Club Barcelona,35.88934,625.8216
+R. Fernández,160000,3.3,13,portero,Granada Club de Fútbol,17.589407,216.22514
+I. Grbić,160000,0.0,0,portero,Club Atlético de Madrid,4.744431,334.77332
+J. Doménech,160000,0.0,0,portero,Valencia Club de Fútbol,4.744431,334.77332
+P. Reina,160000,0.0,0,portero,Villarreal Club de Fútbol,4.744431,334.77332
+A. López,164000,0.0,0,portero,Granada Club de Fútbol,4.736802,334.71216

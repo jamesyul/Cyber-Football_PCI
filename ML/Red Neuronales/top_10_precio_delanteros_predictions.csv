@@ -1,11 +1,11 @@
 Nombre,Precio,Media,Total_puntos,posicion,equipo,Predicted_Points,Predicted_Price
-J. Bellingham,24262000,10.2,173,mediocentro,Real Madrid Club de Fútbol,196.66441,4587.583
 A. Griezmann,24384000,7.6,144,delantero,Club Atlético de Madrid,152.3551,3707.731
-Isco,19605000,7.0,126,mediocentro,Real Betis Balompié,131.44612,3081.1953
 Sávio,18030000,6.5,123,delantero,Girona Fútbol Club,124.95258,2836.504
 A. Budimir,15660000,6.7,127,delantero,Club Atlético Osasuna,132.35265,2771.7085
 G. Moreno,18341000,6.5,104,delantero,Villarreal Club de Fútbol,109.38205,2660.4827
-F. Valverde,20115000,5.7,108,mediocentro,Real Madrid Club de Fútbol,107.58061,2633.8538
-F. De Jong,17706000,6.7,74,mediocentro,Fútbol Club Barcelona,89.3242,2355.9424
-B. Méndez,15078000,5.7,97,mediocentro,Real Sociedad de Fútbol,96.74734,2198.8582
 V. Muriqi,12454000,6.8,81,delantero,Real Club Deportivo Mallorca,92.84821,2115.4292
+M. Guiu,204000,11.0,11,delantero,Fútbol Club Barcelona,80.0576,1610.8691
+F. Torres,8080000,4.5,81,delantero,Fútbol Club Barcelona,78.98521,1315.4196
+S. Omorodion,5889000,4.4,79,delantero,Deportivo Alavés,79.15173,1132.273
+A. Prats,2871000,4.6,74,delantero,Real Club Deportivo Mallorca,80.06392,941.87866
+L. Ramazani,3171000,4.2,79,delantero,Unión Deportiva Almería,81.07269,919.128
