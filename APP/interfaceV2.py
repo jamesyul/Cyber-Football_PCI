@@ -295,20 +295,17 @@ class MainWindow(QWidget):
 
         # Verificar si la opción seleccionada es 'Red Neuronal'
         elif selected_model == 'Red Neuronal':
-            # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
-
-            # Ejecutar el archivo .ipynb
+            model_path = base_path + 'Red Neuronales/'
+            notebook_path = model_path + 'ML_Redes Neuronales.ipynb'   
             try:
                 with open(notebook_path, 'r') as f:
                     notebook = nbformat.read(f, as_version=4)
-
+                
                 # Configurar el ejecutor
                 executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
-
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': notebook_path}})
-
+                
+                executor.preprocess(notebook, {'metadata': {'path': model_path}})
+                
                 # Seleccionar el archivo CSV basado en la posición
                 if selected_position == 'General':
                     resultado_csv = model_path + 'general_predicción.csv'
@@ -321,48 +318,44 @@ class MainWindow(QWidget):
                 elif selected_position == 'Portero':
                     resultado_csv = model_path + 'portero_predicción.csv'
                 else:
-                    resultado_csv = model_path + 'general_predicción.csv'                 
-
+                    resultado_csv = model_path + 'general_predicción.csv'        
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
-
+        
             except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
+                print(f"Error al ejecutar el notebook de Red Neuronales: {e}")
+
 
         elif selected_model == 'Regresión Lineal(Recomendado)':
-            # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
-
-            # Ejecutar el archivo .ipynb
+            model_path = base_path + 'Regresion_lineal/'
+            notebook_path = model_path + 'Regresion_lineal_final.ipynb'   
             try:
                 with open(notebook_path, 'r') as f:
                     notebook = nbformat.read(f, as_version=4)
-
+                
                 # Configurar el ejecutor
                 executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
-
-                # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/'}})
-
+                
+                executor.preprocess(notebook, {'metadata': {'path': model_path}})
+                
                 # Seleccionar el archivo CSV basado en la posición
                 if selected_position == 'General':
-                    resultado_csv = model_path + 'jugadores_top_predicciones.csv'
+                    resultado_csv = model_path + 'jugadores_top_general_puntos_predicciones.csv'
                 elif selected_position == 'Delantero':
-                    resultado_csv = model_path + 'delantero_predicción.csv'
+                    resultado_csv = model_path + 'jugadores_top_delantero_puntos_predicciones.csv'
                 elif selected_position == 'Mediocentro':
-                    resultado_csv = model_path + 'mediocentro_predicción.csv'
+                    resultado_csv = model_path + 'jugadores_top_mediocentro_puntos_predicciones.csv'
                 elif selected_position == 'Defensa':
-                    resultado_csv = model_path + 'defensa_predicción.csv'
+                    resultado_csv = model_path + 'jugadores_top_defensa_puntos_predicciones.csv'
                 elif selected_position == 'Portero':
-                    resultado_csv = model_path + 'portero_predicción.csv'
+                    resultado_csv = model_path + 'jugadores_top_portero_puntos_predicciones.csv'
                 else:
-                    resultado_csv = model_path + 'jugadores_top_predicciones.csv'
-
+                    resultado_csv = model_path + 'jugadores_top_general_puntos_predicciones.csv'        
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
-
+        
             except Exception as e:
-                print(f"Error al ejecutar el notebook: {e}")
+                print(f"Error al ejecutar el notebook de Regresion Lineal: {e}")
 
     def mostrarResultadosEnTabla(self, csv_path):
         # Limpiar la tabla de sugerencias

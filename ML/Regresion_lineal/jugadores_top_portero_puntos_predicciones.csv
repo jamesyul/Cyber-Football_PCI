@@ -1,11 +1,11 @@
-Nombre,Precio,Media,Total_puntos,posicion,equipo,Partidos,Minutos,Goles,Asistencias,Asistencias sin Gol,Centros,Despejes,Remates,Tiros,Recuperaciones,Perdidas,Penaltis fallados,Goles en contra,Rojas,Paradas,Penaltis cometidos,Amarillas,Seguna Amarilla,Penaltis provocados,Penaltis parados,Goles en PP,puntos_predichos
-Á. Valles,16058000,6.7,128,portero,Unión Deportiva Las Palmas,13.0,1047.0,4.0,4.0,5.0,8.0,2.0,30.0,9.0,71.0,183.0,0.0,14.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,119.3415840524903
-G. Mamardashvili,10247000,5.2,98,portero,Valencia Club de Fútbol,14.0,1260.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,105.0,157.0,0.0,18.0,0.0,36.0,1.0,1.0,0.0,0.0,1.0,0.0,100.1271950705364
-A. Remiro,11957000,5.3,100,portero,Real Sociedad de Fútbol,14.0,1260.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,104.0,127.0,0.0,17.0,0.0,48.0,0.0,1.0,0.0,0.0,0.0,0.0,89.26073159667686
-U. Simón,10982000,5.3,100,portero,Athletic Club,14.0,1085.0,8.0,1.0,1.0,5.0,10.0,14.0,16.0,32.0,127.0,0.0,13.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,88.62759564436269
-S. Dimitrievski,7511000,4.6,87,portero,Rayo Vallecano de Madrid,14.0,1260.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0,114.0,183.0,0.0,18.0,0.0,55.0,0.0,1.0,0.0,0.0,1.0,0.0,88.01903156589435
-F. Jörgensen,10347000,5.1,96,portero,Villarreal Club de Fútbol,13.0,1170.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,80.0,35.0,0.0,13.0,0.0,32.0,0.0,1.0,0.0,0.0,0.0,0.0,85.22028451266752
-J. Ledesma,9994000,5.3,85,portero,Cádiz Club de Fútbol,13.0,1170.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,103.0,125.0,0.0,16.0,0.0,40.0,0.0,2.0,0.0,0.0,0.0,0.0,84.01745936300861
-D. Soria,10078000,4.5,85,portero,Getafe Club de Fútbol,14.0,1144.0,5.0,3.0,5.0,10.0,12.0,19.0,20.0,63.0,217.0,0.0,15.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,83.95421336336904
-J. Oblak,10879000,4.7,89,portero,Club Atlético de Madrid,13.0,1001.0,4.0,0.0,2.0,5.0,26.0,12.0,8.0,74.0,116.0,0.0,13.0,0.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0,83.17034027081763
-T. Stegen,6248000,5.5,71,portero,Fútbol Club Barcelona,14.0,1053.0,4.0,1.0,3.0,0.0,6.0,24.0,12.0,77.0,137.0,0.0,13.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,81.88416313767434
+Nombre,Puntos,Posicion,Precio
+Á. Valles,109,portero,16058000
+S. Dimitrievski,97,portero,7511000
+U. Simón,96,portero,10982000
+G. Mamardashvili,95,portero,10247000
+T. Stegen,95,portero,6248000
+A. Remiro,90,portero,11957000
+D. Soria,88,portero,10078000
+F. Jörgensen,85,portero,10347000
+J. Ledesma,85,portero,9994000
+J. Oblak,78,portero,10879000
