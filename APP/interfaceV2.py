@@ -308,17 +308,17 @@ class MainWindow(QWidget):
                 
                 # Seleccionar el archivo CSV basado en la posición
                 if selected_position == 'General':
-                    resultado_csv = model_path + 'general_predicción.csv'
+                    resultado_csv = model_path + 'general_prediccion.csv'
                 elif selected_position == 'Delantero':
-                    resultado_csv = model_path + 'delantero_predicción.csv'
+                    resultado_csv = model_path + 'delantero_prediccion.csv'
                 elif selected_position == 'Mediocentro':
-                    resultado_csv = model_path + 'mediocentro_predicción.csv'
+                    resultado_csv = model_path + 'mediocentro_prediccion.csv'
                 elif selected_position == 'Defensa':
-                    resultado_csv = model_path + 'defensa_predicción.csv'
+                    resultado_csv = model_path + 'defensa_prediccion.csv'
                 elif selected_position == 'Portero':
-                    resultado_csv = model_path + 'portero_predicción.csv'
+                    resultado_csv = model_path + 'portero_prediccion.csv'
                 else:
-                    resultado_csv = model_path + 'general_predicción.csv'        
+                    resultado_csv = model_path + 'general_prediccion.csv'        
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
         
