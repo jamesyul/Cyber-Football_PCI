@@ -32,7 +32,7 @@ class LoginWindow(QWidget):
         self.label_imagen.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
         # Cargar imagen
-        imagen_path = "/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/APP/cyber_football.jpeg"
+        imagen_path = "../APP/cyber_football.jpeg"
         if QImageReader(imagen_path).size().isValid():
             self.imagen = QPixmap(imagen_path)
             self.imagen = self.imagen.scaled(self.label_imagen.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
@@ -59,7 +59,7 @@ class LoginWindow(QWidget):
 
         self.label_imagen=QLabel(self)
         self.label_imagen.setAlignment(Qt.AlignCenter)
-        self.imagen = QPixmap("/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/APP/Profile-PNG-Images.png")
+        self.imagen = QPixmap("../APP/Profile-PNG-Images.png")
         self.btn_seleccionar=QPushButton('V')  
         self.btn_seleccionar.clicked.connect(self.seleccionarImagen)
         
@@ -109,7 +109,7 @@ class LoginWindow(QWidget):
         # Aquí iría la lógica para validar los datos
 
         # Ejecutar notebook
-        #notebook_path = '/Users/yulcardaso/Desktop/NUEVO_CURSO/PCI/Cyber-Football_PCI/ETL/scrap_equipo/Scrapper_equipo.ipynb'
+        #notebook_path = '../ETL/scrap_equipo/Scrapper_equipo.ipynb'
         #with open(notebook_path) as f:
         #    notebook = nbformat.read(f, as_version=4)
 
@@ -123,7 +123,7 @@ class LoginWindow(QWidget):
 
         try:
             # Leer el archivo CSV
-            equipo_df = pd.read_csv("/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
+            equipo_df = pd.read_csv("/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv")
 
             # Crear la tabla team_table antes de acceder a ella
             self.team_table = QTableWidget()
@@ -238,7 +238,7 @@ class MainWindow(QWidget):
 
     # Funcion de creacion de tabla y enseñar el equipo
     def populate_team_table(self):
-        with open('/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
+        with open('../ETL/scrap_equipo/equipo_fantasy.csv', 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
             header = next(csv_reader)  # Skip the header row
             row_count = 0
@@ -260,7 +260,7 @@ class MainWindow(QWidget):
         selected_model = self.model_combo.currentText()
         selected_position = self.position_combo.currentText()
 
-        base_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
+        base_path = '../ML/'
 
         if selected_model == 'Random Forest':
             model_path = base_path + 'Random Forest/'
