@@ -227,14 +227,8 @@ class MainWindow(QWidget):
                         '\tPrecisión de puntos: \n'
                         '\n'
                         '\tA)Regresión Lineal - más preciso\n'
-                        '\tB)Redes Neuronales\n'
-                        '\tC)Random Forest-menos preciso\n'
-                        '\n'
-                        '\tPrecisión de precio: \n'
-                        '\n'
-                        '\tA)Regresión Lineal - más preciso\n'
                         '\tB)Random Forest\n'
-                        '\tC)Redes Neuronales-menos preciso\n'
+                        '\tC)Redes Neuronales - menos preciso\n'
                         '\n'
                         '2) Selecciona la posición de los jugadores que deseas\n'
                         'sugerir.\n'
@@ -302,7 +296,7 @@ class MainWindow(QWidget):
         # Verificar si la opción seleccionada es 'Red Neuronal'
         elif selected_model == 'Red Neuronal':
             # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Red Neuronales/ML_Redes Neuronales.ipynb'
+            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
 
             # Ejecutar el archivo .ipynb
             try:
@@ -313,10 +307,21 @@ class MainWindow(QWidget):
                 executor = ExecutePreprocessor(timeout=600, kernel_name='python3')
 
                 # Ejecutar el notebook
-                executor.preprocess(notebook, {'metadata': {'path': '../ML/Red Neuronales/'}})
+                executor.preprocess(notebook, {'metadata': {'path': notebook_path}})
 
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Red Neuronales/top_10_predicciones_puntos.csv'
+                # Seleccionar el archivo CSV basado en la posición
+                if selected_position == 'General':
+                    resultado_csv = model_path + 'general_predicción.csv'
+                elif selected_position == 'Delantero':
+                    resultado_csv = model_path + 'delantero_predicción.csv'
+                elif selected_position == 'Mediocentro':
+                    resultado_csv = model_path + 'mediocentro_predicción.csv'
+                elif selected_position == 'Defensa':
+                    resultado_csv = model_path + 'defensa_predicción.csv'
+                elif selected_position == 'Portero':
+                    resultado_csv = model_path + 'portero_predicción.csv'
+                else:
+                    resultado_csv = model_path + 'general_predicción.csv'                 
 
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)
@@ -326,7 +331,7 @@ class MainWindow(QWidget):
 
         elif selected_model == 'Regresión Lineal(Recomendado)':
             # Ruta del archivo .ipynb
-            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/regresionlinealyrecomendador.ipynb'
+            notebook_path = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/'
 
             # Ejecutar el archivo .ipynb
             try:
@@ -339,8 +344,19 @@ class MainWindow(QWidget):
                 # Ejecutar el notebook
                 executor.preprocess(notebook, {'metadata': {'path': '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/'}})
 
-                # Guardar el resultado en un archivo CSV
-                resultado_csv = '/Users/yulcardenas/Desktop/2023_24/PCI_EXTRA/Cyber-Football_PCI/ML/Regresion_lineal/jugadores_top_predicciones.csv'
+                # Seleccionar el archivo CSV basado en la posición
+                if selected_position == 'General':
+                    resultado_csv = model_path + 'jugadores_top_predicciones.csv'
+                elif selected_position == 'Delantero':
+                    resultado_csv = model_path + 'delantero_predicción.csv'
+                elif selected_position == 'Mediocentro':
+                    resultado_csv = model_path + 'mediocentro_predicción.csv'
+                elif selected_position == 'Defensa':
+                    resultado_csv = model_path + 'defensa_predicción.csv'
+                elif selected_position == 'Portero':
+                    resultado_csv = model_path + 'portero_predicción.csv'
+                else:
+                    resultado_csv = model_path + 'jugadores_top_predicciones.csv'
 
                 # Leer el archivo CSV y mostrar los resultados en la tabla de sugerencias
                 self.mostrarResultadosEnTabla(resultado_csv)

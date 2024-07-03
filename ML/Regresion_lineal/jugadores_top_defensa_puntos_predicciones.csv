@@ -1,0 +1,11 @@
+Nombre,Precio,Media,Total_puntos,posicion,equipo,Partidos,Minutos,Goles,Asistencias,Asistencias sin Gol,Centros,Despejes,Remates,Tiros,Recuperaciones,Perdidas,Penaltis fallados,Goles en contra,Rojas,Paradas,Penaltis cometidos,Amarillas,Seguna Amarilla,Penaltis provocados,Penaltis parados,Goles en PP,puntos_predichos
+D. Carvajal,15064000,6.8,95,defensa,Real Madrid Club de Fútbol,13.0,1159.0,0.0,0.0,0.0,0.0,17.0,1.0,0.0,144.0,195.0,0.0,20.0,0.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0,105.5043043201041
+R. Araújo,15035000,5.8,76,defensa,Fútbol Club Barcelona,14.0,922.0,2.0,0.0,1.0,15.0,17.0,7.0,3.0,63.0,130.0,0.0,23.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,103.98741237889678
+J. Cancelo,16261000,5.0,80,defensa,Fútbol Club Barcelona,14.0,1258.0,0.0,1.0,0.0,0.0,59.0,1.0,8.0,89.0,147.0,0.0,18.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0,100.55764005575983
+A. Rüdiger,14830000,4.8,87,defensa,Real Madrid Club de Fútbol,11.0,915.0,2.0,0.0,0.0,0.0,31.0,1.0,4.0,81.0,79.0,0.0,12.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,91.77535199191908
+F. Lejeune,12094000,4.7,90,defensa,Rayo Vallecano de Madrid,13.0,979.0,6.0,1.0,2.0,0.0,13.0,14.0,11.0,22.0,127.0,0.0,19.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,90.08561493631319
+M. Gutiérrez,13063000,5.2,93,defensa,Girona Fútbol Club,14.0,1152.0,2.0,0.0,0.0,3.0,6.0,13.0,4.0,107.0,161.0,0.0,11.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,89.6311674965477
+D. López,11109000,5.6,84,defensa,Girona Fútbol Club,14.0,813.0,3.0,1.0,2.0,3.0,2.0,20.0,10.0,51.0,179.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,89.49792502742139
+D. Blind,11816000,4.6,87,defensa,Girona Fútbol Club,14.0,1117.0,3.0,1.0,1.0,0.0,14.0,23.0,8.0,91.0,185.0,0.0,17.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,88.10669134823493
+Ó. Mingueza,10343000,4.7,90,defensa,Real Club Celta de Vigo,14.0,1215.0,0.0,1.0,1.0,0.0,55.0,4.0,2.0,89.0,121.0,0.0,33.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,87.58085107396343
+G. Pezzella,11683000,4.9,88,defensa,Real Betis Balompié,14.0,1140.0,0.0,0.0,0.0,0.0,68.0,2.0,2.0,96.0,103.0,0.0,11.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,84.14060863264163
