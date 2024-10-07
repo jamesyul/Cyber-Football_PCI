@@ -22,7 +22,7 @@
 
 Para ejecutar este proyecto localmente, necesitarás:
 
-- Python 3.x
+- Python 3.11
 - TensorFlow / PyTorch (dependiendo del modelo que uses)
 - Bibliotecas adicionales (detalladas en el archivo requirements.txt)
 ```
