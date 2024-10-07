@@ -22,9 +22,9 @@
 
 Para ejecutar este proyecto localmente, necesitarás:
 
-- **Python 3.x
-- **TensorFlow / PyTorch (dependiendo del modelo que uses)
-- **Bibliotecas adicionales (detalladas en el archivo requirements.txt)
+- Python 3.x
+- TensorFlow / PyTorch (dependiendo del modelo que uses)
+- Bibliotecas adicionales (detalladas en el archivo requirements.txt)
 ```
 pip install -r requirements.txt
 ```
@@ -32,8 +32,8 @@ pip install -r requirements.txt
 
 Los datos utilizados en este proyecto provienen de varias fuentes públicas, entre las cuales se incluyen:
 
-- **Estadísticas de partidos de fútbol (FIFA, Opta, etc.)
-- **Registros de rendimiento de jugadores
+- Estadísticas de partidos de fútbol (FIFA, Opta, etc.)
+- Registros de rendimiento de jugadores
 Es posible que necesites descargar datasets adicionales para replicar completamente los resultados.
 
 ## ⚙️ Cómo Ejecutar
@@ -58,10 +58,10 @@ python scripts/main.py
 
 Este proyecto utiliza varias tecnologías avanzadas para el análisis y recuperación de información, entre las que destacan:
 
-- **Python: Lenguaje de programación principal.
-- **TensorFlow/PyTorch: Frameworks para la creación y entrenamiento de modelos de machine learning.
-- **Jupyter Notebooks: Herramienta para la exploración y visualización de datos.
-- **Pandas/Numpy: Bibliotecas para el procesamiento de datos.
+- **Python**: Lenguaje de programación principal.
+- **TensorFlow/PyTorch**: Frameworks para la creación y entrenamiento de modelos de machine learning.
+- **Jupyter Notebooks**: Herramienta para la exploración y visualización de datos.
+- **Pandas/Numpy**: Bibliotecas para el procesamiento de datos.
 ## 🤝 Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
