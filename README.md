@@ -18,3 +18,58 @@
 ├── /scripts/           # Scripts para preprocesamiento de datos y ejecución del modelo
 └── README.md           # Archivo de documentación del proyecto
 ```
+## 📋 Requisitos
+
+Para ejecutar este proyecto localmente, necesitarás:
+
+Python 3.x
+TensorFlow / PyTorch (dependiendo del modelo que uses)
+Bibliotecas adicionales (detalladas en el archivo requirements.txt)
+bash
+Copiar código
+pip install -r requirements.txt
+## 📊 Datos
+
+Los datos utilizados en este proyecto provienen de varias fuentes públicas, entre las cuales se incluyen:
+
+Estadísticas de partidos de fútbol (FIFA, Opta, etc.)
+Registros de rendimiento de jugadores
+Es posible que necesites descargar datasets adicionales para replicar completamente los resultados.
+
+## ⚙️ Cómo Ejecutar
+
+Clona el repositorio:
+bash
+Copiar código
+git clone https://github.com/tu-usuario/cyber-football.git
+Navega al directorio del proyecto:
+bash
+Copiar código
+cd cyber-football
+Instala las dependencias:
+bash
+Copiar código
+pip install -r requirements.txt
+Ejecuta los scripts:
+bash
+Copiar código
+python scripts/main.py
+## 🧠 Tecnologías Utilizadas
+
+Este proyecto utiliza varias tecnologías avanzadas para el análisis y recuperación de información, entre las que destacan:
+
+Python: Lenguaje de programación principal.
+TensorFlow/PyTorch: Frameworks para la creación y entrenamiento de modelos de machine learning.
+Jupyter Notebooks: Herramienta para la exploración y visualización de datos.
+Pandas/Numpy: Bibliotecas para el procesamiento de datos.
+## 🤝 Contribuciones
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+Haz un fork del repositorio.
+Crea una nueva rama (feature/tu-funcionalidad).
+Realiza tus cambios y haz un commit con un mensaje claro.
+Abre un Pull Request describiendo tus aportes.
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
