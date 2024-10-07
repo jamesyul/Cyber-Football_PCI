@@ -11,7 +11,7 @@
 
 ## 📂 Estructura del Proyecto
 
-```bash
+```
 ├── /data/              # Datos utilizados para el entrenamiento del modelo
 ├── /models/            # Modelos entrenados para predicción
 ├── /notebooks/         # Notebooks de Jupyter para exploración de datos
@@ -22,12 +22,12 @@
 
 Para ejecutar este proyecto localmente, necesitarás:
 
-Python 3.x
-TensorFlow / PyTorch (dependiendo del modelo que uses)
-Bibliotecas adicionales (detalladas en el archivo requirements.txt)
-bash
-Copiar código
+- **Python 3.x
+- **TensorFlow / PyTorch (dependiendo del modelo que uses)
+- **Bibliotecas adicionales (detalladas en el archivo requirements.txt)
+```
 pip install -r requirements.txt
+```
 ## 📊 Datos
 
 Los datos utilizados en este proyecto provienen de varias fuentes públicas, entre las cuales se incluyen:
