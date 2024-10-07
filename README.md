@@ -32,44 +32,45 @@ pip install -r requirements.txt
 
 Los datos utilizados en este proyecto provienen de varias fuentes públicas, entre las cuales se incluyen:
 
-Estadísticas de partidos de fútbol (FIFA, Opta, etc.)
-Registros de rendimiento de jugadores
+- **Estadísticas de partidos de fútbol (FIFA, Opta, etc.)
+- **Registros de rendimiento de jugadores
 Es posible que necesites descargar datasets adicionales para replicar completamente los resultados.
 
 ## ⚙️ Cómo Ejecutar
 
-Clona el repositorio:
-bash
-Copiar código
+1. Clona el repositorio:
+```
 git clone https://github.com/tu-usuario/cyber-football.git
-Navega al directorio del proyecto:
-bash
-Copiar código
+```
+2. Navega al directorio del proyecto:
+```
 cd cyber-football
-Instala las dependencias:
-bash
-Copiar código
+```
+3. Instala las dependencias:
+```
 pip install -r requirements.txt
-Ejecuta los scripts:
-bash
-Copiar código
+```
+4. Ejecuta los scripts:
+```
 python scripts/main.py
+```
 ## 🧠 Tecnologías Utilizadas
 
 Este proyecto utiliza varias tecnologías avanzadas para el análisis y recuperación de información, entre las que destacan:
 
-Python: Lenguaje de programación principal.
-TensorFlow/PyTorch: Frameworks para la creación y entrenamiento de modelos de machine learning.
-Jupyter Notebooks: Herramienta para la exploración y visualización de datos.
-Pandas/Numpy: Bibliotecas para el procesamiento de datos.
+- **Python: Lenguaje de programación principal.
+- **TensorFlow/PyTorch: Frameworks para la creación y entrenamiento de modelos de machine learning.
+- **Jupyter Notebooks: Herramienta para la exploración y visualización de datos.
+- **Pandas/Numpy: Bibliotecas para el procesamiento de datos.
 ## 🤝 Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-Haz un fork del repositorio.
-Crea una nueva rama (feature/tu-funcionalidad).
-Realiza tus cambios y haz un commit con un mensaje claro.
-Abre un Pull Request describiendo tus aportes.
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (feature/tu-funcionalidad).
+3. Realiza tus cambios y haz un commit con un mensaje claro.
+4. Abre un Pull Request describiendo tus aportes.
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
